@@ -1,0 +1,5 @@
+version=1
+title=TransmogV2
+description=This is the description of TransmogV2.
+tags=
+visibility=public
