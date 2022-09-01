@@ -17,25 +17,25 @@ local function DoParamAndStr(item, param)
 	return '\t\t\t' .. param .. ',\n'
 end
 
-local function generateTransmog(sm)
-    local fsWriter = getModFileWriter('Transmogv2', 'media/scripts/TransmogItems.txt', false, false)
-    local function write(content)
+local function generateTransmog(sm, moduleName)
+    local fsWriter = getModFileWriter('Transmogv2', 'media/scripts/AppearanceItems.txt', false, false)
+    local function writeAppearance(content)
         fsWriter:write(content)
     end
-    write('/* THIS FILE IS PROGRAMATICALLY GENERATED, MANUAL CHANGES WILL BE OVERWRITTEN */\n')
-    write('/* Thank you to OliPro for allowing me to base this code of his work */\n')
-    write('module Transmogv2 {\n\timports { Base }\n\n')
+    writeAppearance('/* THIS FILE IS PROGRAMATICALLY GENERATED, MANUAL CHANGES WILL BE OVERWRITTEN */\n')
+    writeAppearance('/* Thank you to OliPro for allowing me to base this code of his work */\n')
+    writeAppearance('module '..moduleName..' {\n\timports { Base }\n\n')
     local allItems = sm:getAllItems()
     for i = 0, allItems:size() - 1 do
         local item = allItems:get(i);
         -- I need to use tostring, getType returns a Java Enum  
         local isClothing = tostring(item:getType()) == "Clothing"
-        local isNotTransmogged = item:getModuleName() ~= "Transmogv2"
+        local isNotTransmogged = item:getModuleName() ~= moduleName
         local isWorldRender = item:isWorldRender()
         if isClothing and isNotTransmogged and isWorldRender then
             print('LogTransmogv2'..item:getFullName())
-            local itemName = item:getFullName()
-            local displayName  = 'Transmogged '..item:getDisplayName()
+            local itemName = item:getModuleName()..'_'..item:getName()
+            local displayName  = 'Appearance '..item:getDisplayName()
             local itemType = 'Clothing'
             local iconName = item:getIcon()
             local clothingItem = item:getClothingItem()
@@ -44,17 +44,17 @@ local function generateTransmog(sm)
             local newItem = not sm:FindItem('Transmogv2.' .. itemName) and createNewScriptItem('Transmogv2', itemName, displayName, itemType, iconName)
             -- Write after find
             local header = generateItemHeadText(itemName, displayName)
-            write(header)
-            write(DoParamAndStr(newItem, 'ClothingItem = ' .. clothingItem))
-            write(DoParamAndStr(newItem, 'BodyLocation = Underwear'))
-            write(DoParamAndStr(newItem, 'Icon = ' .. iconName))
-            write(DoParamAndStr(newItem, 'Weight = 0'))
-            write(DoParamAndStr(newItem, 'WorldStaticModel = ' .. tostring(worldStaticItem)))
-            write('\t\t}\n\n')
+            writeAppearance(header)
+            writeAppearance(DoParamAndStr(newItem, 'ClothingItem = ' .. clothingItem))
+            writeAppearance(DoParamAndStr(newItem, 'BodyLocation = Transmog'))
+            writeAppearance(DoParamAndStr(newItem, 'Icon = ' .. iconName))
+            writeAppearance(DoParamAndStr(newItem, 'Weight = 0'))
+            writeAppearance(DoParamAndStr(newItem, 'WorldStaticModel = ' .. tostring(worldStaticItem)))
+            writeAppearance('\t\t}\n\n')
         end
     end
-    write('}\n')
+    writeAppearance('}\n')
 	fsWriter:close()
 end
 
-generateTransmog(getScriptManager())
+generateTransmog(getScriptManager(), 'Appearance')
