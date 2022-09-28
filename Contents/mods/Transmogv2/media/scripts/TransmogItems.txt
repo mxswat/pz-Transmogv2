@@ -15,6 +15,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Gas Mask
+        {
+            keep Base.Hat_GasMask,
+
+            Result:TransmogV2.Base_Hat_GasMask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Scrubs
         {
             Type = Clothing,
@@ -25,6 +34,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Medical Scrubs
+        {
+            keep Base.Shirt_Scrubs,
+
+            Result:TransmogV2.Base_Shirt_Scrubs,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_CamoDesert
@@ -39,6 +57,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Desert Camo Shirt
+        {
+            keep Base.Shirt_CamoDesert,
+
+            Result:TransmogV2.Base_Shirt_CamoDesert,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BalaclavaFull
         {
             Type = Clothing,
@@ -49,6 +76,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Mask,
             Icon = Balaclava,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Balaclava
+        {
+            keep Base.Hat_BalaclavaFull,
+
+            Result:TransmogV2.Base_Hat_BalaclavaFull,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_ArmyCamoDesert
@@ -63,6 +99,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Desert Camo Jacket
+        {
+            keep Base.Jacket_ArmyCamoDesert,
+
+            Result:TransmogV2.Base_Jacket_ArmyCamoDesert,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballCap_Reverse
         {
             Type = Clothing,
@@ -73,6 +118,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCap_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCap_Reverse,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_Waistcoat
@@ -87,6 +141,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Waistcoat
+        {
+            keep Base.Vest_Waistcoat,
+
+            Result:TransmogV2.Base_Vest_Waistcoat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_Hunting_Orange
         {
             Type = Clothing,
@@ -97,6 +160,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TorsoExtraVest,
             Icon = Huntingvest_Orange,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Orange Hunting Vest
+        {
+            keep Base.Vest_Hunting_Orange,
+
+            Result:TransmogV2.Base_Vest_Hunting_Orange,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapGreen_Reverse
@@ -111,6 +183,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapGreen_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCapGreen_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoYellowDOWN
         {
             Type = Clothing,
@@ -121,6 +202,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = HoodieWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Poncho
+        {
+            keep Base.PonchoYellowDOWN,
+
+            Result:TransmogV2.Base_PonchoYellowDOWN,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_ShortDenim
@@ -135,6 +225,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Denim Shorts
+        {
+            keep Base.Shorts_ShortDenim,
+
+            Result:TransmogV2.Base_Shorts_ShortDenim,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Worn_Spiffo
         {
             Type = Clothing,
@@ -145,6 +244,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Neck,
             Icon = TieSpiffo,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Clip-on Spiffo Tie
+        {
+            keep Base.Tie_Worn_Spiffo,
+
+            Result:TransmogV2.Base_Tie_Worn_Spiffo,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_PonchoGreen
@@ -159,6 +267,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Poncho
+        {
+            keep Base.PonchoGreen,
+
+            Result:TransmogV2.Base_PonchoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SummerHat
         {
             Type = Clothing,
@@ -169,6 +286,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Summer Hat
+        {
+            keep Base.Hat_SummerHat,
+
+            Result:TransmogV2.Base_Hat_SummerHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Slippers
@@ -183,6 +309,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Slippers
+        {
+            keep Base.Shoes_Slippers,
+
+            Result:TransmogV2.Base_Shoes_Slippers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SuitTEXTURE
         {
             Type = Clothing,
@@ -193,6 +328,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersSuitBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Suit Pants
+        {
+            keep Base.Trousers_SuitTEXTURE,
+
+            Result:TransmogV2.Base_Trousers_SuitTEXTURE,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_Hunting_Grey
@@ -207,6 +351,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Gray Hunting Vest
+        {
+            keep Base.Vest_Hunting_Grey,
+
+            Result:TransmogV2.Base_Vest_Hunting_Grey,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Visor_WhiteTINT
         {
             Type = Clothing,
@@ -217,6 +370,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatVisorWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Visor
+        {
+            keep Base.Hat_Visor_WhiteTINT,
+
+            Result:TransmogV2.Base_Hat_Visor_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_BoxingBlue
@@ -231,6 +393,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxing Shorts
+        {
+            keep Base.Shorts_BoxingBlue,
+
+            Result:TransmogV2.Base_Shorts_BoxingBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Socks_Long
         {
             Type = Clothing,
@@ -241,6 +412,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Socks,
             Icon = SocksWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Socks
+        {
+            keep Base.Socks_Long,
+
+            Result:TransmogV2.Base_Socks_Long,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_FastFood_IceCream
@@ -255,6 +435,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ice Cream Server Hat
+        {
+            keep Base.Hat_FastFood_IceCream,
+
+            Result:TransmogV2.Base_Hat_FastFood_IceCream,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_White
         {
             Type = Clothing,
@@ -265,6 +454,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Scarf,
             Icon = ScarfGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Scarf
+        {
+            keep Base.Scarf_White,
+
+            Result:TransmogV2.Base_Scarf_White,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_CamoEyes1
@@ -279,6 +477,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_CamoEyes1
+        {
+            keep Base.MakeUp_CamoEyes1,
+
+            Result:TransmogV2.Base_MakeUp_CamoEyes1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_CamoEyes2
         {
             Type = Clothing,
@@ -289,6 +496,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_Eyes,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_CamoEyes2
+        {
+            keep Base.MakeUp_CamoEyes2,
+
+            Result:TransmogV2.Base_MakeUp_CamoEyes2,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_Shellsuit_Teal
@@ -303,6 +519,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Teal,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_Teal,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_GolfHatTINT
         {
             Type = Clothing,
@@ -313,6 +538,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatGolfWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Golf Cap
+        {
+            keep Base.Hat_GolfHatTINT,
+
+            Result:TransmogV2.Base_Hat_GolfHatTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Swimsuit_TINT
@@ -327,6 +561,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Swimsuit
+        {
+            keep Base.Swimsuit_TINT,
+
+            Result:TransmogV2.Base_Swimsuit_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Garter
         {
             Type = Clothing,
@@ -337,6 +580,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra2,
             Icon = SpiffoTail,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Garter
+        {
+            keep Base.Garter,
+
+            Result:TransmogV2.Base_Garter,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_CamoUrban
@@ -351,6 +603,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Urban Camo Shirt
+        {
+            keep Base.Shirt_CamoUrban,
+
+            Result:TransmogV2.Base_Shirt_CamoUrban,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_FormalWhite
         {
             Type = Clothing,
@@ -361,6 +622,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Formal Shirt
+        {
+            keep Base.Shirt_FormalWhite,
+
+            Result:TransmogV2.Base_Shirt_FormalWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Profession_FiremanRed
@@ -375,6 +645,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Red Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanRed,
+
+            Result:TransmogV2.Base_Tshirt_Profession_FiremanRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ValleyStation
         {
             Type = Clothing,
@@ -385,6 +664,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Valley Station T-shirt
+        {
+            keep Base.Tshirt_ValleyStation,
+
+            Result:TransmogV2.Base_Tshirt_ValleyStation,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_JacketLong_Doctor
@@ -399,6 +687,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical Coat
+        {
+            keep Base.JacketLong_Doctor,
+
+            Result:TransmogV2.Base_JacketLong_Doctor,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_LeatherGlovesBlack
         {
             Type = Clothing,
@@ -409,6 +706,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hands,
             Icon = GlovesLeatherBlackpng,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Leather Gloves
+        {
+            keep Base.Gloves_LeatherGlovesBlack,
+
+            Result:TransmogV2.Base_Gloves_LeatherGlovesBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_CamoGreen
@@ -423,6 +729,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Camo Pants
+        {
+            keep Base.Trousers_CamoGreen,
+
+            Result:TransmogV2.Base_Trousers_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_WeldingMask
         {
             Type = Clothing,
@@ -433,6 +748,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MaskFull,
             Icon = WeldingMask,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Welder Mask
+        {
+            keep Base.WeldingMask,
+
+            Result:TransmogV2.Base_WeldingMask,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Santa
@@ -447,6 +771,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Santa Suit Pants
+        {
+            keep Base.Trousers_Santa,
+
+            Result:TransmogV2.Base_Trousers_Santa,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultDECAL_TINT
         {
             Type = Clothing,
@@ -457,6 +790,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_DefaultDECAL_TINT,
+
+            Result:TransmogV2.Base_Tshirt_DefaultDECAL_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Profession_RangerGreen
@@ -471,6 +813,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Green Ranger T-shirt
+        {
+            keep Base.Tshirt_Profession_RangerGreen,
+
+            Result:TransmogV2.Base_Tshirt_Profession_RangerGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_AnimalPrint
         {
             Type = Clothing,
@@ -481,6 +832,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraLeopard,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bra - Animal Print 
+        {
+            keep Base.Bra_Straps_AnimalPrint,
+
+            Result:TransmogV2.Base_Bra_Straps_AnimalPrint,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Underpants_RedSpots
@@ -495,6 +855,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Red Spots Underpants
+        {
+            keep Base.Underpants_RedSpots,
+
+            Result:TransmogV2.Base_Underpants_RedSpots,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HolsterSimple
         {
             Type = Clothing,
@@ -505,6 +874,15 @@ module TransmogV2 {
             BodyLocation = Transmog_BeltExtra,
             Icon = GunHolster,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Holster
+        {
+            keep Base.HolsterSimple,
+
+            Result:TransmogV2.Base_HolsterSimple,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_FormalTINT
@@ -519,6 +897,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Formal Shirt
+        {
+            keep Base.Shirt_FormalTINT,
+
+            Result:TransmogV2.Base_Shirt_FormalTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TightsBlack
         {
             Type = Clothing,
@@ -529,6 +916,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra1,
             Icon = PantyhoseOpaque,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Tights
+        {
+            keep Base.TightsBlack,
+
+            Result:TransmogV2.Base_TightsBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_Jay
@@ -543,6 +939,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jay Chicken Server Apron
+        {
+            keep Base.Apron_Jay,
+
+            Result:TransmogV2.Base_Apron_Jay,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BoobTubeSmall
         {
             Type = Clothing,
@@ -553,6 +958,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = BandeauGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Small Bandeau
+        {
+            keep Base.BoobTubeSmall,
+
+            Result:TransmogV2.Base_BoobTubeSmall,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_HighViz
@@ -567,6 +981,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic High Visibility Vest
+        {
+            keep Base.Vest_HighViz,
+
+            Result:TransmogV2.Base_Vest_HighViz,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallStrapless
         {
             Type = Clothing,
@@ -577,6 +1000,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressGenericStrapless,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Strapless Small Dress
+        {
+            keep Base.Dress_SmallStrapless,
+
+            Result:TransmogV2.Base_Dress_SmallStrapless,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_SwimTrunks_Blue
@@ -591,6 +1023,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Swim Trunks
+        {
+            keep Base.SwimTrunks_Blue,
+
+            Result:TransmogV2.Base_SwimTrunks_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Antlers
         {
             Type = Clothing,
@@ -601,6 +1042,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = BandanaBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Antlers Boppers
+        {
+            keep Base.Hat_Antlers,
+
+            Result:TransmogV2.Base_Hat_Antlers,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_StockingsBlackSemiTrans
@@ -615,6 +1065,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Stockings Semi Transparent
+        {
+            keep Base.StockingsBlackSemiTrans,
+
+            Result:TransmogV2.Base_StockingsBlackSemiTrans,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Bowling
         {
             Type = Clothing,
@@ -625,6 +1084,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = Shoes,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bowling Shoes
+        {
+            keep Base.Shoes_Bowling,
+
+            Result:TransmogV2.Base_Shoes_Bowling,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapArmy_Reverse
@@ -639,6 +1107,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Army Baseball Cap
+        {
+            keep Base.Hat_BaseballCapArmy_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCapArmy_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Black
         {
             Type = Clothing,
@@ -649,6 +1126,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = TracksuitBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Black,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Ghillie_Trousers
@@ -663,6 +1149,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ghillie Suit Pants
+        {
+            keep Base.Ghillie_Trousers,
+
+            Result:TransmogV2.Base_Ghillie_Trousers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoYellow
         {
             Type = Clothing,
@@ -673,6 +1168,15 @@ module TransmogV2 {
             BodyLocation = Transmog_JacketHat,
             Icon = HoodieWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Poncho
+        {
+            keep Base.PonchoYellow,
+
+            Result:TransmogV2.Base_PonchoYellow,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_JokeArrow
@@ -687,6 +1191,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Hat Arrow
+        {
+            keep Base.Hat_JokeArrow,
+
+            Result:TransmogV2.Base_Hat_JokeArrow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Pink
         {
             Type = Clothing,
@@ -697,6 +1210,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = TracksuitPink,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Pink,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_Pink,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Corset_Medical
@@ -711,6 +1233,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical Corset
+        {
+            keep Base.Corset_Medical,
+
+            Result:TransmogV2.Base_Corset_Medical,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_HockeyHelmet
         {
             Type = Clothing,
@@ -721,6 +1252,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetHockeyBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hockey Helmet
+        {
+            keep Base.Hat_HockeyHelmet,
+
+            Result:TransmogV2.Base_Hat_HockeyHelmet,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_LongJohns_Bottoms
@@ -735,6 +1275,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Long Johns Bottoms
+        {
+            keep Base.LongJohns_Bottoms,
+
+            Result:TransmogV2.Base_LongJohns_Bottoms,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Black
         {
             Type = Clothing,
@@ -745,6 +1294,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = Trousers,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Black Trousers
+        {
+            keep Base.Trousers_Black,
+
+            Result:TransmogV2.Base_Trousers_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Brown
@@ -759,6 +1317,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shoes
+        {
+            keep Base.Shoes_Brown,
+
+            Result:TransmogV2.Base_Shoes_Brown,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Silk_Black
         {
             Type = Clothing,
@@ -769,6 +1336,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BoxersBlacksilky,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Boxers - Black Silk 
+        {
+            keep Base.Boxers_Silk_Black,
+
+            Result:TransmogV2.Base_Boxers_Silk_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_Crow
@@ -783,6 +1359,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_Crow
+        {
+            keep Base.MakeUp_Crow,
+
+            Result:TransmogV2.Base_MakeUp_Crow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_White
         {
             Type = Clothing,
@@ -793,6 +1378,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Standard Bra
+        {
+            keep Base.Bra_Straps_White,
+
+            Result:TransmogV2.Base_Bra_Straps_White,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_FlipFlop
@@ -807,6 +1401,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Flip Flops
+        {
+            keep Base.Shoes_FlipFlop,
+
+            Result:TransmogV2.Base_Shoes_FlipFlop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SantaHatGreen
         {
             Type = Clothing,
@@ -817,6 +1420,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatSantaGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Green Santa Hat
+        {
+            keep Base.Hat_SantaHatGreen,
+
+            Result:TransmogV2.Base_Hat_SantaHatGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Strapless_FrillyRed
@@ -831,6 +1443,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapless Bra - Red Frills
+        {
+            keep Base.Bra_Strapless_FrillyRed,
+
+            Result:TransmogV2.Base_Bra_Strapless_FrillyRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HolsterDouble
         {
             Type = Clothing,
@@ -841,6 +1462,15 @@ module TransmogV2 {
             BodyLocation = Transmog_BeltExtra,
             Icon = GunHolsterDouble,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Double Holster
+        {
+            keep Base.HolsterDouble,
+
+            Result:TransmogV2.Base_HolsterDouble,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Underpants_AnimalPrint
@@ -855,6 +1485,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Animal Print Underpants
+        {
+            keep Base.Underpants_AnimalPrint,
+
+            Result:TransmogV2.Base_Underpants_AnimalPrint,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_LongCoat_Bathrobe
         {
             Type = Clothing,
@@ -865,6 +1504,15 @@ module TransmogV2 {
             BodyLocation = Transmog_BathRobe,
             Icon = BathrobeWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bath Robe
+        {
+            keep Base.LongCoat_Bathrobe,
+
+            Result:TransmogV2.Base_LongCoat_Bathrobe,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_SwimTrunks_Green
@@ -879,6 +1527,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Swim Trunks
+        {
+            keep Base.SwimTrunks_Green,
+
+            Result:TransmogV2.Base_SwimTrunks_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_ArmyService
         {
             Type = Clothing,
@@ -889,6 +1546,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrouserstArmyDress,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Army Pants
+        {
+            keep Base.Trousers_ArmyService,
+
+            Result:TransmogV2.Base_Trousers_ArmyService,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_LongSport
@@ -903,6 +1569,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Long Sport Shorts
+        {
+            keep Base.Shorts_LongSport,
+
+            Result:TransmogV2.Base_Shorts_LongSport,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dungarees
         {
             Type = Clothing,
@@ -913,6 +1588,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = OverallsDenim,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Overalls
+        {
+            keep Base.Dungarees,
+
+            Result:TransmogV2.Base_Dungarees,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Strapless_AnimalPrint
@@ -927,6 +1611,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapless Bra - Animal Print
+        {
+            keep Base.Bra_Strapless_AnimalPrint,
+
+            Result:TransmogV2.Base_Bra_Strapless_AnimalPrint,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Black
         {
             Type = Clothing,
@@ -937,6 +1630,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = JacketBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Leather Jacket
+        {
+            keep Base.Jacket_Black,
+
+            Result:TransmogV2.Base_Jacket_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BoxingRed
@@ -951,6 +1653,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxing Head Gear
+        {
+            keep Base.Hat_BoxingRed,
+
+            Result:TransmogV2.Base_Hat_BoxingRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_long_Straps
         {
             Type = Clothing,
@@ -961,6 +1672,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Dress
+        {
+            keep Base.Dress_long_Straps,
+
+            Result:TransmogV2.Base_Dress_long_Straps,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Skirt_Short
@@ -975,6 +1695,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Short Skirt
+        {
+            keep Base.Skirt_Short,
+
+            Result:TransmogV2.Base_Skirt_Short,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Male_Undies
         {
             Type = Clothing,
@@ -985,6 +1714,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearInner,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Underwear
+        {
+            keep Base.Male_Undies,
+
+            Result:TransmogV2.Base_Male_Undies,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_JacketLong_Santa
@@ -999,6 +1737,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Santa Suit Jacket
+        {
+            keep Base.JacketLong_Santa,
+
+            Result:TransmogV2.Base_JacketLong_Santa,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Normal
         {
             Type = Clothing,
@@ -1009,6 +1756,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Skirt,
             Icon = SkirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Skirt
+        {
+            keep Base.Skirt_Normal,
+
+            Result:TransmogV2.Base_Skirt_Normal,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_NewspaperHat
@@ -1023,6 +1779,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Newspaper Hat
+        {
+            keep Base.Hat_NewspaperHat,
+
+            Result:TransmogV2.Base_Hat_NewspaperHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_Black
         {
             Type = Clothing,
@@ -1033,6 +1798,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = Speedo_Black,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Black Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Black,
+
+            Result:TransmogV2.Base_Briefs_SmallTrunks_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Gloves_Surgical
@@ -1047,6 +1821,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Surgical Gloves
+        {
+            keep Base.Gloves_Surgical,
+
+            Result:TransmogV2.Base_Gloves_Surgical,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_WhiteLongSleeve
         {
             Type = Clothing,
@@ -1057,6 +1840,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = ShirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Sleeve T-shirt
+        {
+            keep Base.Tshirt_WhiteLongSleeve,
+
+            Result:TransmogV2.Base_Tshirt_WhiteLongSleeve,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Sport
@@ -1071,6 +1863,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Sport T-shirt
+        {
+            keep Base.Tshirt_Sport,
+
+            Result:TransmogV2.Base_Tshirt_Sport,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_IndieStoneDECAL
         {
             Type = Clothing,
@@ -1081,6 +1882,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic TIS T-shirt
+        {
+            keep Base.Tshirt_IndieStoneDECAL,
+
+            Result:TransmogV2.Base_Tshirt_IndieStoneDECAL,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BonnieHat
@@ -1095,6 +1905,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boonie Hat
+        {
+            keep Base.Hat_BonnieHat,
+
+            Result:TransmogV2.Base_Hat_BonnieHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_RoundNeck
         {
             Type = Clothing,
@@ -1105,6 +1924,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Sweater,
             Icon = SweaterWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Round Neck Sweater
+        {
+            keep Base.Jumper_RoundNeck,
+
+            Result:TransmogV2.Base_Jumper_RoundNeck,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_PoliceGrey
@@ -1119,6 +1947,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Deputy T-shirt
+        {
+            keep Base.Tshirt_PoliceGrey,
+
+            Result:TransmogV2.Base_Tshirt_PoliceGrey,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Ghillie_Top
         {
             Type = Clothing,
@@ -1129,6 +1966,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullTop,
             Icon = JacketGhillie,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Ghillie Suit Torso
+        {
+            keep Base.Ghillie_Top,
+
+            Result:TransmogV2.Base_Ghillie_Top,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Suit_JacketTINT
@@ -1143,6 +1989,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Suit Jacket
+        {
+            keep Base.Suit_JacketTINT,
+
+            Result:TransmogV2.Base_Suit_JacketTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit_BlueRed
         {
             Type = Clothing,
@@ -1153,6 +2008,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Boilersuit,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Coveralls
+        {
+            keep Base.Boilersuit_BlueRed,
+
+            Result:TransmogV2.Base_Boilersuit_BlueRed,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_Shellsuit_Blue
@@ -1167,6 +2031,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Blue,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -1177,6 +2050,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TankTop,
             Icon = Vest_White,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Tank Top
+        {
+            keep Base.Vest_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Base_Vest_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_GreenCamo
@@ -1191,6 +2073,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Green Camouflage
+        {
+            keep Base.MakeUp_GreenCamo,
+
+            Result:TransmogV2.Base_MakeUp_GreenCamo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ArmyGreen
         {
             Type = Clothing,
@@ -1201,6 +2092,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military T-shirt
+        {
+            keep Base.Tshirt_ArmyGreen,
+
+            Result:TransmogV2.Base_Tshirt_ArmyGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BoxingBlue
@@ -1215,6 +2115,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxing Head Gear
+        {
+            keep Base.Hat_BoxingBlue,
+
+            Result:TransmogV2.Base_Hat_BoxingBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_CrashHelmetFULL
         {
             Type = Clothing,
@@ -1225,6 +2134,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullHat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Motorcycle Helmet
+        {
+            keep Base.Hat_CrashHelmetFULL,
+
+            Result:TransmogV2.Base_Hat_CrashHelmetFULL,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_EyesShadowYellow
@@ -1239,6 +2157,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_EyesShadowYellow
+        {
+            keep Base.MakeUp_EyesShadowYellow,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowYellow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_PoliceBlue
         {
             Type = Clothing,
@@ -1249,6 +2176,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtPoliceBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Trooper Shirt
+        {
+            keep Base.Shirt_PoliceBlue,
+
+            Result:TransmogV2.Base_Shirt_PoliceBlue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapKY
@@ -1263,6 +2199,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY,
+
+            Result:TransmogV2.Base_Hat_BaseballCapKY,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HazmatSuit
         {
             Type = Clothing,
@@ -1273,6 +2218,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullSuitHead,
             Icon = Hazmatsuit,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hazmat Suit
+        {
+            keep Base.HazmatSuit,
+
+            Result:TransmogV2.Base_HazmatSuit,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Dress_Knees
@@ -1287,6 +2241,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Knee-length Dress
+        {
+            keep Base.Dress_Knees,
+
+            Result:TransmogV2.Base_Dress_Knees,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Padded
         {
             Type = Clothing,
@@ -1297,6 +2260,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = PaddedTrousers_White,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Padded Pants
+        {
+            keep Base.Trousers_Padded,
+
+            Result:TransmogV2.Base_Trousers_Padded,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Bandana
@@ -1311,6 +2283,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bandana (Head)
+        {
+            keep Base.Hat_Bandana,
+
+            Result:TransmogV2.Base_Hat_Bandana,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_White
         {
             Type = Clothing,
@@ -1321,6 +2302,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BriefsGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Briefs
+        {
+            keep Base.Briefs_White,
+
+            Result:TransmogV2.Base_Briefs_White,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_FrillyUnderpants_Red
@@ -1335,6 +2325,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Red Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Red,
+
+            Result:TransmogV2.Base_FrillyUnderpants_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_BraveHeart
         {
             Type = Clothing,
@@ -1345,6 +2344,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_FullFace,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_BraveHeart
+        {
+            keep Base.MakeUp_BraveHeart,
+
+            Result:TransmogV2.Base_MakeUp_BraveHeart,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_FrillyUnderpants_Black
@@ -1359,6 +2367,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Black Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Black,
+
+            Result:TransmogV2.Base_FrillyUnderpants_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Chef
         {
             Type = Clothing,
@@ -1369,6 +2386,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersChef,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Chef Pants
+        {
+            keep Base.Trousers_Chef,
+
+            Result:TransmogV2.Base_Trousers_Chef,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Corset_Red
@@ -1383,6 +2409,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Red Corset
+        {
+            keep Base.Corset_Red,
+
+            Result:TransmogV2.Base_Corset_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_PoloTINT
         {
             Type = Clothing,
@@ -1393,6 +2428,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_PoloTINT,
+
+            Result:TransmogV2.Base_Tshirt_PoloTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Profession_VeterenRed
@@ -1407,6 +2451,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Red Veteran T-shirt
+        {
+            keep Base.Tshirt_Profession_VeterenRed,
+
+            Result:TransmogV2.Base_Tshirt_Profession_VeterenRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_HockeyMask
         {
             Type = Clothing,
@@ -1417,6 +2470,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MaskEyes,
             Icon = HockeyMask,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hockey Mask
+        {
+            keep Base.Hat_HockeyMask,
+
+            Result:TransmogV2.Base_Hat_HockeyMask,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_HardHat
@@ -1431,6 +2493,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Hard Hat
+        {
+            keep Base.Hat_HardHat,
+
+            Result:TransmogV2.Base_Hat_HardHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Denim
         {
             Type = Clothing,
@@ -1441,6 +2512,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jeans
+        {
+            keep Base.Trousers_Denim,
+
+            Result:TransmogV2.Base_Trousers_Denim,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Underpants_Black
@@ -1455,6 +2535,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Black Underpants
+        {
+            keep Base.Underpants_Black,
+
+            Result:TransmogV2.Base_Underpants_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_HawaiianRed
         {
             Type = Clothing,
@@ -1465,6 +2554,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtHawaiianRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hawaiian Red Shirt
+        {
+            keep Base.Shirt_HawaiianRed,
+
+            Result:TransmogV2.Base_Shirt_HawaiianRed,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Raccoon
@@ -1479,6 +2577,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Raccoon Hat
+        {
+            keep Base.Hat_Raccoon,
+
+            Result:TransmogV2.Base_Hat_Raccoon,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -1489,6 +2596,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersDenimBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Base_Trousers_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Strapless_White
@@ -1503,6 +2619,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapless Bra
+        {
+            keep Base.Bra_Strapless_White,
+
+            Result:TransmogV2.Base_Bra_Strapless_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_TankTopTINT
         {
             Type = Clothing,
@@ -1513,6 +2638,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Sweater,
             Icon = SweaterVestWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic V-neck Sweater Vest
+        {
+            keep Base.Jumper_TankTopTINT,
+
+            Result:TransmogV2.Base_Jumper_TankTopTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_DefaultTEXTURE
@@ -1527,6 +2661,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Tank Top
+        {
+            keep Base.Vest_DefaultTEXTURE,
+
+            Result:TransmogV2.Base_Vest_DefaultTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_AnimalPrints
         {
             Type = Clothing,
@@ -1537,6 +2680,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BriefsLeopard,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Briefs
+        {
+            keep Base.Briefs_AnimalPrints,
+
+            Result:TransmogV2.Base_Briefs_AnimalPrints,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jumper_TankTopDiamondTINT
@@ -1551,6 +2703,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Diamond-pattern Sweater Vest
+        {
+            keep Base.Jumper_TankTopDiamondTINT,
+
+            Result:TransmogV2.Base_Jumper_TankTopDiamondTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Apron_PileOCrepe
         {
             Type = Clothing,
@@ -1561,6 +2722,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TorsoExtra,
             Icon = Apron_Pileocrepes,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pile o' Crepe Server Apron
+        {
+            keep Base.Apron_PileOCrepe,
+
+            Result:TransmogV2.Base_Apron_PileOCrepe,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_Ranger
@@ -1575,6 +2745,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ranger Jacket
+        {
+            keep Base.Jacket_Ranger,
+
+            Result:TransmogV2.Base_Jacket_Ranger,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_Red
         {
             Type = Clothing,
@@ -1585,6 +2764,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = Speedo_Red,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Red Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Red,
+
+            Result:TransmogV2.Base_Briefs_SmallTrunks_Red,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_CamoStripes
@@ -1599,6 +2787,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_CamoStripes
+        {
+            keep Base.MakeUp_CamoStripes,
+
+            Result:TransmogV2.Base_MakeUp_CamoStripes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Socks_Ankle
         {
             Type = Clothing,
@@ -1609,6 +2806,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Socks,
             Icon = SocksAnkleWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Socks
+        {
+            keep Base.Socks_Ankle,
+
+            Result:TransmogV2.Base_Socks_Ankle,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Cowboy
@@ -1623,6 +2829,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Cowboy Hat
+        {
+            keep Base.Hat_Cowboy,
+
+            Result:TransmogV2.Base_Hat_Cowboy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Ranger
         {
             Type = Clothing,
@@ -1633,6 +2848,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtPoliceGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Ranger Shirt
+        {
+            keep Base.Shirt_Ranger,
+
+            Result:TransmogV2.Base_Shirt_Ranger,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_PizzaWhirled
@@ -1647,6 +2871,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Pizza Whirled T-shirt
+        {
+            keep Base.Tshirt_PizzaWhirled,
+
+            Result:TransmogV2.Base_Tshirt_PizzaWhirled,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_RangerBrown
         {
             Type = Clothing,
@@ -1657,6 +2890,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Brown Ranger T-shirt
+        {
+            keep Base.Tshirt_Profession_RangerBrown,
+
+            Result:TransmogV2.Base_Tshirt_Profession_RangerBrown,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Dress_SatinNegligee
@@ -1671,6 +2913,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Satin Negligee
+        {
+            keep Base.Dress_SatinNegligee,
+
+            Result:TransmogV2.Base_Dress_SatinNegligee,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TrousersMesh_DenimLight
         {
             Type = Clothing,
@@ -1681,6 +2932,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersDenimLightBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Denim Jeans
+        {
+            keep Base.TrousersMesh_DenimLight,
+
+            Result:TransmogV2.Base_TrousersMesh_DenimLight,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Lumberjack
@@ -1695,6 +2955,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Lumberjack Shirt
+        {
+            keep Base.Shirt_Lumberjack,
+
+            Result:TransmogV2.Base_Shirt_Lumberjack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HoodieDOWN_WhiteTINT
         {
             Type = Clothing,
@@ -1705,6 +2974,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Sweater,
             Icon = HoodieWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hoodie
+        {
+            keep Base.HoodieDOWN_WhiteTINT,
+
+            Result:TransmogV2.Base_HoodieDOWN_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Fedora
@@ -1719,6 +2997,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Fedora
+        {
+            keep Base.Hat_Fedora,
+
+            Result:TransmogV2.Base_Hat_Fedora,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BunnySuitPink
         {
             Type = Clothing,
@@ -1729,6 +3016,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Underwear,
             Icon = GlassesRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bunny Suit
+        {
+            keep Base.BunnySuitPink,
+
+            Result:TransmogV2.Base_BunnySuitPink,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_RiotHelmet
@@ -1743,6 +3039,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Riot Helmet
+        {
+            keep Base.Hat_RiotHelmet,
+
+            Result:TransmogV2.Base_Hat_RiotHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_CrashHelmet
         {
             Type = Clothing,
@@ -1753,6 +3058,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetCrash,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Crash Helmet
+        {
+            keep Base.Hat_CrashHelmet,
+
+            Result:TransmogV2.Base_Hat_CrashHelmet,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_HardHat_Miner
@@ -1767,6 +3081,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Mining Helmet
+        {
+            keep Base.Hat_HardHat_Miner,
+
+            Result:TransmogV2.Base_Hat_HardHat_Miner,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_NBCmask
         {
             Type = Clothing,
@@ -1777,6 +3100,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullHat,
             Icon = NBCMask,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Nuclear Biochemical Mask
+        {
+            keep Base.Hat_NBCmask,
+
+            Result:TransmogV2.Base_Hat_NBCmask,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tie_BowTieWorn
@@ -1791,6 +3123,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Clip-on Bow Tie
+        {
+            keep Base.Tie_BowTieWorn,
+
+            Result:TransmogV2.Base_Tie_BowTieWorn,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Suit
         {
             Type = Clothing,
@@ -1801,6 +3142,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersSuitBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Suit Pants
+        {
+            keep Base.Trousers_Suit,
+
+            Result:TransmogV2.Base_Trousers_Suit,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Army
@@ -1815,6 +3165,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Helmet
+        {
+            keep Base.Hat_Army,
+
+            Result:TransmogV2.Base_Hat_Army,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_TINT
         {
             Type = Clothing,
@@ -1825,6 +3184,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TracksuitPantsGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_TINT,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_HoodieUP_WhiteTINT
@@ -1839,6 +3207,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Hoodie
+        {
+            keep Base.HoodieUP_WhiteTINT,
+
+            Result:TransmogV2.Base_HoodieUP_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BicycleHelmet
         {
             Type = Clothing,
@@ -1849,6 +3226,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetBicycleWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bicycle Helmet
+        {
+            keep Base.Hat_BicycleHelmet,
+
+            Result:TransmogV2.Base_Hat_BicycleHelmet,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Sweatband
@@ -1863,6 +3249,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Sweatband
+        {
+            keep Base.Hat_Sweatband,
+
+            Result:TransmogV2.Base_Hat_Sweatband,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PeakedCapArmy
         {
             Type = Clothing,
@@ -1873,6 +3268,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatBeretArmy,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Peaked Army Cap
+        {
+            keep Base.Hat_PeakedCapArmy,
+
+            Result:TransmogV2.Base_Hat_PeakedCapArmy,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_CamoFullFace2
@@ -1887,6 +3291,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_CamoFullFace2
+        {
+            keep Base.MakeUp_CamoFullFace2,
+
+            Result:TransmogV2.Base_MakeUp_CamoFullFace2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Chef
         {
             Type = Clothing,
@@ -1897,6 +3310,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = JacketChef,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Chef Jacket
+        {
+            keep Base.Jacket_Chef,
+
+            Result:TransmogV2.Base_Jacket_Chef,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_EyesShadowWhite
@@ -1911,6 +3333,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_EyesShadowWhite
+        {
+            keep Base.MakeUp_EyesShadowWhite,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_CamoFullFace1
         {
             Type = Clothing,
@@ -1921,6 +3352,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_FullFace,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_CamoFullFace1
+        {
+            keep Base.MakeUp_CamoFullFace1,
+
+            Result:TransmogV2.Base_MakeUp_CamoFullFace1,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_TightsFishnets
@@ -1935,6 +3375,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Fishnets
+        {
+            keep Base.TightsFishnets,
+
+            Result:TransmogV2.Base_TightsFishnets,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_RidingBoots
         {
             Type = Clothing,
@@ -1945,6 +3394,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = BootsRiding,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Riding Boots
+        {
+            keep Base.Shoes_RidingBoots,
+
+            Result:TransmogV2.Base_Shoes_RidingBoots,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Suit_Jacket
@@ -1959,6 +3417,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Suit Jacket
+        {
+            keep Base.Suit_Jacket,
+
+            Result:TransmogV2.Base_Suit_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallBlackStrapless
         {
             Type = Clothing,
@@ -1969,6 +3436,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = LittleBlackDressStrapless,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Strapless Black Dress
+        {
+            keep Base.Dress_SmallBlackStrapless,
+
+            Result:TransmogV2.Base_Dress_SmallBlackStrapless,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_FormalWhite_ShortSleeveTINT
@@ -1983,6 +3459,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Short Sleeve Shirt
+        {
+            keep Base.Shirt_FormalWhite_ShortSleeveTINT,
+
+            Result:TransmogV2.Base_Shirt_FormalWhite_ShortSleeveTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_TrainerTINT
         {
             Type = Clothing,
@@ -1993,6 +3478,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = ShoesRunningWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Sneakers
+        {
+            keep Base.Shoes_TrainerTINT,
+
+            Result:TransmogV2.Base_Shoes_TrainerTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_SpiffoSuit
@@ -2007,6 +3501,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo Suit
+        {
+            keep Base.SpiffoSuit,
+
+            Result:TransmogV2.Base_SpiffoSuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsBlack
         {
             Type = Clothing,
@@ -2017,6 +3520,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra1,
             Icon = StockingsOpaque,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Stockings
+        {
+            keep Base.StockingsBlack,
+
+            Result:TransmogV2.Base_StockingsBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Scarf_StripeRedWhite
@@ -2031,6 +3543,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Scarf
+        {
+            keep Base.Scarf_StripeRedWhite,
+
+            Result:TransmogV2.Base_Scarf_StripeRedWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BucketHat
         {
             Type = Clothing,
@@ -2041,6 +3562,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = BobHat,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bucket Hat
+        {
+            keep Base.Hat_BucketHat,
+
+            Result:TransmogV2.Base_Hat_BucketHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Gloves_LongWomenGloves
@@ -2055,6 +3585,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Long Gloves
+        {
+            keep Base.Gloves_LongWomenGloves,
+
+            Result:TransmogV2.Base_Gloves_LongWomenGloves,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_LimeGreen
         {
             Type = Clothing,
@@ -2065,6 +3604,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtAthleticRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bowling Shirt Lime Green
+        {
+            keep Base.Shirt_Bowling_LimeGreen,
+
+            Result:TransmogV2.Base_Shirt_Bowling_LimeGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_SwimTrunks_Red
@@ -2079,6 +3627,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Swim Trunks
+        {
+            keep Base.SwimTrunks_Red,
+
+            Result:TransmogV2.Base_SwimTrunks_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WeddingVeil
         {
             Type = Clothing,
@@ -2089,6 +3646,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = VeilWedding,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Wedding Veil
+        {
+            keep Base.Hat_WeddingVeil,
+
+            Result:TransmogV2.Base_Hat_WeddingVeil,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Fireman
@@ -2103,6 +3669,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Firefighter Helmet
+        {
+            keep Base.Hat_Fireman,
+
+            Result:TransmogV2.Base_Hat_Fireman,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallBlackStraps
         {
             Type = Clothing,
@@ -2113,6 +3688,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = LittleBlackDress,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Little Black Dress
+        {
+            keep Base.Dress_SmallBlackStraps,
+
+            Result:TransmogV2.Base_Dress_SmallBlackStraps,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapArmy
@@ -2127,6 +3711,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Army Baseball Cap
+        {
+            keep Base.Hat_BaseballCapArmy,
+
+            Result:TransmogV2.Base_Hat_BaseballCapArmy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_HawaiianTINT
         {
             Type = Clothing,
@@ -2137,6 +3730,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtHawaiianWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hawaiian Shirt
+        {
+            keep Base.Shirt_HawaiianTINT,
+
+            Result:TransmogV2.Base_Shirt_HawaiianTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Fireman
@@ -2151,6 +3753,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Firefighter Pants
+        {
+            keep Base.Trousers_Fireman,
+
+            Result:TransmogV2.Base_Trousers_Fireman,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_NavyBlue
         {
             Type = Clothing,
@@ -2161,6 +3772,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Navy Blue Trousers
+        {
+            keep Base.Trousers_NavyBlue,
+
+            Result:TransmogV2.Base_Trousers_NavyBlue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_RidingHelmet
@@ -2175,6 +3795,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Riding Helmet
+        {
+            keep Base.Hat_RidingHelmet,
+
+            Result:TransmogV2.Base_Hat_RidingHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_DefaultTEXTURE_HUE
         {
             Type = Clothing,
@@ -2185,6 +3814,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersDenimBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE_HUE,
+
+            Result:TransmogV2.Base_Trousers_DefaultTEXTURE_HUE,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapBlue_Reverse
@@ -2199,6 +3837,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapBlue_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCapBlue_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_StripeBlueWhite
         {
             Type = Clothing,
@@ -2209,6 +3856,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Scarf,
             Icon = ScarfStripedBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Scarf
+        {
+            keep Base.Scarf_StripeBlueWhite,
+
+            Result:TransmogV2.Base_Scarf_StripeBlueWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_SurgicalCap_Blue
@@ -2223,6 +3879,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical Cap Blue
+        {
+            keep Base.Hat_SurgicalCap_Blue,
+
+            Result:TransmogV2.Base_Hat_SurgicalCap_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SPHhelmet
         {
             Type = Clothing,
@@ -2233,6 +3898,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullHat,
             Icon = HelmetSP,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Air Force Helmet
+        {
+            keep Base.Hat_SPHhelmet,
+
+            Result:TransmogV2.Base_Hat_SPHhelmet,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_LongJohns
@@ -2247,6 +3921,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Long Johns
+        {
+            keep Base.LongJohns,
+
+            Result:TransmogV2.Base_LongJohns,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_ShowerCap
         {
             Type = Clothing,
@@ -2257,6 +3940,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = Showercap,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shower Cap
+        {
+            keep Base.Hat_ShowerCap,
+
+            Result:TransmogV2.Base_Hat_ShowerCap,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_LeatherIronRodent
@@ -2271,6 +3963,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Iron Rodent Leather Jacket
+        {
+            keep Base.Jacket_LeatherIronRodent,
+
+            Result:TransmogV2.Base_Jacket_LeatherIronRodent,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Rock
         {
             Type = Clothing,
@@ -2281,6 +3982,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Rock T-shirt
+        {
+            keep Base.Tshirt_Rock,
+
+            Result:TransmogV2.Base_Tshirt_Rock,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Priest
@@ -2295,6 +4005,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Priest Shirt
+        {
+            keep Base.Shirt_Priest,
+
+            Result:TransmogV2.Base_Shirt_Priest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_FrillyPink
         {
             Type = Clothing,
@@ -2305,6 +4024,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraPinklacy,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Standard Bra - Pink Frills
+        {
+            keep Base.Bra_Straps_FrillyPink,
+
+            Result:TransmogV2.Base_Bra_Straps_FrillyPink,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_FormalWhite_ShortSleeve
@@ -2319,6 +4047,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Short Sleeve Shirt
+        {
+            keep Base.Shirt_FormalWhite_ShortSleeve,
+
+            Result:TransmogV2.Base_Shirt_FormalWhite_ShortSleeve,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Knees
         {
             Type = Clothing,
@@ -2329,6 +4066,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Skirt,
             Icon = SkirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Knee-length Skirt
+        {
+            keep Base.Skirt_Knees,
+
+            Result:TransmogV2.Base_Skirt_Knees,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_FastFood_Spiffo
@@ -2343,6 +4089,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo's Server Hat
+        {
+            keep Base.Hat_FastFood_Spiffo,
+
+            Result:TransmogV2.Base_Hat_FastFood_Spiffo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Fedora_Delmonte
         {
             Type = Clothing,
@@ -2353,6 +4108,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = FedoraYellow,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Black Band Fedora
+        {
+            keep Base.Hat_Fedora_Delmonte,
+
+            Result:TransmogV2.Base_Hat_Fedora_Delmonte,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Spiffo
@@ -2367,6 +4131,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo Suit Head
+        {
+            keep Base.Hat_Spiffo,
+
+            Result:TransmogV2.Base_Hat_Spiffo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_LongDenim
         {
             Type = Clothing,
@@ -2377,6 +4150,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Denim Shorts
+        {
+            keep Base.Shorts_LongDenim,
+
+            Result:TransmogV2.Base_Shorts_LongDenim,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_JokeKnife
@@ -2391,6 +4173,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Hat Knife
+        {
+            keep Base.Hat_JokeKnife,
+
+            Result:TransmogV2.Base_Hat_JokeKnife,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Full
         {
             Type = Clothing,
@@ -2401,6 +4192,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Neck,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Tie
+        {
+            keep Base.Tie_Full,
+
+            Result:TransmogV2.Base_Tie_Full,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_WhiteTEXTURE
@@ -2415,6 +4215,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Tight Fit Apron
+        {
+            keep Base.Apron_WhiteTEXTURE,
+
+            Result:TransmogV2.Base_Apron_WhiteTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Corset_Black
         {
             Type = Clothing,
@@ -2425,6 +4234,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = CorsetBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Black Corset
+        {
+            keep Base.Corset_Black,
+
+            Result:TransmogV2.Base_Corset_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCap
@@ -2439,6 +4257,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCap,
+
+            Result:TransmogV2.Base_Hat_BaseballCap,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Hearts
         {
             Type = Clothing,
@@ -2449,6 +4276,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BoxersHearts,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Boxers - Hearts
+        {
+            keep Base.Boxers_Hearts,
+
+            Result:TransmogV2.Base_Boxers_Hearts,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Police
@@ -2463,6 +4299,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Trooper Hat
+        {
+            keep Base.Hat_Police,
+
+            Result:TransmogV2.Base_Hat_Police,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Gas2Go
         {
             Type = Clothing,
@@ -2473,6 +4318,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Gas 2 Go T-shirt
+        {
+            keep Base.Tshirt_Gas2Go,
+
+            Result:TransmogV2.Base_Tshirt_Gas2Go,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_CamoUrban
@@ -2487,6 +4341,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Urban Camo Pants
+        {
+            keep Base.Trousers_CamoUrban,
+
+            Result:TransmogV2.Base_Trousers_CamoUrban,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_SwimTrunks_Yellow
         {
             Type = Clothing,
@@ -2497,6 +4360,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Underwear,
             Icon = Swimtrunks_Yellow,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Swim Trunks
+        {
+            keep Base.SwimTrunks_Yellow,
+
+            Result:TransmogV2.Base_SwimTrunks_Yellow,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Boxers_White
@@ -2511,6 +4383,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxers
+        {
+            keep Base.Boxers_White,
+
+            Result:TransmogV2.Base_Boxers_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballHelmet_KY
         {
             Type = Clothing,
@@ -2521,6 +4402,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetBaseballRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Kentucky Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_KY,
+
+            Result:TransmogV2.Base_Hat_BaseballHelmet_KY,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_BulletArmy
@@ -2535,6 +4425,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Bulletproof Vest
+        {
+            keep Base.Vest_BulletArmy,
+
+            Result:TransmogV2.Base_Vest_BulletArmy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_CamoDesert
         {
             Type = Clothing,
@@ -2545,6 +4444,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TShirtCamoSand,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military Desert Camo T-shirt
+        {
+            keep Base.Tshirt_CamoDesert,
+
+            Result:TransmogV2.Base_Tshirt_CamoDesert,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_CamoGreenLong
@@ -2559,6 +4467,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Camo Shorts
+        {
+            keep Base.Shorts_CamoGreenLong,
+
+            Result:TransmogV2.Base_Shorts_CamoGreenLong,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsWhite
         {
             Type = Clothing,
@@ -2569,6 +4486,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra1,
             Icon = StockingsWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Stockings
+        {
+            keep Base.StockingsWhite,
+
+            Result:TransmogV2.Base_StockingsWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Briefs_SmallTrunks_Blue
@@ -2583,6 +4509,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Blue Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Blue,
+
+            Result:TransmogV2.Base_Briefs_SmallTrunks_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_FiremanRed02
         {
             Type = Clothing,
@@ -2593,6 +4528,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Dark Red Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanRed02,
+
+            Result:TransmogV2.Base_Tshirt_Profession_FiremanRed02,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_PizzaWhirled
@@ -2607,6 +4551,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Pizza Whirled Server Apron
+        {
+            keep Base.Apron_PizzaWhirled,
+
+            Result:TransmogV2.Base_Apron_PizzaWhirled,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bikini_TINT
         {
             Type = Clothing,
@@ -2617,6 +4570,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Underwear,
             Icon = Bikini_White,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bikini
+        {
+            keep Base.Bikini_TINT,
+
+            Result:TransmogV2.Base_Bikini_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Skirt_Mini
@@ -2631,6 +4593,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Mini Skirt
+        {
+            keep Base.Skirt_Mini,
+
+            Result:TransmogV2.Base_Skirt_Mini,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_CropTopNoArmTINT
         {
             Type = Clothing,
@@ -2641,6 +4612,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TubeTopStrappedGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Crop Top
+        {
+            keep Base.Shirt_CropTopNoArmTINT,
+
+            Result:TransmogV2.Base_Shirt_CropTopNoArmTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_ShortSport
@@ -2655,6 +4635,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Sport Shorts
+        {
+            keep Base.Shorts_ShortSport,
+
+            Result:TransmogV2.Base_Shorts_ShortSport,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_Hunting_CamoGreen
         {
             Type = Clothing,
@@ -2665,6 +4654,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TorsoExtraVest,
             Icon = Huntingvest_Camo,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Green Camo Hunting Vest
+        {
+            keep Base.Vest_Hunting_CamoGreen,
+
+            Result:TransmogV2.Base_Vest_Hunting_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_EyesShadowLightBlue
@@ -2679,6 +4677,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_EyesShadowLightBlue
+        {
+            keep Base.MakeUp_EyesShadowLightBlue,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowLightBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Workman
         {
             Type = Clothing,
@@ -2689,6 +4696,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Workman Shirt
+        {
+            keep Base.Shirt_Workman,
+
+            Result:TransmogV2.Base_Shirt_Workman,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BunnyEarsBlack
@@ -2703,6 +4719,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bunny Ears
+        {
+            keep Base.Hat_BunnyEarsBlack,
+
+            Result:TransmogV2.Base_Hat_BunnyEarsBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_RedStripes
         {
             Type = Clothing,
@@ -2713,6 +4738,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BoxersStriped,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Boxers - Red Stripes
+        {
+            keep Base.Boxers_RedStripes,
+
+            Result:TransmogV2.Base_Boxers_RedStripes,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_LipsBlack
@@ -2727,6 +4761,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_LipsBlack
+        {
+            keep Base.MakeUp_LipsBlack,
+
+            Result:TransmogV2.Base_MakeUp_LipsBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_BulletPolice
         {
             Type = Clothing,
@@ -2737,6 +4780,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TorsoExtraVest,
             Icon = BulletVestPolice,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Bulletproof Vest
+        {
+            keep Base.Vest_BulletPolice,
+
+            Result:TransmogV2.Base_Vest_BulletPolice,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_JacketLong_SantaGreen
@@ -2751,6 +4803,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Green Santa Suit Jacket
+        {
+            keep Base.JacketLong_SantaGreen,
+
+            Result:TransmogV2.Base_JacketLong_SantaGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_FrillyRed
         {
             Type = Clothing,
@@ -2761,6 +4822,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraRedsilky,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Standard Bra - Red Frills
+        {
+            keep Base.Bra_Straps_FrillyRed,
+
+            Result:TransmogV2.Base_Bra_Straps_FrillyRed,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tie_BowTieFull
@@ -2775,6 +4845,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bow Tie
+        {
+            keep Base.Tie_BowTieFull,
+
+            Result:TransmogV2.Base_Tie_BowTieFull,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_BoxingRed
         {
             Type = Clothing,
@@ -2785,6 +4864,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hands,
             Icon = BoxingGloves_Red,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Boxing Gloves
+        {
+            keep Base.Gloves_BoxingRed,
+
+            Result:TransmogV2.Base_Gloves_BoxingRed,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BandanaMaskTINT
@@ -2799,6 +4887,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bandana (Face)
+        {
+            keep Base.Hat_BandanaMaskTINT,
+
+            Result:TransmogV2.Base_Hat_BandanaMaskTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_WhiteTINT
         {
             Type = Clothing,
@@ -2809,6 +4906,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = SpeedoGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Speedo
+        {
+            keep Base.Briefs_SmallTrunks_WhiteTINT,
+
+            Result:TransmogV2.Base_Briefs_SmallTrunks_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_Foreman
@@ -2823,6 +4929,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Foreman Vest
+        {
+            keep Base.Vest_Foreman,
+
+            Result:TransmogV2.Base_Vest_Foreman,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit
         {
             Type = Clothing,
@@ -2833,6 +4948,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Boilersuit,
             Icon = BoilerSuitWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Coveralls
+        {
+            keep Base.Boilersuit,
+
+            Result:TransmogV2.Base_Boilersuit,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_WeddingDress
@@ -2847,6 +4971,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Wedding Dress
+        {
+            keep Base.WeddingDress,
+
+            Result:TransmogV2.Base_WeddingDress,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HospitalGown
         {
             Type = Clothing,
@@ -2857,6 +4990,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = HospitalGown,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Hospital Gown
+        {
+            keep Base.HospitalGown,
+
+            Result:TransmogV2.Base_HospitalGown,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Boilersuit_Prisoner
@@ -2871,6 +5013,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Prisoner Jumpsuit
+        {
+            keep Base.Boilersuit_Prisoner,
+
+            Result:TransmogV2.Base_Boilersuit_Prisoner,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BandanaTiedTINT
         {
             Type = Clothing,
@@ -2881,6 +5032,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = RamboBandanna,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bandana (Tied)
+        {
+            keep Base.Hat_BandanaTiedTINT,
+
+            Result:TransmogV2.Base_Hat_BandanaTiedTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_PoliceGrey
@@ -2895,6 +5055,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Deputy Shirt
+        {
+            keep Base.Shirt_PoliceGrey,
+
+            Result:TransmogV2.Base_Shirt_PoliceGrey,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_WhiteTINT
         {
             Type = Clothing,
@@ -2905,6 +5074,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hands,
             Icon = GlovesWoolyWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Gloves
+        {
+            keep Base.Gloves_WhiteTINT,
+
+            Result:TransmogV2.Base_Gloves_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_BusinessSpiffo
@@ -2919,6 +5097,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo T-shirt
+        {
+            keep Base.Tshirt_BusinessSpiffo,
+
+            Result:TransmogV2.Base_Tshirt_BusinessSpiffo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_GoldStar
         {
             Type = Clothing,
@@ -2929,6 +5116,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = BandanaBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic GoldStar Boppers
+        {
+            keep Base.Hat_GoldStar,
+
+            Result:TransmogV2.Base_Hat_GoldStar,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_PrisonGuard
@@ -2943,6 +5139,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Prison Guard Shirt
+        {
+            keep Base.Shirt_PrisonGuard,
+
+            Result:TransmogV2.Base_Shirt_PrisonGuard,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SantaHat
         {
             Type = Clothing,
@@ -2953,6 +5158,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatSantaRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Santa Hat
+        {
+            keep Base.Hat_SantaHat,
+
+            Result:TransmogV2.Base_Hat_SantaHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_BulletCivilian
@@ -2967,6 +5181,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Civilian Bulletproof Vest
+        {
+            keep Base.Vest_BulletCivilian,
+
+            Result:TransmogV2.Base_Vest_BulletCivilian,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WoolyHat
         {
             Type = Clothing,
@@ -2977,6 +5200,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = WoolHatGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Woolly Hat
+        {
+            keep Base.Hat_WoolyHat,
+
+            Result:TransmogV2.Base_Hat_WoolyHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_NavyBlue
@@ -2991,6 +5223,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jacket
+        {
+            keep Base.Jacket_NavyBlue,
+
+            Result:TransmogV2.Base_Jacket_NavyBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Silk_Red
         {
             Type = Clothing,
@@ -3001,6 +5242,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = BoxersRedsilky,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Boxers - Red Silk
+        {
+            keep Base.Boxers_Silk_Red,
+
+            Result:TransmogV2.Base_Boxers_Silk_Red,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapBlue
@@ -3015,6 +5265,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapBlue,
+
+            Result:TransmogV2.Base_Hat_BaseballCapBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Underpants_White
         {
             Type = Clothing,
@@ -3025,6 +5284,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = PantiesGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Underpants
+        {
+            keep Base.Underpants_White,
+
+            Result:TransmogV2.Base_Underpants_White,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Profession_PoliceBlue
@@ -3039,6 +5307,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Blue Police T-shirt
+        {
+            keep Base.Tshirt_Profession_PoliceBlue,
+
+            Result:TransmogV2.Base_Tshirt_Profession_PoliceBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_FastFood
         {
             Type = Clothing,
@@ -3049,6 +5326,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Fast Food Server Hat
+        {
+            keep Base.Hat_FastFood,
+
+            Result:TransmogV2.Base_Hat_FastFood,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_ArmyBootsDesert
@@ -3063,6 +5349,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Desert Boots
+        {
+            keep Base.Shoes_ArmyBootsDesert,
+
+            Result:TransmogV2.Base_Shoes_ArmyBootsDesert,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Padded
         {
             Type = Clothing,
@@ -3073,6 +5368,15 @@ module TransmogV2 {
             BodyLocation = Transmog_JacketHat,
             Icon = JacketPadded_White,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Padded Jacket
+        {
+            keep Base.Jacket_Padded,
+
+            Result:TransmogV2.Base_Jacket_Padded,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_IceCream
@@ -3087,6 +5391,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ice Cream Server Apron
+        {
+            keep Base.Apron_IceCream,
+
+            Result:TransmogV2.Base_Apron_IceCream,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_Black
         {
             Type = Clothing,
@@ -3097,6 +5410,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Standard Bra - Black
+        {
+            keep Base.Bra_Straps_Black,
+
+            Result:TransmogV2.Base_Bra_Straps_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shorts_BoxingRed
@@ -3111,6 +5433,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxing Shorts
+        {
+            keep Base.Shorts_BoxingRed,
+
+            Result:TransmogV2.Base_Shorts_BoxingRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Full_Spiffo
         {
             Type = Clothing,
@@ -3121,6 +5452,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Neck,
             Icon = TieSpiffo,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Spiffo Tie
+        {
+            keep Base.Tie_Full_Spiffo,
+
+            Result:TransmogV2.Base_Tie_Full_Spiffo,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_VisorRed
@@ -3135,6 +5475,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Visor
+        {
+            keep Base.Hat_VisorRed,
+
+            Result:TransmogV2.Base_Hat_VisorRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PartyHat_TINT
         {
             Type = Clothing,
@@ -3145,6 +5494,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = PartyHat_Stripes,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Colored Party Hat
+        {
+            keep Base.Hat_PartyHat_TINT,
+
+            Result:TransmogV2.Base_Hat_PartyHat_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_LipsBlue
@@ -3159,6 +5517,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_LipsBlue
+        {
+            keep Base.MakeUp_LipsBlue,
+
+            Result:TransmogV2.Base_MakeUp_LipsBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_DiamondPatternTINT
         {
             Type = Clothing,
@@ -3169,6 +5536,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Sweater,
             Icon = SweaterVneckArgyle,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Diamond-pattern Sweater
+        {
+            keep Base.Jumper_DiamondPatternTINT,
+
+            Result:TransmogV2.Base_Jumper_DiamondPatternTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_EyesShadowRed
@@ -3183,6 +5559,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_EyesShadowRed
+        {
+            keep Base.MakeUp_EyesShadowRed,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_BlueTrainers
         {
             Type = Clothing,
@@ -3193,6 +5578,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = ShoesRunningBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Sneakers
+        {
+            keep Base.Shoes_BlueTrainers,
+
+            Result:TransmogV2.Base_Shoes_BlueTrainers,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Gloves_BoxingBlue
@@ -3207,6 +5601,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boxing Gloves
+        {
+            keep Base.Gloves_BoxingBlue,
+
+            Result:TransmogV2.Base_Gloves_BoxingBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_DustMask
         {
             Type = Clothing,
@@ -3217,6 +5620,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Mask,
             Icon = DustMask,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Dust Mask
+        {
+            keep Base.Hat_DustMask,
+
+            Result:TransmogV2.Base_Hat_DustMask,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_PoliceBlue
@@ -3231,6 +5643,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Trooper T-shirt
+        {
+            keep Base.Tshirt_PoliceBlue,
+
+            Result:TransmogV2.Base_Tshirt_PoliceBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_FootballHelmet
         {
             Type = Clothing,
@@ -3241,6 +5662,15 @@ module TransmogV2 {
             BodyLocation = Transmog_FullHat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Football Helmet
+        {
+            keep Base.Hat_FootballHelmet,
+
+            Result:TransmogV2.Base_Hat_FootballHelmet,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Random
@@ -3255,6 +5685,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shoes
+        {
+            keep Base.Shoes_Random,
+
+            Result:TransmogV2.Base_Shoes_Random,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoGreenDOWN
         {
             Type = Clothing,
@@ -3265,6 +5704,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = HoodieWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Poncho
+        {
+            keep Base.PonchoGreenDOWN,
+
+            Result:TransmogV2.Base_PonchoGreenDOWN,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapRed_Reverse
@@ -3279,6 +5727,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapRed_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCapRed_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_Teal
         {
             Type = Clothing,
@@ -3289,6 +5746,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TracksuitPantsTeal,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Teal,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_Teal,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_BlackBoots
@@ -3303,6 +5769,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Boots
+        {
+            keep Base.Shoes_BlackBoots,
+
+            Result:TransmogV2.Base_Shoes_BlackBoots,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_FrillyUnderpants_Pink
         {
             Type = Clothing,
@@ -3313,6 +5788,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearBottom,
             Icon = PantiesPinklacy,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pink Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Pink,
+
+            Result:TransmogV2.Base_FrillyUnderpants_Pink,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Ranger
@@ -3327,6 +5811,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ranger T-shirt
+        {
+            keep Base.Tshirt_Ranger,
+
+            Result:TransmogV2.Base_Tshirt_Ranger,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_LipsLightBlue
         {
             Type = Clothing,
@@ -3337,6 +5830,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_Lips,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_LipsLightBlue
+        {
+            keep Base.MakeUp_LipsLightBlue,
+
+            Result:TransmogV2.Base_MakeUp_LipsLightBlue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Corset
@@ -3351,6 +5853,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Corset
+        {
+            keep Base.Corset,
+
+            Result:TransmogV2.Base_Corset,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_LeatherBarrelDogs
         {
             Type = Clothing,
@@ -3361,6 +5872,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = BikerJacketDogs,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Barrel Dogs Leather Jacket
+        {
+            keep Base.Jacket_LeatherBarrelDogs,
+
+            Result:TransmogV2.Base_Jacket_LeatherBarrelDogs,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_SurgicalMask_Blue
@@ -3375,6 +5895,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical Mask Blue
+        {
+            keep Base.Hat_SurgicalMask_Blue,
+
+            Result:TransmogV2.Base_Hat_SurgicalMask_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Fossoil
         {
             Type = Clothing,
@@ -3385,6 +5914,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Fossoil T-shirt
+        {
+            keep Base.Tshirt_Fossoil,
+
+            Result:TransmogV2.Base_Tshirt_Fossoil,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Profession_FiremanWhite
@@ -3399,6 +5937,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic White Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanWhite,
+
+            Result:TransmogV2.Base_Tshirt_Profession_FiremanWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_WhiteTEXTURE
         {
             Type = Clothing,
@@ -3409,6 +5956,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers_WhiteTEXTURE,
+
+            Result:TransmogV2.Base_Trousers_WhiteTEXTURE,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapKY_Red
@@ -3423,6 +5979,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY_Red,
+
+            Result:TransmogV2.Base_Hat_BaseballCapKY_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_ClownFace2
         {
             Type = Clothing,
@@ -3433,6 +5998,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_FullFace,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_ClownFace2
+        {
+            keep Base.MakeUp_ClownFace2,
+
+            Result:TransmogV2.Base_MakeUp_ClownFace2,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_ClownFace1
@@ -3447,6 +6021,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_ClownFace1
+        {
+            keep Base.MakeUp_ClownFace1,
+
+            Result:TransmogV2.Base_MakeUp_ClownFace1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Long
         {
             Type = Clothing,
@@ -3457,6 +6040,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Skirt,
             Icon = SkirtLongWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Skirt
+        {
+            keep Base.Skirt_Long,
+
+            Result:TransmogV2.Base_Skirt_Long,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jumper_PoloNeck
@@ -3471,6 +6063,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Polo Neck Sweater
+        {
+            keep Base.Jumper_PoloNeck,
+
+            Result:TransmogV2.Base_Jumper_PoloNeck,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Apron_White
         {
             Type = Clothing,
@@ -3481,6 +6082,15 @@ module TransmogV2 {
             BodyLocation = Transmog_TorsoExtra,
             Icon = ApronWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Apron
+        {
+            keep Base.Apron_White,
+
+            Result:TransmogV2.Base_Apron_White,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_WaistcoatTINT
@@ -3495,6 +6105,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Waistcoat
+        {
+            keep Base.Vest_WaistcoatTINT,
+
+            Result:TransmogV2.Base_Vest_WaistcoatTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_VeterenGreen
         {
             Type = Clothing,
@@ -3505,6 +6124,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Green Veteran T-shirt
+        {
+            keep Base.Tshirt_Profession_VeterenGreen,
+
+            Result:TransmogV2.Base_Tshirt_Profession_VeterenGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Beany
@@ -3519,6 +6147,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Beanie Hat
+        {
+            keep Base.Hat_Beany,
+
+            Result:TransmogV2.Base_Hat_Beany,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SuitWhite
         {
             Type = Clothing,
@@ -3529,6 +6166,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersSuitWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Suit Pants
+        {
+            keep Base.Trousers_SuitWhite,
+
+            Result:TransmogV2.Base_Trousers_SuitWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Shellsuit_Pink
@@ -3543,6 +6189,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Pink,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_Pink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_FingerlessGloves
         {
             Type = Clothing,
@@ -3553,6 +6208,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hands,
             Icon = GlovesFingerlessWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Fingerless Gloves
+        {
+            keep Base.Gloves_FingerlessGloves,
+
+            Result:TransmogV2.Base_Gloves_FingerlessGloves,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_TightsBlackSemiTrans
@@ -3567,6 +6231,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Tights Semi Transparent
+        {
+            keep Base.TightsBlackSemiTrans,
+
+            Result:TransmogV2.Base_TightsBlackSemiTrans,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Sandals
         {
             Type = Clothing,
@@ -3577,6 +6250,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = Shoes,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Sandals
+        {
+            keep Base.Shoes_Sandals,
+
+            Result:TransmogV2.Base_Shoes_Sandals,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_DefaultTEXTURE
@@ -3591,6 +6273,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE,
+
+            Result:TransmogV2.Base_Trousers_DefaultTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BunnySuitBlack
         {
             Type = Clothing,
@@ -3601,6 +6292,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Underwear,
             Icon = GlassesBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bunny Suit
+        {
+            keep Base.BunnySuitBlack,
+
+            Result:TransmogV2.Base_BunnySuitBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_PoloStripedTINT
@@ -3615,6 +6315,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Striped T-shirt
+        {
+            keep Base.Tshirt_PoloStripedTINT,
+
+            Result:TransmogV2.Base_Tshirt_PoloStripedTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultTEXTURE
         {
             Type = Clothing,
@@ -3625,6 +6334,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_DefaultTEXTURE,
+
+            Result:TransmogV2.Base_Tshirt_DefaultTEXTURE,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_CrashHelmet_Police
@@ -3639,6 +6357,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Motorcycle Helmet
+        {
+            keep Base.Hat_CrashHelmet_Police,
+
+            Result:TransmogV2.Base_Hat_CrashHelmet_Police,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_SkullFace2
         {
             Type = Clothing,
@@ -3649,6 +6376,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_FullFace,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_SkullFace2
+        {
+            keep Base.MakeUp_SkullFace2,
+
+            Result:TransmogV2.Base_MakeUp_SkullFace2,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_SkullFace1
@@ -3663,6 +6399,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_SkullFace1
+        {
+            keep Base.MakeUp_SkullFace1,
+
+            Result:TransmogV2.Base_MakeUp_SkullFace1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_EyesShadowGreen
         {
             Type = Clothing,
@@ -3673,6 +6418,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_EyesShadow,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_EyesShadowGreen
+        {
+            keep Base.MakeUp_EyesShadowGreen,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Ranger
@@ -3687,6 +6441,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Ranger Hat
+        {
+            keep Base.Hat_Ranger,
+
+            Result:TransmogV2.Base_Hat_Ranger,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SurgicalMask_Green
         {
             Type = Clothing,
@@ -3697,6 +6460,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Mask,
             Icon = SurgicalMaskGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Medical Mask Green
+        {
+            keep Base.Hat_SurgicalMask_Green,
+
+            Result:TransmogV2.Base_Hat_SurgicalMask_Green,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Jay
@@ -3711,6 +6483,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jay Chicken Hat
+        {
+            keep Base.Hat_Jay,
+
+            Result:TransmogV2.Base_Hat_Jay,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SurgicalCap_Green
         {
             Type = Clothing,
@@ -3721,6 +6502,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = SurgicalCapGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Medical Cap Green
+        {
+            keep Base.Hat_SurgicalCap_Green,
+
+            Result:TransmogV2.Base_Hat_SurgicalCap_Green,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapGreen
@@ -3735,6 +6525,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapGreen,
+
+            Result:TransmogV2.Base_Hat_BaseballCapGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_EarMuff_Protectors
         {
             Type = Clothing,
@@ -3745,6 +6544,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = EarProtectors,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Ear Protectors
+        {
+            keep Base.Hat_EarMuff_Protectors,
+
+            Result:TransmogV2.Base_Hat_EarMuff_Protectors,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_CrashHelmet_Stars
@@ -3759,6 +6567,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic USA Crash Helmet
+        {
+            keep Base.Hat_CrashHelmet_Stars,
+
+            Result:TransmogV2.Base_Hat_CrashHelmet_Stars,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Police
         {
             Type = Clothing,
@@ -3769,6 +6586,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersPoliceBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Trooper Pants
+        {
+            keep Base.Trousers_Police,
+
+            Result:TransmogV2.Base_Trousers_Police,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_CoatArmy
@@ -3783,6 +6609,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Army Coat
+        {
+            keep Base.Jacket_CoatArmy,
+
+            Result:TransmogV2.Base_Jacket_CoatArmy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_TINT
         {
             Type = Clothing,
@@ -3793,6 +6628,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = TracksuitGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_TINT,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_Beret
@@ -3807,6 +6651,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Beret
+        {
+            keep Base.Hat_Beret,
+
+            Result:TransmogV2.Base_Hat_Beret,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_Brown
         {
             Type = Clothing,
@@ -3817,6 +6670,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtAthleticRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bowling Shirt Brown
+        {
+            keep Base.Shirt_Bowling_Brown,
+
+            Result:TransmogV2.Base_Shirt_Bowling_Brown,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_RedTrainers
@@ -3831,6 +6693,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Sneakers
+        {
+            keep Base.Shoes_RedTrainers,
+
+            Result:TransmogV2.Base_Shoes_RedTrainers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_Blue
         {
             Type = Clothing,
@@ -3841,6 +6712,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TracksuitPantsBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Blue,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_Blue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bikini_Pattern01
@@ -3855,6 +6735,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bikini
+        {
+            keep Base.Bikini_Pattern01,
+
+            Result:TransmogV2.Base_Bikini_Pattern01,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_CamoGreen
         {
             Type = Clothing,
@@ -3865,6 +6754,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TShirtCamoGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military Green Camo T-shirt
+        {
+            keep Base.Tshirt_CamoGreen,
+
+            Result:TransmogV2.Base_Tshirt_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_BoobTube
@@ -3879,6 +6777,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bandeau
+        {
+            keep Base.BoobTube,
+
+            Result:TransmogV2.Base_BoobTube,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_LeatherBlack
         {
             Type = Clothing,
@@ -3889,6 +6796,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersDenimLightBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Black Leather Trousers
+        {
+            keep Base.Trousers_LeatherBlack,
+
+            Result:TransmogV2.Base_Trousers_LeatherBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_DressKnees_Straps
@@ -3903,6 +6819,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Straps Knee-length Dress
+        {
+            keep Base.DressKnees_Straps,
+
+            Result:TransmogV2.Base_DressKnees_Straps,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ThunderGas
         {
             Type = Clothing,
@@ -3913,6 +6838,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Thunder Gas T-shirt
+        {
+            keep Base.Tshirt_ThunderGas,
+
+            Result:TransmogV2.Base_Tshirt_ThunderGas,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Strapped
@@ -3927,6 +6861,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapped Shoes
+        {
+            keep Base.Shoes_Strapped,
+
+            Result:TransmogV2.Base_Shoes_Strapped,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_PoliceGrey
         {
             Type = Clothing,
@@ -3937,6 +6880,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersPoliceGrey,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Deputy Pants
+        {
+            keep Base.Trousers_PoliceGrey,
+
+            Result:TransmogV2.Base_Trousers_PoliceGrey,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_FurryEars
@@ -3951,6 +6903,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Furry Ears
+        {
+            keep Base.Hat_FurryEars,
+
+            Result:TransmogV2.Base_Hat_FurryEars,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Worn
         {
             Type = Clothing,
@@ -3961,6 +6922,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Neck,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Clip-on Tie
+        {
+            keep Base.Tie_Worn,
+
+            Result:TransmogV2.Base_Tie_Worn,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BandanaTied
@@ -3975,6 +6945,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bandana (Tied)
+        {
+            keep Base.Hat_BandanaTied,
+
+            Result:TransmogV2.Base_Hat_BandanaTied,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_LeatherWildRacoons
         {
             Type = Clothing,
@@ -3985,6 +6964,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = BikerJacketRaccoons,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Wild Racoons Leather Jacket
+        {
+            keep Base.Jacket_LeatherWildRacoons,
+
+            Result:TransmogV2.Base_Jacket_LeatherWildRacoons,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BeretArmy
@@ -3999,6 +6987,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Army Beret
+        {
+            keep Base.Hat_BeretArmy,
+
+            Result:TransmogV2.Base_Hat_BeretArmy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_CamoUrbanLong
         {
             Type = Clothing,
@@ -4009,6 +7006,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersCamoGrey,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military Camo Shorts
+        {
+            keep Base.Shorts_CamoUrbanLong,
+
+            Result:TransmogV2.Base_Shorts_CamoUrbanLong,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Strapless_RedSpots
@@ -4023,6 +7029,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapless Bra - Red Spots 
+        {
+            keep Base.Bra_Strapless_RedSpots,
+
+            Result:TransmogV2.Base_Bra_Strapless_RedSpots,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WinterHat
         {
             Type = Clothing,
@@ -4033,6 +7048,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Winter Hat
+        {
+            keep Base.Hat_WinterHat,
+
+            Result:TransmogV2.Base_Hat_WinterHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_PaddedDOWN
@@ -4047,6 +7071,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Padded Jacket
+        {
+            keep Base.Jacket_PaddedDOWN,
+
+            Result:TransmogV2.Base_Jacket_PaddedDOWN,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_StripeBlackWhite
         {
             Type = Clothing,
@@ -4057,6 +7090,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Scarf,
             Icon = ScarfStripedBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Scarf
+        {
+            keep Base.Scarf_StripeBlackWhite,
+
+            Result:TransmogV2.Base_Scarf_StripeBlackWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Baseball_Rangers
@@ -4071,6 +7113,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Riverside Rangers Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_Rangers,
+
+            Result:TransmogV2.Base_Shirt_Baseball_Rangers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_WhiteTINT
         {
             Type = Clothing,
@@ -4081,6 +7132,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers_WhiteTINT,
+
+            Result:TransmogV2.Base_Trousers_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_PrisonGuard
@@ -4095,6 +7155,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Prison Guard Pants
+        {
+            keep Base.Trousers_PrisonGuard,
+
+            Result:TransmogV2.Base_Trousers_PrisonGuard,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_ChefHat
         {
             Type = Clothing,
@@ -4105,6 +7174,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = ChefHat,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Chef Hat
+        {
+            keep Base.Hat_ChefHat,
+
+            Result:TransmogV2.Base_Hat_ChefHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Boilersuit_Yellow
@@ -4119,6 +7197,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Coveralls
+        {
+            keep Base.Boilersuit_Yellow,
+
+            Result:TransmogV2.Base_Boilersuit_Yellow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Strapless_FrillyBlack
         {
             Type = Clothing,
@@ -4129,6 +7216,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraBlacklacyStrapless,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Strapless Bra - Black Frills
+        {
+            keep Base.Bra_Strapless_FrillyBlack,
+
+            Result:TransmogV2.Base_Bra_Strapless_FrillyBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Shellsuit_Green
@@ -4143,6 +7239,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Green,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_EyesShadowBlue
         {
             Type = Clothing,
@@ -4153,6 +7258,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_EyesShadow,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_EyesShadowBlue
+        {
+            keep Base.MakeUp_EyesShadowBlue,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowBlue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Strapless_Black
@@ -4167,6 +7281,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Strapless Bra - Black 
+        {
+            keep Base.Bra_Strapless_Black,
+
+            Result:TransmogV2.Base_Bra_Strapless_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_VisorBlack
         {
             Type = Clothing,
@@ -4177,6 +7300,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatVisorBlack,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Visor
+        {
+            keep Base.Hat_VisorBlack,
+
+            Result:TransmogV2.Base_Hat_VisorBlack,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_WhiteLongSleeveTINT
@@ -4191,6 +7323,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Long Sleeve T-shirt
+        {
+            keep Base.Tshirt_WhiteLongSleeveTINT,
+
+            Result:TransmogV2.Base_Tshirt_WhiteLongSleeveTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Varsity
         {
             Type = Clothing,
@@ -4201,6 +7342,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Varsity Jacket
+        {
+            keep Base.Jacket_Varsity,
+
+            Result:TransmogV2.Base_Jacket_Varsity,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Wellies
@@ -4215,6 +7365,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Rain Boots
+        {
+            keep Base.Shoes_Wellies,
+
+            Result:TransmogV2.Base_Shoes_Wellies,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_TinFoilHat
         {
             Type = Clothing,
@@ -4225,6 +7384,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = FoilHat,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Tin Foil Hat
+        {
+            keep Base.Hat_TinFoilHat,
+
+            Result:TransmogV2.Base_Hat_TinFoilHat,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_CropTopTINT
@@ -4239,6 +7407,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Crop Top Arms
+        {
+            keep Base.Shirt_CropTopTINT,
+
+            Result:TransmogV2.Base_Shirt_CropTopTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PartyHat_Stars
         {
             Type = Clothing,
@@ -4249,6 +7426,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = PartyHat_Stars,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Party Hat with Stars
+        {
+            keep Base.Hat_PartyHat_Stars,
+
+            Result:TransmogV2.Base_Hat_PartyHat_Stars,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_Black
@@ -4263,6 +7449,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Apron
+        {
+            keep Base.Apron_Black,
+
+            Result:TransmogV2.Base_Apron_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_WhiteTINT
         {
             Type = Clothing,
@@ -4273,6 +7468,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_WhiteTINT,
+
+            Result:TransmogV2.Base_Tshirt_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_SpiffoTail
@@ -4287,6 +7491,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo Suit Tail
+        {
+            keep Base.SpiffoTail,
+
+            Result:TransmogV2.Base_SpiffoTail,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_SpiffoDECAL
         {
             Type = Clothing,
@@ -4297,6 +7510,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Spiffo T-shirt
+        {
+            keep Base.Tshirt_SpiffoDECAL,
+
+            Result:TransmogV2.Base_Tshirt_SpiffoDECAL,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Bowling_Pink
@@ -4311,6 +7533,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bowling Shirt Pink
+        {
+            keep Base.Shirt_Bowling_Pink,
+
+            Result:TransmogV2.Base_Shirt_Bowling_Pink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Short
         {
             Type = Clothing,
@@ -4321,6 +7552,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressShortWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Short Dress
+        {
+            keep Base.Dress_Short,
+
+            Result:TransmogV2.Base_Dress_Short,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_CamoGreen
@@ -4335,6 +7575,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Camo Shirt
+        {
+            keep Base.Shirt_CamoGreen,
+
+            Result:TransmogV2.Base_Shirt_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BalaclavaFace
         {
             Type = Clothing,
@@ -4345,6 +7594,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Mask,
             Icon = BalaclavaOpen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Open Balaclava
+        {
+            keep Base.Hat_BalaclavaFace,
+
+            Result:TransmogV2.Base_Hat_BalaclavaFace,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_Fireman
@@ -4359,6 +7617,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Firefighter Jacket
+        {
+            keep Base.Jacket_Fireman,
+
+            Result:TransmogV2.Base_Jacket_Fireman,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_FiremanBlue
         {
             Type = Clothing,
@@ -4369,6 +7636,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Blue Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanBlue,
+
+            Result:TransmogV2.Base_Tshirt_Profession_FiremanBlue,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_JacketLong_Random
@@ -4383,6 +7659,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Leather Jacket
+        {
+            keep Base.JacketLong_Random,
+
+            Result:TransmogV2.Base_JacketLong_Random,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Straps
         {
             Type = Clothing,
@@ -4393,6 +7678,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Straps Dress
+        {
+            keep Base.Dress_Straps,
+
+            Result:TransmogV2.Base_Dress_Straps,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_Scrubs
@@ -4407,6 +7701,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical T-shirt
+        {
+            keep Base.Tshirt_Scrubs,
+
+            Result:TransmogV2.Base_Tshirt_Scrubs,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_CamoDesert
         {
             Type = Clothing,
@@ -4417,6 +7720,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersCamoSand,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military Desert Camo Pants
+        {
+            keep Base.Trousers_CamoDesert,
+
+            Result:TransmogV2.Base_Trousers_CamoDesert,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Shellsuit_Black
@@ -4431,6 +7743,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Black,
+
+            Result:TransmogV2.Base_Trousers_Shellsuit_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Long
         {
             Type = Clothing,
@@ -4441,6 +7762,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressLongWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Dress
+        {
+            keep Base.Dress_Long,
+
+            Result:TransmogV2.Base_Dress_Long,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_Police
@@ -4455,6 +7785,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Police Deputy Jacket
+        {
+            keep Base.Jacket_Police,
+
+            Result:TransmogV2.Base_Jacket_Police,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballCapKY_Reverse
         {
             Type = Clothing,
@@ -4465,6 +7804,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY_Reverse,
+
+            Result:TransmogV2.Base_Hat_BaseballCapKY_Reverse,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_JeanBaggy
@@ -4479,6 +7827,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baggy Jeans
+        {
+            keep Base.Trousers_JeanBaggy,
+
+            Result:TransmogV2.Base_Trousers_JeanBaggy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_ArmyBoots
         {
             Type = Clothing,
@@ -4489,6 +7846,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = BootsARmy,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Military Boots
+        {
+            keep Base.Shoes_ArmyBoots,
+
+            Result:TransmogV2.Base_Shoes_ArmyBoots,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_Waistcoat_GigaMart
@@ -4503,6 +7869,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic GigaMart Waistcoat
+        {
+            keep Base.Vest_Waistcoat_GigaMart,
+
+            Result:TransmogV2.Base_Vest_Waistcoat_GigaMart,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Black
         {
             Type = Clothing,
@@ -4513,6 +7888,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shoes,
             Icon = Shoes,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shoes
+        {
+            keep Base.Shoes_Black,
+
+            Result:TransmogV2.Base_Shoes_Black,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shoes_Fancy
@@ -4527,6 +7911,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Fancy Shoes
+        {
+            keep Base.Shoes_Fancy,
+
+            Result:TransmogV2.Base_Shoes_Fancy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_EarMuffs
         {
             Type = Clothing,
@@ -4537,6 +7930,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = EarMuffs,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Ear Muffs
+        {
+            keep Base.Hat_EarMuffs,
+
+            Result:TransmogV2.Base_Hat_EarMuffs,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_McCoys
@@ -4551,6 +7953,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic McCoy's T-shirt
+        {
+            keep Base.Tshirt_McCoys,
+
+            Result:TransmogV2.Base_Tshirt_McCoys,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SantaGReen
         {
             Type = Clothing,
@@ -4561,6 +7972,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersSantaGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Green Santa Suit Pants
+        {
+            keep Base.Trousers_SantaGReen,
+
+            Result:TransmogV2.Base_Trousers_SantaGReen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Bowling_Blue
@@ -4575,6 +7995,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bowling Shirt Blue
+        {
+            keep Base.Shirt_Bowling_Blue,
+
+            Result:TransmogV2.Base_Shirt_Bowling_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_PileOCrepe
         {
             Type = Clothing,
@@ -4585,6 +8014,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pile o' Crepe T-shirt
+        {
+            keep Base.Tshirt_PileOCrepe,
+
+            Result:TransmogV2.Base_Tshirt_PileOCrepe,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballCapRed
@@ -4599,6 +8037,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Baseball Cap
+        {
+            keep Base.Hat_BaseballCapRed,
+
+            Result:TransmogV2.Base_Hat_BaseballCapRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_AmmoStrap_Bullets
         {
             Type = Clothing,
@@ -4609,6 +8056,15 @@ module TransmogV2 {
             BodyLocation = Transmog_AmmoStrap,
             Icon = AmmoStrap,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bullets Ammo Strap
+        {
+            keep Base.AmmoStrap_Bullets,
+
+            Result:TransmogV2.Base_AmmoStrap_Bullets,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_LipsPink
@@ -4623,6 +8079,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_LipsPink
+        {
+            keep Base.MakeUp_LipsPink,
+
+            Result:TransmogV2.Base_MakeUp_LipsPink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Ranger
         {
             Type = Clothing,
@@ -4633,6 +8098,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = TrousersRanger,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Ranger Pants
+        {
+            keep Base.Trousers_Ranger,
+
+            Result:TransmogV2.Base_Trousers_Ranger,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Dress_SmallStraps
@@ -4647,6 +8121,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Straps Small Dress
+        {
+            keep Base.Dress_SmallStraps,
+
+            Result:TransmogV2.Base_Dress_SmallStraps,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsBlackTrans
         {
             Type = Clothing,
@@ -4657,6 +8140,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra1,
             Icon = StockingsSheer,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Stockings Transparent
+        {
+            keep Base.StockingsBlackTrans,
+
+            Result:TransmogV2.Base_StockingsBlackTrans,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Apron_Spiffos
@@ -4671,6 +8163,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Spiffo's Server Apron
+        {
+            keep Base.Apron_Spiffos,
+
+            Result:TransmogV2.Base_Apron_Spiffos,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_ShortFormal
         {
             Type = Clothing,
@@ -4681,6 +8182,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = ShortsWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shorts
+        {
+            keep Base.Shorts_ShortFormal,
+
+            Result:TransmogV2.Base_Shorts_ShortFormal,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Gloves_LeatherGloves
@@ -4695,6 +8205,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Leather Gloves
+        {
+            keep Base.Gloves_LeatherGloves,
+
+            Result:TransmogV2.Base_Gloves_LeatherGloves,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Jockey06
         {
             Type = Clothing,
@@ -4705,6 +8224,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtAthleticYellow,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jockey Silks - 6
+        {
+            keep Base.Shirt_Jockey06,
+
+            Result:TransmogV2.Base_Shirt_Jockey06,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_CamoUrban
@@ -4719,6 +8247,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Urban Camo T-shirt
+        {
+            keep Base.Tshirt_CamoUrban,
+
+            Result:TransmogV2.Base_Tshirt_CamoUrban,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Green
         {
             Type = Clothing,
@@ -4729,6 +8266,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = TracksuitGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Green,
+
+            Result:TransmogV2.Base_Jacket_Shellsuit_Green,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Jockey01
@@ -4743,6 +8289,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Silks - 1
+        {
+            keep Base.Shirt_Jockey01,
+
+            Result:TransmogV2.Base_Shirt_Jockey01,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Jockey03
         {
             Type = Clothing,
@@ -4753,6 +8308,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtAthleticBlue,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jockey Silks - 3
+        {
+            keep Base.Shirt_Jockey03,
+
+            Result:TransmogV2.Base_Shirt_Jockey03,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Jockey02
@@ -4767,6 +8331,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Silks - 2
+        {
+            keep Base.Shirt_Jockey02,
+
+            Result:TransmogV2.Base_Shirt_Jockey02,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_VNeck
         {
             Type = Clothing,
@@ -4777,6 +8350,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Sweater,
             Icon = SweaterVneckWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic V-neck Sweater
+        {
+            keep Base.Jumper_VNeck,
+
+            Result:TransmogV2.Base_Jumper_VNeck,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Jockey05
@@ -4791,6 +8373,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Silks - 5
+        {
+            keep Base.Shirt_Jockey05,
+
+            Result:TransmogV2.Base_Shirt_Jockey05,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_AmmoStrap_Shells
         {
             Type = Clothing,
@@ -4801,6 +8392,15 @@ module TransmogV2 {
             BodyLocation = Transmog_AmmoStrap,
             Icon = AmmoStrap,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Shells Ammo Strap
+        {
+            keep Base.AmmoStrap_Shells,
+
+            Result:TransmogV2.Base_AmmoStrap_Shells,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Jockey04
@@ -4815,6 +8415,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Silks - 4
+        {
+            keep Base.Shirt_Jockey04,
+
+            Result:TransmogV2.Base_Shirt_Jockey04,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_Green
         {
             Type = Clothing,
@@ -4825,6 +8434,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtAthleticRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bowling Shirt Green
+        {
+            keep Base.Shirt_Bowling_Green,
+
+            Result:TransmogV2.Base_Shirt_Bowling_Green,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_JockeyHelmet04
@@ -4839,6 +8457,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Helmet - 4
+        {
+            keep Base.Hat_JockeyHelmet04,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet04,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet05
         {
             Type = Clothing,
@@ -4849,6 +8476,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetJockeyYellow,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jockey Helmet - 5
+        {
+            keep Base.Hat_JockeyHelmet05,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet05,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_JockeyHelmet02
@@ -4863,6 +8499,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Helmet - 2
+        {
+            keep Base.Hat_JockeyHelmet02,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet02,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet03
         {
             Type = Clothing,
@@ -4873,6 +8518,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetJockeyGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jockey Helmet - 3
+        {
+            keep Base.Hat_JockeyHelmet03,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet03,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_JockeyHelmet01
@@ -4887,6 +8541,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jockey Helmet - 1
+        {
+            keep Base.Hat_JockeyHelmet01,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet01,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_LipsRed
         {
             Type = Clothing,
@@ -4897,6 +8560,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_Lips,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_LipsRed
+        {
+            keep Base.MakeUp_LipsRed,
+
+            Result:TransmogV2.Base_MakeUp_LipsRed,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballHelmet_Rangers
@@ -4911,6 +8583,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Riverside Rangers Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_Rangers,
+
+            Result:TransmogV2.Base_Hat_BaseballHelmet_Rangers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet06
         {
             Type = Clothing,
@@ -4921,6 +8602,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HelmetJockeyOrange,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Jockey Helmet - 6
+        {
+            keep Base.Hat_JockeyHelmet06,
+
+            Result:TransmogV2.Base_Hat_JockeyHelmet06,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Denim
@@ -4935,6 +8625,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Denim Shirt
+        {
+            keep Base.Shirt_Denim,
+
+            Result:TransmogV2.Base_Shirt_Denim,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultDECAL
         {
             Type = Clothing,
@@ -4945,6 +8644,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_DefaultDECAL,
+
+            Result:TransmogV2.Base_Tshirt_DefaultDECAL,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BandanaTINT
@@ -4959,6 +8667,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bandana (Head)
+        {
+            keep Base.Hat_BandanaTINT,
+
+            Result:TransmogV2.Base_Hat_BandanaTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BonnieHat_CamoGreen
         {
             Type = Clothing,
@@ -4969,6 +8686,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatBonnieCamo,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Camo Boonie Hat
+        {
+            keep Base.Hat_BonnieHat_CamoGreen,
+
+            Result:TransmogV2.Base_Hat_BonnieHat_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Trousers_Scrubs
@@ -4983,6 +8709,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Medical Pants
+        {
+            keep Base.Trousers_Scrubs,
+
+            Result:TransmogV2.Base_Trousers_Scrubs,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BandanaMask
         {
             Type = Clothing,
@@ -4993,6 +8728,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Mask,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Bandana (Face)
+        {
+            keep Base.Hat_BandanaMask,
+
+            Result:TransmogV2.Base_Hat_BandanaMask,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_RedStripes2
@@ -5007,6 +8751,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_RedStripes2
+        {
+            keep Base.MakeUp_RedStripes2,
+
+            Result:TransmogV2.Base_MakeUp_RedStripes2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_RedStripes1
         {
             Type = Clothing,
@@ -5017,6 +8770,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_Eyes,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_RedStripes1
+        {
+            keep Base.MakeUp_RedStripes1,
+
+            Result:TransmogV2.Base_MakeUp_RedStripes1,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Bra_Straps_FrillyBlack
@@ -5031,6 +8793,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Standard Bra - Black Frills
+        {
+            keep Base.Bra_Straps_FrillyBlack,
+
+            Result:TransmogV2.Base_Bra_Straps_FrillyBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Police_Grey
         {
             Type = Clothing,
@@ -5041,6 +8812,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Hat,
             Icon = HatPoliceGrey,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Deputy Hat
+        {
+            keep Base.Hat_Police_Grey,
+
+            Result:TransmogV2.Base_Hat_Police_Grey,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_WhiteTINT
@@ -5055,6 +8835,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Jacket
+        {
+            keep Base.Jacket_WhiteTINT,
+
+            Result:TransmogV2.Base_Jacket_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_OfficerWhite
         {
             Type = Clothing,
@@ -5065,6 +8854,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Shirt,
             Icon = ShirtPoliceWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Police Shirt
+        {
+            keep Base.Shirt_OfficerWhite,
+
+            Result:TransmogV2.Base_Shirt_OfficerWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Jacket_ArmyCamoGreen
@@ -5079,6 +8877,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Military Green Camo Jacket
+        {
+            keep Base.Jacket_ArmyCamoGreen,
+
+            Result:TransmogV2.Base_Jacket_ArmyCamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TightsBlackTrans
         {
             Type = Clothing,
@@ -5089,6 +8896,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearExtra1,
             Icon = PantyhoseSheer,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Tights Transparent
+        {
+            keep Base.TightsBlackTrans,
+
+            Result:TransmogV2.Base_TightsBlackTrans,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BunnyEarsWhite
@@ -5103,6 +8919,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bunny Ears
+        {
+            keep Base.Hat_BunnyEarsWhite,
+
+            Result:TransmogV2.Base_Hat_BunnyEarsWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Strapless_FrillyPink
         {
             Type = Clothing,
@@ -5113,6 +8938,15 @@ module TransmogV2 {
             BodyLocation = Transmog_UnderwearTop,
             Icon = BraPinklacyStrapless,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Strapless Bra - Pink Frills
+        {
+            keep Base.Bra_Strapless_FrillyPink,
+
+            Result:TransmogV2.Base_Bra_Strapless_FrillyPink,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Tshirt_SportDECAL
@@ -5127,6 +8961,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_SportDECAL,
+
+            Result:TransmogV2.Base_Tshirt_SportDECAL,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Baseball_KY
         {
             Type = Clothing,
@@ -5137,6 +8980,15 @@ module TransmogV2 {
             BodyLocation = Transmog_ShortSleeveShirt,
             Icon = ShirtAthleticRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Kentucky Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_KY,
+
+            Result:TransmogV2.Base_Shirt_Baseball_KY,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Vest_Hunting_Camo
@@ -5151,6 +9003,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Camo Hunting Vest
+        {
+            keep Base.Vest_Hunting_Camo,
+
+            Result:TransmogV2.Base_Vest_Hunting_Camo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers
         {
             Type = Clothing,
@@ -5161,6 +9022,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = Trousers_White,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Pants
+        {
+            keep Base.Trousers,
+
+            Result:TransmogV2.Base_Trousers,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_LipsGreen
@@ -5175,6 +9045,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_LipsGreen
+        {
+            keep Base.MakeUp_LipsGreen,
+
+            Result:TransmogV2.Base_MakeUp_LipsGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_Football
         {
             Type = Clothing,
@@ -5185,6 +9064,15 @@ module TransmogV2 {
             BodyLocation = Transmog_MakeUp_Eyes,
             Icon = None,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Base.MakeUp_Football
+        {
+            keep Base.MakeUp_Football,
+
+            Result:TransmogV2.Base_MakeUp_Football,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Shirt_Bowling_White
@@ -5199,6 +9087,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bowling Shirt White
+        {
+            keep Base.Shirt_Bowling_White,
+
+            Result:TransmogV2.Base_Shirt_Bowling_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_LongSport_Red
         {
             Type = Clothing,
@@ -5209,6 +9106,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Pants,
             Icon = ShortsLongAthleticRed,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Long Sport Shorts
+        {
+            keep Base.Shorts_LongSport_Red,
+
+            Result:TransmogV2.Base_Shorts_LongSport_Red,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_BaseballHelmet_Z
@@ -5223,6 +9129,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Z Hurricanes Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_Z,
+
+            Result:TransmogV2.Base_Hat_BaseballHelmet_Z,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Belt2
         {
             Type = Clothing,
@@ -5233,6 +9148,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Belt,
             Icon = Belt,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Belt
+        {
+            keep Base.Belt2,
+
+            Result:TransmogV2.Base_Belt2,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_TrousersMesh_Leather
@@ -5247,6 +9171,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Skinny Leather Trousers
+        {
+            keep Base.TrousersMesh_Leather,
+
+            Result:TransmogV2.Base_TrousersMesh_Leather,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_WeddingJacket
         {
             Type = Clothing,
@@ -5257,6 +9190,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Jacket,
             Icon = JacketSuitTux,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Wedding Jacket
+        {
+            keep Base.WeddingJacket,
+
+            Result:TransmogV2.Base_WeddingJacket,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_MakeUp_EyesShadowPink
@@ -5271,6 +9213,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Base.MakeUp_EyesShadowPink
+        {
+            keep Base.MakeUp_EyesShadowPink,
+
+            Result:TransmogV2.Base_MakeUp_EyesShadowPink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_PoliceWhite
         {
             Type = Clothing,
@@ -5281,6 +9232,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic White Police T-shirt
+        {
+            keep Base.Tshirt_Profession_PoliceWhite,
+
+            Result:TransmogV2.Base_Tshirt_Profession_PoliceWhite,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_BunnyTail
@@ -5295,6 +9255,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Bunny Tail
+        {
+            keep Base.BunnyTail,
+
+            Result:TransmogV2.Base_BunnyTail,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit_Flying
         {
             Type = Clothing,
@@ -5305,6 +9274,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Boilersuit,
             Icon = BoilerSuitGreen,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Air Force Coveralls
+        {
+            keep Base.Boilersuit_Flying,
+
+            Result:TransmogV2.Base_Boilersuit_Flying,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Boilersuit_PrisonerKhaki
@@ -5319,6 +9297,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Prisoner Jumpsuit
+        {
+            keep Base.Boilersuit_PrisonerKhaki,
+
+            Result:TransmogV2.Base_Boilersuit_PrisonerKhaki,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -5329,6 +9316,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Tshirt,
             Icon = TshirtGeneric,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic T-shirt
+        {
+            keep Base.Tshirt_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Base_Tshirt_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
         }
 
         item Base_Hat_GolfHat
@@ -5343,6 +9339,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Tartan Golf Cap
+        {
+            keep Base.Hat_GolfHat,
+
+            Result:TransmogV2.Base_Hat_GolfHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Baseball_Z
         {
             Type = Clothing,
@@ -5355,6 +9360,15 @@ module TransmogV2 {
             Weight = 0,
         }
 
+        recipe Get Cosmetic Z Hurricanes Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_Z,
+
+            Result:TransmogV2.Base_Shirt_Baseball_Z,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Normal
         {
             Type = Clothing,
@@ -5365,6 +9379,15 @@ module TransmogV2 {
             BodyLocation = Transmog_Dress,
             Icon = DressMediumWhite,
             Weight = 0,
+        }
+
+        recipe Get Cosmetic Dress
+        {
+            keep Base.Dress_Normal,
+
+            Result:TransmogV2.Base_Dress_Normal,
+            Time:30.0,
+            Category:Transmog,
         }
 
 

@@ -37,6 +37,22 @@ local function generateTmogItem(name, displayname, bodylocation, iconName)
     ) .. '\n\n';
 end
 
+local function generateTmogItemRecipe(displayName, fullName, newFullName)
+    return string.format([[
+        recipe Get Cosmetic %s
+        {
+            keep %s,
+
+            Result:TransmogV2.%s,
+            Time:30.0,
+            Category:Transmog,
+        }]],
+        displayName,
+        fullName,
+        newFullName
+    ) .. '\n\n';
+end
+
 local function generateTransmog(sm)
     local fsWriter = getModFileWriter('TransmogV2', 'media/scripts/TransmogItems.txt', false, false)
     local function write(content)
@@ -62,6 +78,7 @@ local function generateTransmog(sm)
             local iconName    = item:getIcon()
             -- I might not need a worldStaticItem
             write(generateTmogItem(itemName, displayName, item:getBodyLocation(), iconName))
+            write(generateTmogItemRecipe(displayName, item:getFullName(), itemName))
         end
     end
 
