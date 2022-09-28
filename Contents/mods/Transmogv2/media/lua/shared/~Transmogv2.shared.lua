@@ -12,6 +12,25 @@ local function generateItemHeadText(Name, DisplayName)
     )..'\n';
 end
 
+local function generateHideBodyLocation(bodyLocation)
+    return string.format([[
+        item Hide_%s
+        {
+            Type = Clothing,
+            Cosmetic = TRUE,
+            DisplayName = Hide %s,
+            DisplayCategory = Clothing,
+            ClothingItem = Belt,
+            BodyLocation = Hide_%s,
+            Icon = NoseRing_Gold,
+            Weight = 0,
+        }]], 
+        bodyLocation,
+        bodyLocation,
+        bodyLocation
+    )..'\n';
+end
+
 local function DoParamAndStr(item, param)
 	if item then
 		item:DoParam(param)
@@ -56,6 +75,25 @@ local function generateTransmog(sm)
             write('\t\t}\n\n')
         end
     end
+
+    local group = BodyLocations.getGroup("Human")
+    local allLoc = group:getAllLocations();
+    local allLocSize = allLoc:size() - 1
+
+    print('-------START Generate BodyLocations--------')
+
+    write('/* Hide BodyLocations */\n')
+
+    for i = 0, allLocSize do
+        local ID = allLoc:get(i):getId()
+        group:getOrCreateLocation("Hide_"..ID)
+        group:setHideModel("Hide_"..ID, ID)
+        group:getOrCreateLocation("Transmog_"..ID);
+
+        write(generateHideBodyLocation(bodyLocation))
+    end
+
+
     write('}\n')
 	fsWriter:close()
 end
