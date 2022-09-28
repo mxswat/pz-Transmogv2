@@ -24,6 +24,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Gas Mask
+        {
+            keep Base.Hat_GasMask,
+
+            Result:TransmogV2.Hide_MaskEyes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Scrubs
         {
             Type = Clothing,
@@ -41,6 +50,15 @@ module TransmogV2 {
             keep Base.Shirt_Scrubs,
 
             Result:TransmogV2.Base_Shirt_Scrubs,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Medical Scrubs
+        {
+            keep Base.Shirt_Scrubs,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -66,6 +84,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Desert Camo Shirt
+        {
+            keep Base.Shirt_CamoDesert,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BalaclavaFull
         {
             Type = Clothing,
@@ -83,6 +110,15 @@ module TransmogV2 {
             keep Base.Hat_BalaclavaFull,
 
             Result:TransmogV2.Base_Hat_BalaclavaFull,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Balaclava
+        {
+            keep Base.Hat_BalaclavaFull,
+
+            Result:TransmogV2.Hide_Mask,
             Time:30.0,
             Category:Transmog,
         }
@@ -108,6 +144,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Desert Camo Jacket
+        {
+            keep Base.Jacket_ArmyCamoDesert,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballCap_Reverse
         {
             Type = Clothing,
@@ -125,6 +170,15 @@ module TransmogV2 {
             keep Base.Hat_BaseballCap_Reverse,
 
             Result:TransmogV2.Base_Hat_BaseballCap_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCap_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -150,6 +204,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Waistcoat
+        {
+            keep Base.Vest_Waistcoat,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_Hunting_Orange
         {
             Type = Clothing,
@@ -167,6 +230,15 @@ module TransmogV2 {
             keep Base.Vest_Hunting_Orange,
 
             Result:TransmogV2.Base_Vest_Hunting_Orange,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Orange Hunting Vest
+        {
+            keep Base.Vest_Hunting_Orange,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
             Time:30.0,
             Category:Transmog,
         }
@@ -192,6 +264,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapGreen_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoYellowDOWN
         {
             Type = Clothing,
@@ -209,6 +290,15 @@ module TransmogV2 {
             keep Base.PonchoYellowDOWN,
 
             Result:TransmogV2.Base_PonchoYellowDOWN,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Poncho
+        {
+            keep Base.PonchoYellowDOWN,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -234,6 +324,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Denim Shorts
+        {
+            keep Base.Shorts_ShortDenim,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Worn_Spiffo
         {
             Type = Clothing,
@@ -251,6 +350,15 @@ module TransmogV2 {
             keep Base.Tie_Worn_Spiffo,
 
             Result:TransmogV2.Base_Tie_Worn_Spiffo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Clip-on Spiffo Tie
+        {
+            keep Base.Tie_Worn_Spiffo,
+
+            Result:TransmogV2.Hide_Neck,
             Time:30.0,
             Category:Transmog,
         }
@@ -276,6 +384,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Poncho
+        {
+            keep Base.PonchoGreen,
+
+            Result:TransmogV2.Hide_JacketHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SummerHat
         {
             Type = Clothing,
@@ -293,6 +410,15 @@ module TransmogV2 {
             keep Base.Hat_SummerHat,
 
             Result:TransmogV2.Base_Hat_SummerHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Summer Hat
+        {
+            keep Base.Hat_SummerHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -318,6 +444,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Slippers
+        {
+            keep Base.Shoes_Slippers,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SuitTEXTURE
         {
             Type = Clothing,
@@ -335,6 +470,15 @@ module TransmogV2 {
             keep Base.Trousers_SuitTEXTURE,
 
             Result:TransmogV2.Base_Trousers_SuitTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Suit Pants
+        {
+            keep Base.Trousers_SuitTEXTURE,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -360,6 +504,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Gray Hunting Vest
+        {
+            keep Base.Vest_Hunting_Grey,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Visor_WhiteTINT
         {
             Type = Clothing,
@@ -377,6 +530,15 @@ module TransmogV2 {
             keep Base.Hat_Visor_WhiteTINT,
 
             Result:TransmogV2.Base_Hat_Visor_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Visor
+        {
+            keep Base.Hat_Visor_WhiteTINT,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -402,6 +564,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxing Shorts
+        {
+            keep Base.Shorts_BoxingBlue,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Socks_Long
         {
             Type = Clothing,
@@ -419,6 +590,15 @@ module TransmogV2 {
             keep Base.Socks_Long,
 
             Result:TransmogV2.Base_Socks_Long,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Socks
+        {
+            keep Base.Socks_Long,
+
+            Result:TransmogV2.Hide_Socks,
             Time:30.0,
             Category:Transmog,
         }
@@ -444,6 +624,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ice Cream Server Hat
+        {
+            keep Base.Hat_FastFood_IceCream,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_White
         {
             Type = Clothing,
@@ -461,6 +650,15 @@ module TransmogV2 {
             keep Base.Scarf_White,
 
             Result:TransmogV2.Base_Scarf_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Scarf
+        {
+            keep Base.Scarf_White,
+
+            Result:TransmogV2.Hide_Scarf,
             Time:30.0,
             Category:Transmog,
         }
@@ -486,6 +684,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_CamoEyes1
+        {
+            keep Base.MakeUp_CamoEyes1,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_CamoEyes2
         {
             Type = Clothing,
@@ -503,6 +710,15 @@ module TransmogV2 {
             keep Base.MakeUp_CamoEyes2,
 
             Result:TransmogV2.Base_MakeUp_CamoEyes2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_CamoEyes2
+        {
+            keep Base.MakeUp_CamoEyes2,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
             Time:30.0,
             Category:Transmog,
         }
@@ -528,6 +744,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Teal,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_GolfHatTINT
         {
             Type = Clothing,
@@ -545,6 +770,15 @@ module TransmogV2 {
             keep Base.Hat_GolfHatTINT,
 
             Result:TransmogV2.Base_Hat_GolfHatTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Golf Cap
+        {
+            keep Base.Hat_GolfHatTINT,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -570,6 +804,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Swimsuit
+        {
+            keep Base.Swimsuit_TINT,
+
+            Result:TransmogV2.Hide_Underwear,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Garter
         {
             Type = Clothing,
@@ -587,6 +830,15 @@ module TransmogV2 {
             keep Base.Garter,
 
             Result:TransmogV2.Base_Garter,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Garter
+        {
+            keep Base.Garter,
+
+            Result:TransmogV2.Hide_UnderwearExtra2,
             Time:30.0,
             Category:Transmog,
         }
@@ -612,6 +864,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Urban Camo Shirt
+        {
+            keep Base.Shirt_CamoUrban,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_FormalWhite
         {
             Type = Clothing,
@@ -629,6 +890,15 @@ module TransmogV2 {
             keep Base.Shirt_FormalWhite,
 
             Result:TransmogV2.Base_Shirt_FormalWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Formal Shirt
+        {
+            keep Base.Shirt_FormalWhite,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -654,6 +924,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Red Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanRed,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ValleyStation
         {
             Type = Clothing,
@@ -671,6 +950,15 @@ module TransmogV2 {
             keep Base.Tshirt_ValleyStation,
 
             Result:TransmogV2.Base_Tshirt_ValleyStation,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Valley Station T-shirt
+        {
+            keep Base.Tshirt_ValleyStation,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -696,6 +984,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical Coat
+        {
+            keep Base.JacketLong_Doctor,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_LeatherGlovesBlack
         {
             Type = Clothing,
@@ -713,6 +1010,15 @@ module TransmogV2 {
             keep Base.Gloves_LeatherGlovesBlack,
 
             Result:TransmogV2.Base_Gloves_LeatherGlovesBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Leather Gloves
+        {
+            keep Base.Gloves_LeatherGlovesBlack,
+
+            Result:TransmogV2.Hide_Hands,
             Time:30.0,
             Category:Transmog,
         }
@@ -738,6 +1044,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Camo Pants
+        {
+            keep Base.Trousers_CamoGreen,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_WeldingMask
         {
             Type = Clothing,
@@ -755,6 +1070,15 @@ module TransmogV2 {
             keep Base.WeldingMask,
 
             Result:TransmogV2.Base_WeldingMask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Welder Mask
+        {
+            keep Base.WeldingMask,
+
+            Result:TransmogV2.Hide_MaskFull,
             Time:30.0,
             Category:Transmog,
         }
@@ -780,6 +1104,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Santa Suit Pants
+        {
+            keep Base.Trousers_Santa,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultDECAL_TINT
         {
             Type = Clothing,
@@ -797,6 +1130,15 @@ module TransmogV2 {
             keep Base.Tshirt_DefaultDECAL_TINT,
 
             Result:TransmogV2.Base_Tshirt_DefaultDECAL_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_DefaultDECAL_TINT,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -822,6 +1164,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Green Ranger T-shirt
+        {
+            keep Base.Tshirt_Profession_RangerGreen,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_AnimalPrint
         {
             Type = Clothing,
@@ -839,6 +1190,15 @@ module TransmogV2 {
             keep Base.Bra_Straps_AnimalPrint,
 
             Result:TransmogV2.Base_Bra_Straps_AnimalPrint,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bra - Animal Print 
+        {
+            keep Base.Bra_Straps_AnimalPrint,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -864,6 +1224,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Red Spots Underpants
+        {
+            keep Base.Underpants_RedSpots,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HolsterSimple
         {
             Type = Clothing,
@@ -881,6 +1250,15 @@ module TransmogV2 {
             keep Base.HolsterSimple,
 
             Result:TransmogV2.Base_HolsterSimple,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Holster
+        {
+            keep Base.HolsterSimple,
+
+            Result:TransmogV2.Hide_BeltExtra,
             Time:30.0,
             Category:Transmog,
         }
@@ -906,6 +1284,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Formal Shirt
+        {
+            keep Base.Shirt_FormalTINT,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TightsBlack
         {
             Type = Clothing,
@@ -923,6 +1310,15 @@ module TransmogV2 {
             keep Base.TightsBlack,
 
             Result:TransmogV2.Base_TightsBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Tights
+        {
+            keep Base.TightsBlack,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
             Time:30.0,
             Category:Transmog,
         }
@@ -948,6 +1344,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jay Chicken Server Apron
+        {
+            keep Base.Apron_Jay,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BoobTubeSmall
         {
             Type = Clothing,
@@ -965,6 +1370,15 @@ module TransmogV2 {
             keep Base.BoobTubeSmall,
 
             Result:TransmogV2.Base_BoobTubeSmall,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Small Bandeau
+        {
+            keep Base.BoobTubeSmall,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -990,6 +1404,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide High Visibility Vest
+        {
+            keep Base.Vest_HighViz,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallStrapless
         {
             Type = Clothing,
@@ -1007,6 +1430,15 @@ module TransmogV2 {
             keep Base.Dress_SmallStrapless,
 
             Result:TransmogV2.Base_Dress_SmallStrapless,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Strapless Small Dress
+        {
+            keep Base.Dress_SmallStrapless,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -1032,6 +1464,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Swim Trunks
+        {
+            keep Base.SwimTrunks_Blue,
+
+            Result:TransmogV2.Hide_Underwear,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Antlers
         {
             Type = Clothing,
@@ -1049,6 +1490,15 @@ module TransmogV2 {
             keep Base.Hat_Antlers,
 
             Result:TransmogV2.Base_Hat_Antlers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Antlers Boppers
+        {
+            keep Base.Hat_Antlers,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -1074,6 +1524,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Stockings Semi Transparent
+        {
+            keep Base.StockingsBlackSemiTrans,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Bowling
         {
             Type = Clothing,
@@ -1091,6 +1550,15 @@ module TransmogV2 {
             keep Base.Shoes_Bowling,
 
             Result:TransmogV2.Base_Shoes_Bowling,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bowling Shoes
+        {
+            keep Base.Shoes_Bowling,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -1116,6 +1584,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Army Baseball Cap
+        {
+            keep Base.Hat_BaseballCapArmy_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Black
         {
             Type = Clothing,
@@ -1133,6 +1610,15 @@ module TransmogV2 {
             keep Base.Jacket_Shellsuit_Black,
 
             Result:TransmogV2.Base_Jacket_Shellsuit_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Black,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -1158,6 +1644,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ghillie Suit Pants
+        {
+            keep Base.Ghillie_Trousers,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoYellow
         {
             Type = Clothing,
@@ -1175,6 +1670,15 @@ module TransmogV2 {
             keep Base.PonchoYellow,
 
             Result:TransmogV2.Base_PonchoYellow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Poncho
+        {
+            keep Base.PonchoYellow,
+
+            Result:TransmogV2.Hide_JacketHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -1200,6 +1704,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Hat Arrow
+        {
+            keep Base.Hat_JokeArrow,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Pink
         {
             Type = Clothing,
@@ -1217,6 +1730,15 @@ module TransmogV2 {
             keep Base.Jacket_Shellsuit_Pink,
 
             Result:TransmogV2.Base_Jacket_Shellsuit_Pink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Pink,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -1242,6 +1764,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical Corset
+        {
+            keep Base.Corset_Medical,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_HockeyHelmet
         {
             Type = Clothing,
@@ -1259,6 +1790,15 @@ module TransmogV2 {
             keep Base.Hat_HockeyHelmet,
 
             Result:TransmogV2.Base_Hat_HockeyHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hockey Helmet
+        {
+            keep Base.Hat_HockeyHelmet,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -1284,6 +1824,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Long Johns Bottoms
+        {
+            keep Base.LongJohns_Bottoms,
+
+            Result:TransmogV2.Hide_Legs1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Black
         {
             Type = Clothing,
@@ -1301,6 +1850,15 @@ module TransmogV2 {
             keep Base.Trousers_Black,
 
             Result:TransmogV2.Base_Trousers_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Black Trousers
+        {
+            keep Base.Trousers_Black,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -1326,6 +1884,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shoes
+        {
+            keep Base.Shoes_Brown,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Silk_Black
         {
             Type = Clothing,
@@ -1343,6 +1910,15 @@ module TransmogV2 {
             keep Base.Boxers_Silk_Black,
 
             Result:TransmogV2.Base_Boxers_Silk_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Boxers - Black Silk 
+        {
+            keep Base.Boxers_Silk_Black,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -1368,6 +1944,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_Crow
+        {
+            keep Base.MakeUp_Crow,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_White
         {
             Type = Clothing,
@@ -1385,6 +1970,15 @@ module TransmogV2 {
             keep Base.Bra_Straps_White,
 
             Result:TransmogV2.Base_Bra_Straps_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Standard Bra
+        {
+            keep Base.Bra_Straps_White,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -1410,6 +2004,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Flip Flops
+        {
+            keep Base.Shoes_FlipFlop,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SantaHatGreen
         {
             Type = Clothing,
@@ -1427,6 +2030,15 @@ module TransmogV2 {
             keep Base.Hat_SantaHatGreen,
 
             Result:TransmogV2.Base_Hat_SantaHatGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Green Santa Hat
+        {
+            keep Base.Hat_SantaHatGreen,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -1452,6 +2064,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapless Bra - Red Frills
+        {
+            keep Base.Bra_Strapless_FrillyRed,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HolsterDouble
         {
             Type = Clothing,
@@ -1469,6 +2090,15 @@ module TransmogV2 {
             keep Base.HolsterDouble,
 
             Result:TransmogV2.Base_HolsterDouble,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Double Holster
+        {
+            keep Base.HolsterDouble,
+
+            Result:TransmogV2.Hide_BeltExtra,
             Time:30.0,
             Category:Transmog,
         }
@@ -1494,6 +2124,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Animal Print Underpants
+        {
+            keep Base.Underpants_AnimalPrint,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_LongCoat_Bathrobe
         {
             Type = Clothing,
@@ -1511,6 +2150,15 @@ module TransmogV2 {
             keep Base.LongCoat_Bathrobe,
 
             Result:TransmogV2.Base_LongCoat_Bathrobe,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bath Robe
+        {
+            keep Base.LongCoat_Bathrobe,
+
+            Result:TransmogV2.Hide_BathRobe,
             Time:30.0,
             Category:Transmog,
         }
@@ -1536,6 +2184,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Swim Trunks
+        {
+            keep Base.SwimTrunks_Green,
+
+            Result:TransmogV2.Hide_Underwear,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_ArmyService
         {
             Type = Clothing,
@@ -1553,6 +2210,15 @@ module TransmogV2 {
             keep Base.Trousers_ArmyService,
 
             Result:TransmogV2.Base_Trousers_ArmyService,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Army Pants
+        {
+            keep Base.Trousers_ArmyService,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -1578,6 +2244,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Long Sport Shorts
+        {
+            keep Base.Shorts_LongSport,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dungarees
         {
             Type = Clothing,
@@ -1595,6 +2270,15 @@ module TransmogV2 {
             keep Base.Dungarees,
 
             Result:TransmogV2.Base_Dungarees,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Overalls
+        {
+            keep Base.Dungarees,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -1620,6 +2304,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapless Bra - Animal Print
+        {
+            keep Base.Bra_Strapless_AnimalPrint,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Black
         {
             Type = Clothing,
@@ -1637,6 +2330,15 @@ module TransmogV2 {
             keep Base.Jacket_Black,
 
             Result:TransmogV2.Base_Jacket_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Leather Jacket
+        {
+            keep Base.Jacket_Black,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -1662,6 +2364,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxing Head Gear
+        {
+            keep Base.Hat_BoxingRed,
+
+            Result:TransmogV2.Hide_FullHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_long_Straps
         {
             Type = Clothing,
@@ -1679,6 +2390,15 @@ module TransmogV2 {
             keep Base.Dress_long_Straps,
 
             Result:TransmogV2.Base_Dress_long_Straps,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Dress
+        {
+            keep Base.Dress_long_Straps,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -1704,6 +2424,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Short Skirt
+        {
+            keep Base.Skirt_Short,
+
+            Result:TransmogV2.Hide_Skirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Male_Undies
         {
             Type = Clothing,
@@ -1721,6 +2450,15 @@ module TransmogV2 {
             keep Base.Male_Undies,
 
             Result:TransmogV2.Base_Male_Undies,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Underwear
+        {
+            keep Base.Male_Undies,
+
+            Result:TransmogV2.Hide_UnderwearInner,
             Time:30.0,
             Category:Transmog,
         }
@@ -1746,6 +2484,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Santa Suit Jacket
+        {
+            keep Base.JacketLong_Santa,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Normal
         {
             Type = Clothing,
@@ -1763,6 +2510,15 @@ module TransmogV2 {
             keep Base.Skirt_Normal,
 
             Result:TransmogV2.Base_Skirt_Normal,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Skirt
+        {
+            keep Base.Skirt_Normal,
+
+            Result:TransmogV2.Hide_Skirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -1788,6 +2544,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Newspaper Hat
+        {
+            keep Base.Hat_NewspaperHat,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_Black
         {
             Type = Clothing,
@@ -1805,6 +2570,15 @@ module TransmogV2 {
             keep Base.Briefs_SmallTrunks_Black,
 
             Result:TransmogV2.Base_Briefs_SmallTrunks_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Black Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Black,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -1830,6 +2604,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Surgical Gloves
+        {
+            keep Base.Gloves_Surgical,
+
+            Result:TransmogV2.Hide_Hands,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_WhiteLongSleeve
         {
             Type = Clothing,
@@ -1847,6 +2630,15 @@ module TransmogV2 {
             keep Base.Tshirt_WhiteLongSleeve,
 
             Result:TransmogV2.Base_Tshirt_WhiteLongSleeve,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Sleeve T-shirt
+        {
+            keep Base.Tshirt_WhiteLongSleeve,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -1872,6 +2664,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Sport T-shirt
+        {
+            keep Base.Tshirt_Sport,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_IndieStoneDECAL
         {
             Type = Clothing,
@@ -1889,6 +2690,15 @@ module TransmogV2 {
             keep Base.Tshirt_IndieStoneDECAL,
 
             Result:TransmogV2.Base_Tshirt_IndieStoneDECAL,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide TIS T-shirt
+        {
+            keep Base.Tshirt_IndieStoneDECAL,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -1914,6 +2724,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boonie Hat
+        {
+            keep Base.Hat_BonnieHat,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_RoundNeck
         {
             Type = Clothing,
@@ -1931,6 +2750,15 @@ module TransmogV2 {
             keep Base.Jumper_RoundNeck,
 
             Result:TransmogV2.Base_Jumper_RoundNeck,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Round Neck Sweater
+        {
+            keep Base.Jumper_RoundNeck,
+
+            Result:TransmogV2.Hide_Sweater,
             Time:30.0,
             Category:Transmog,
         }
@@ -1956,6 +2784,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Deputy T-shirt
+        {
+            keep Base.Tshirt_PoliceGrey,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Ghillie_Top
         {
             Type = Clothing,
@@ -1973,6 +2810,15 @@ module TransmogV2 {
             keep Base.Ghillie_Top,
 
             Result:TransmogV2.Base_Ghillie_Top,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Ghillie Suit Torso
+        {
+            keep Base.Ghillie_Top,
+
+            Result:TransmogV2.Hide_FullTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -1998,6 +2844,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Suit Jacket
+        {
+            keep Base.Suit_JacketTINT,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit_BlueRed
         {
             Type = Clothing,
@@ -2015,6 +2870,15 @@ module TransmogV2 {
             keep Base.Boilersuit_BlueRed,
 
             Result:TransmogV2.Base_Boilersuit_BlueRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Coveralls
+        {
+            keep Base.Boilersuit_BlueRed,
+
+            Result:TransmogV2.Hide_Boilersuit,
             Time:30.0,
             Category:Transmog,
         }
@@ -2040,6 +2904,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Blue,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -2057,6 +2930,15 @@ module TransmogV2 {
             keep Base.Vest_DefaultTEXTURE_TINT,
 
             Result:TransmogV2.Base_Vest_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Tank Top
+        {
+            keep Base.Vest_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Hide_TankTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -2082,6 +2964,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Green Camouflage
+        {
+            keep Base.MakeUp_GreenCamo,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ArmyGreen
         {
             Type = Clothing,
@@ -2099,6 +2990,15 @@ module TransmogV2 {
             keep Base.Tshirt_ArmyGreen,
 
             Result:TransmogV2.Base_Tshirt_ArmyGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military T-shirt
+        {
+            keep Base.Tshirt_ArmyGreen,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2124,6 +3024,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxing Head Gear
+        {
+            keep Base.Hat_BoxingBlue,
+
+            Result:TransmogV2.Hide_FullHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_CrashHelmetFULL
         {
             Type = Clothing,
@@ -2141,6 +3050,15 @@ module TransmogV2 {
             keep Base.Hat_CrashHelmetFULL,
 
             Result:TransmogV2.Base_Hat_CrashHelmetFULL,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Motorcycle Helmet
+        {
+            keep Base.Hat_CrashHelmetFULL,
+
+            Result:TransmogV2.Hide_FullHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -2166,6 +3084,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_EyesShadowYellow
+        {
+            keep Base.MakeUp_EyesShadowYellow,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_PoliceBlue
         {
             Type = Clothing,
@@ -2183,6 +3110,15 @@ module TransmogV2 {
             keep Base.Shirt_PoliceBlue,
 
             Result:TransmogV2.Base_Shirt_PoliceBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Trooper Shirt
+        {
+            keep Base.Shirt_PoliceBlue,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2208,6 +3144,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HazmatSuit
         {
             Type = Clothing,
@@ -2225,6 +3170,15 @@ module TransmogV2 {
             keep Base.HazmatSuit,
 
             Result:TransmogV2.Base_HazmatSuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hazmat Suit
+        {
+            keep Base.HazmatSuit,
+
+            Result:TransmogV2.Hide_FullSuitHead,
             Time:30.0,
             Category:Transmog,
         }
@@ -2250,6 +3204,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Knee-length Dress
+        {
+            keep Base.Dress_Knees,
+
+            Result:TransmogV2.Hide_Dress,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Padded
         {
             Type = Clothing,
@@ -2267,6 +3230,15 @@ module TransmogV2 {
             keep Base.Trousers_Padded,
 
             Result:TransmogV2.Base_Trousers_Padded,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Padded Pants
+        {
+            keep Base.Trousers_Padded,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -2292,6 +3264,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bandana (Head)
+        {
+            keep Base.Hat_Bandana,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_White
         {
             Type = Clothing,
@@ -2309,6 +3290,15 @@ module TransmogV2 {
             keep Base.Briefs_White,
 
             Result:TransmogV2.Base_Briefs_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Briefs
+        {
+            keep Base.Briefs_White,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -2334,6 +3324,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Red Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Red,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_BraveHeart
         {
             Type = Clothing,
@@ -2351,6 +3350,15 @@ module TransmogV2 {
             keep Base.MakeUp_BraveHeart,
 
             Result:TransmogV2.Base_MakeUp_BraveHeart,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_BraveHeart
+        {
+            keep Base.MakeUp_BraveHeart,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
             Time:30.0,
             Category:Transmog,
         }
@@ -2376,6 +3384,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Black Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Black,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Chef
         {
             Type = Clothing,
@@ -2393,6 +3410,15 @@ module TransmogV2 {
             keep Base.Trousers_Chef,
 
             Result:TransmogV2.Base_Trousers_Chef,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Chef Pants
+        {
+            keep Base.Trousers_Chef,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -2418,6 +3444,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Red Corset
+        {
+            keep Base.Corset_Red,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_PoloTINT
         {
             Type = Clothing,
@@ -2435,6 +3470,15 @@ module TransmogV2 {
             keep Base.Tshirt_PoloTINT,
 
             Result:TransmogV2.Base_Tshirt_PoloTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_PoloTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2460,6 +3504,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Red Veteran T-shirt
+        {
+            keep Base.Tshirt_Profession_VeterenRed,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_HockeyMask
         {
             Type = Clothing,
@@ -2477,6 +3530,15 @@ module TransmogV2 {
             keep Base.Hat_HockeyMask,
 
             Result:TransmogV2.Base_Hat_HockeyMask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hockey Mask
+        {
+            keep Base.Hat_HockeyMask,
+
+            Result:TransmogV2.Hide_MaskEyes,
             Time:30.0,
             Category:Transmog,
         }
@@ -2502,6 +3564,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Hard Hat
+        {
+            keep Base.Hat_HardHat,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Denim
         {
             Type = Clothing,
@@ -2519,6 +3590,15 @@ module TransmogV2 {
             keep Base.Trousers_Denim,
 
             Result:TransmogV2.Base_Trousers_Denim,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jeans
+        {
+            keep Base.Trousers_Denim,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -2544,6 +3624,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Black Underpants
+        {
+            keep Base.Underpants_Black,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_HawaiianRed
         {
             Type = Clothing,
@@ -2561,6 +3650,15 @@ module TransmogV2 {
             keep Base.Shirt_HawaiianRed,
 
             Result:TransmogV2.Base_Shirt_HawaiianRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hawaiian Red Shirt
+        {
+            keep Base.Shirt_HawaiianRed,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2586,6 +3684,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Raccoon Hat
+        {
+            keep Base.Hat_Raccoon,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -2603,6 +3710,15 @@ module TransmogV2 {
             keep Base.Trousers_DefaultTEXTURE_TINT,
 
             Result:TransmogV2.Base_Trousers_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -2628,6 +3744,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapless Bra
+        {
+            keep Base.Bra_Strapless_White,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_TankTopTINT
         {
             Type = Clothing,
@@ -2645,6 +3770,15 @@ module TransmogV2 {
             keep Base.Jumper_TankTopTINT,
 
             Result:TransmogV2.Base_Jumper_TankTopTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide V-neck Sweater Vest
+        {
+            keep Base.Jumper_TankTopTINT,
+
+            Result:TransmogV2.Hide_Sweater,
             Time:30.0,
             Category:Transmog,
         }
@@ -2670,6 +3804,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Tank Top
+        {
+            keep Base.Vest_DefaultTEXTURE,
+
+            Result:TransmogV2.Hide_TankTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_AnimalPrints
         {
             Type = Clothing,
@@ -2687,6 +3830,15 @@ module TransmogV2 {
             keep Base.Briefs_AnimalPrints,
 
             Result:TransmogV2.Base_Briefs_AnimalPrints,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Briefs
+        {
+            keep Base.Briefs_AnimalPrints,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -2712,6 +3864,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Diamond-pattern Sweater Vest
+        {
+            keep Base.Jumper_TankTopDiamondTINT,
+
+            Result:TransmogV2.Hide_Sweater,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Apron_PileOCrepe
         {
             Type = Clothing,
@@ -2729,6 +3890,15 @@ module TransmogV2 {
             keep Base.Apron_PileOCrepe,
 
             Result:TransmogV2.Base_Apron_PileOCrepe,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pile o' Crepe Server Apron
+        {
+            keep Base.Apron_PileOCrepe,
+
+            Result:TransmogV2.Hide_TorsoExtra,
             Time:30.0,
             Category:Transmog,
         }
@@ -2754,6 +3924,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ranger Jacket
+        {
+            keep Base.Jacket_Ranger,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_Red
         {
             Type = Clothing,
@@ -2771,6 +3950,15 @@ module TransmogV2 {
             keep Base.Briefs_SmallTrunks_Red,
 
             Result:TransmogV2.Base_Briefs_SmallTrunks_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Red Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Red,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -2796,6 +3984,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_CamoStripes
+        {
+            keep Base.MakeUp_CamoStripes,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Socks_Ankle
         {
             Type = Clothing,
@@ -2813,6 +4010,15 @@ module TransmogV2 {
             keep Base.Socks_Ankle,
 
             Result:TransmogV2.Base_Socks_Ankle,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Socks
+        {
+            keep Base.Socks_Ankle,
+
+            Result:TransmogV2.Hide_Socks,
             Time:30.0,
             Category:Transmog,
         }
@@ -2838,6 +4044,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Cowboy Hat
+        {
+            keep Base.Hat_Cowboy,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Ranger
         {
             Type = Clothing,
@@ -2855,6 +4070,15 @@ module TransmogV2 {
             keep Base.Shirt_Ranger,
 
             Result:TransmogV2.Base_Shirt_Ranger,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Ranger Shirt
+        {
+            keep Base.Shirt_Ranger,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2880,6 +4104,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Pizza Whirled T-shirt
+        {
+            keep Base.Tshirt_PizzaWhirled,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_RangerBrown
         {
             Type = Clothing,
@@ -2897,6 +4130,15 @@ module TransmogV2 {
             keep Base.Tshirt_Profession_RangerBrown,
 
             Result:TransmogV2.Base_Tshirt_Profession_RangerBrown,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Brown Ranger T-shirt
+        {
+            keep Base.Tshirt_Profession_RangerBrown,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -2922,6 +4164,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Satin Negligee
+        {
+            keep Base.Dress_SatinNegligee,
+
+            Result:TransmogV2.Hide_Dress,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TrousersMesh_DenimLight
         {
             Type = Clothing,
@@ -2939,6 +4190,15 @@ module TransmogV2 {
             keep Base.TrousersMesh_DenimLight,
 
             Result:TransmogV2.Base_TrousersMesh_DenimLight,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Denim Jeans
+        {
+            keep Base.TrousersMesh_DenimLight,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -2964,6 +4224,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Lumberjack Shirt
+        {
+            keep Base.Shirt_Lumberjack,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HoodieDOWN_WhiteTINT
         {
             Type = Clothing,
@@ -2981,6 +4250,15 @@ module TransmogV2 {
             keep Base.HoodieDOWN_WhiteTINT,
 
             Result:TransmogV2.Base_HoodieDOWN_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hoodie
+        {
+            keep Base.HoodieDOWN_WhiteTINT,
+
+            Result:TransmogV2.Hide_Sweater,
             Time:30.0,
             Category:Transmog,
         }
@@ -3006,6 +4284,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Fedora
+        {
+            keep Base.Hat_Fedora,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BunnySuitPink
         {
             Type = Clothing,
@@ -3023,6 +4310,15 @@ module TransmogV2 {
             keep Base.BunnySuitPink,
 
             Result:TransmogV2.Base_BunnySuitPink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bunny Suit
+        {
+            keep Base.BunnySuitPink,
+
+            Result:TransmogV2.Hide_Underwear,
             Time:30.0,
             Category:Transmog,
         }
@@ -3048,6 +4344,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Riot Helmet
+        {
+            keep Base.Hat_RiotHelmet,
+
+            Result:TransmogV2.Hide_FullHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_CrashHelmet
         {
             Type = Clothing,
@@ -3065,6 +4370,15 @@ module TransmogV2 {
             keep Base.Hat_CrashHelmet,
 
             Result:TransmogV2.Base_Hat_CrashHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Crash Helmet
+        {
+            keep Base.Hat_CrashHelmet,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3090,6 +4404,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Mining Helmet
+        {
+            keep Base.Hat_HardHat_Miner,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_NBCmask
         {
             Type = Clothing,
@@ -3107,6 +4430,15 @@ module TransmogV2 {
             keep Base.Hat_NBCmask,
 
             Result:TransmogV2.Base_Hat_NBCmask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Nuclear Biochemical Mask
+        {
+            keep Base.Hat_NBCmask,
+
+            Result:TransmogV2.Hide_FullHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3132,6 +4464,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Clip-on Bow Tie
+        {
+            keep Base.Tie_BowTieWorn,
+
+            Result:TransmogV2.Hide_Neck,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Suit
         {
             Type = Clothing,
@@ -3149,6 +4490,15 @@ module TransmogV2 {
             keep Base.Trousers_Suit,
 
             Result:TransmogV2.Base_Trousers_Suit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Suit Pants
+        {
+            keep Base.Trousers_Suit,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -3174,6 +4524,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Helmet
+        {
+            keep Base.Hat_Army,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_TINT
         {
             Type = Clothing,
@@ -3191,6 +4550,15 @@ module TransmogV2 {
             keep Base.Trousers_Shellsuit_TINT,
 
             Result:TransmogV2.Base_Trousers_Shellsuit_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_TINT,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -3216,6 +4584,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Hoodie
+        {
+            keep Base.HoodieUP_WhiteTINT,
+
+            Result:TransmogV2.Hide_SweaterHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BicycleHelmet
         {
             Type = Clothing,
@@ -3233,6 +4610,15 @@ module TransmogV2 {
             keep Base.Hat_BicycleHelmet,
 
             Result:TransmogV2.Base_Hat_BicycleHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bicycle Helmet
+        {
+            keep Base.Hat_BicycleHelmet,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3258,6 +4644,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Sweatband
+        {
+            keep Base.Hat_Sweatband,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PeakedCapArmy
         {
             Type = Clothing,
@@ -3275,6 +4670,15 @@ module TransmogV2 {
             keep Base.Hat_PeakedCapArmy,
 
             Result:TransmogV2.Base_Hat_PeakedCapArmy,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Peaked Army Cap
+        {
+            keep Base.Hat_PeakedCapArmy,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3300,6 +4704,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_CamoFullFace2
+        {
+            keep Base.MakeUp_CamoFullFace2,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Chef
         {
             Type = Clothing,
@@ -3317,6 +4730,15 @@ module TransmogV2 {
             keep Base.Jacket_Chef,
 
             Result:TransmogV2.Base_Jacket_Chef,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Chef Jacket
+        {
+            keep Base.Jacket_Chef,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -3342,6 +4764,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_EyesShadowWhite
+        {
+            keep Base.MakeUp_EyesShadowWhite,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_CamoFullFace1
         {
             Type = Clothing,
@@ -3359,6 +4790,15 @@ module TransmogV2 {
             keep Base.MakeUp_CamoFullFace1,
 
             Result:TransmogV2.Base_MakeUp_CamoFullFace1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_CamoFullFace1
+        {
+            keep Base.MakeUp_CamoFullFace1,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
             Time:30.0,
             Category:Transmog,
         }
@@ -3384,6 +4824,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Fishnets
+        {
+            keep Base.TightsFishnets,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_RidingBoots
         {
             Type = Clothing,
@@ -3401,6 +4850,15 @@ module TransmogV2 {
             keep Base.Shoes_RidingBoots,
 
             Result:TransmogV2.Base_Shoes_RidingBoots,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Riding Boots
+        {
+            keep Base.Shoes_RidingBoots,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -3426,6 +4884,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Suit Jacket
+        {
+            keep Base.Suit_Jacket,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallBlackStrapless
         {
             Type = Clothing,
@@ -3443,6 +4910,15 @@ module TransmogV2 {
             keep Base.Dress_SmallBlackStrapless,
 
             Result:TransmogV2.Base_Dress_SmallBlackStrapless,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Strapless Black Dress
+        {
+            keep Base.Dress_SmallBlackStrapless,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -3468,6 +4944,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Short Sleeve Shirt
+        {
+            keep Base.Shirt_FormalWhite_ShortSleeveTINT,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_TrainerTINT
         {
             Type = Clothing,
@@ -3485,6 +4970,15 @@ module TransmogV2 {
             keep Base.Shoes_TrainerTINT,
 
             Result:TransmogV2.Base_Shoes_TrainerTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Sneakers
+        {
+            keep Base.Shoes_TrainerTINT,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -3510,6 +5004,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo Suit
+        {
+            keep Base.SpiffoSuit,
+
+            Result:TransmogV2.Hide_FullSuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsBlack
         {
             Type = Clothing,
@@ -3527,6 +5030,15 @@ module TransmogV2 {
             keep Base.StockingsBlack,
 
             Result:TransmogV2.Base_StockingsBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Stockings
+        {
+            keep Base.StockingsBlack,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
             Time:30.0,
             Category:Transmog,
         }
@@ -3552,6 +5064,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Scarf
+        {
+            keep Base.Scarf_StripeRedWhite,
+
+            Result:TransmogV2.Hide_Scarf,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BucketHat
         {
             Type = Clothing,
@@ -3569,6 +5090,15 @@ module TransmogV2 {
             keep Base.Hat_BucketHat,
 
             Result:TransmogV2.Base_Hat_BucketHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bucket Hat
+        {
+            keep Base.Hat_BucketHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3594,6 +5124,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Long Gloves
+        {
+            keep Base.Gloves_LongWomenGloves,
+
+            Result:TransmogV2.Hide_Hands,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_LimeGreen
         {
             Type = Clothing,
@@ -3611,6 +5150,15 @@ module TransmogV2 {
             keep Base.Shirt_Bowling_LimeGreen,
 
             Result:TransmogV2.Base_Shirt_Bowling_LimeGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bowling Shirt Lime Green
+        {
+            keep Base.Shirt_Bowling_LimeGreen,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -3636,6 +5184,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Swim Trunks
+        {
+            keep Base.SwimTrunks_Red,
+
+            Result:TransmogV2.Hide_Underwear,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WeddingVeil
         {
             Type = Clothing,
@@ -3653,6 +5210,15 @@ module TransmogV2 {
             keep Base.Hat_WeddingVeil,
 
             Result:TransmogV2.Base_Hat_WeddingVeil,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Wedding Veil
+        {
+            keep Base.Hat_WeddingVeil,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3678,6 +5244,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Firefighter Helmet
+        {
+            keep Base.Hat_Fireman,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_SmallBlackStraps
         {
             Type = Clothing,
@@ -3695,6 +5270,15 @@ module TransmogV2 {
             keep Base.Dress_SmallBlackStraps,
 
             Result:TransmogV2.Base_Dress_SmallBlackStraps,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Little Black Dress
+        {
+            keep Base.Dress_SmallBlackStraps,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -3720,6 +5304,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Army Baseball Cap
+        {
+            keep Base.Hat_BaseballCapArmy,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_HawaiianTINT
         {
             Type = Clothing,
@@ -3737,6 +5330,15 @@ module TransmogV2 {
             keep Base.Shirt_HawaiianTINT,
 
             Result:TransmogV2.Base_Shirt_HawaiianTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hawaiian Shirt
+        {
+            keep Base.Shirt_HawaiianTINT,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -3762,6 +5364,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Firefighter Pants
+        {
+            keep Base.Trousers_Fireman,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_NavyBlue
         {
             Type = Clothing,
@@ -3779,6 +5390,15 @@ module TransmogV2 {
             keep Base.Trousers_NavyBlue,
 
             Result:TransmogV2.Base_Trousers_NavyBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Navy Blue Trousers
+        {
+            keep Base.Trousers_NavyBlue,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -3804,6 +5424,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Riding Helmet
+        {
+            keep Base.Hat_RidingHelmet,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_DefaultTEXTURE_HUE
         {
             Type = Clothing,
@@ -3821,6 +5450,15 @@ module TransmogV2 {
             keep Base.Trousers_DefaultTEXTURE_HUE,
 
             Result:TransmogV2.Base_Trousers_DefaultTEXTURE_HUE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE_HUE,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -3846,6 +5484,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapBlue_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_StripeBlueWhite
         {
             Type = Clothing,
@@ -3863,6 +5510,15 @@ module TransmogV2 {
             keep Base.Scarf_StripeBlueWhite,
 
             Result:TransmogV2.Base_Scarf_StripeBlueWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Scarf
+        {
+            keep Base.Scarf_StripeBlueWhite,
+
+            Result:TransmogV2.Hide_Scarf,
             Time:30.0,
             Category:Transmog,
         }
@@ -3888,6 +5544,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical Cap Blue
+        {
+            keep Base.Hat_SurgicalCap_Blue,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SPHhelmet
         {
             Type = Clothing,
@@ -3905,6 +5570,15 @@ module TransmogV2 {
             keep Base.Hat_SPHhelmet,
 
             Result:TransmogV2.Base_Hat_SPHhelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Air Force Helmet
+        {
+            keep Base.Hat_SPHhelmet,
+
+            Result:TransmogV2.Hide_FullHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3930,6 +5604,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Long Johns
+        {
+            keep Base.LongJohns,
+
+            Result:TransmogV2.Hide_Torso1Legs1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_ShowerCap
         {
             Type = Clothing,
@@ -3947,6 +5630,15 @@ module TransmogV2 {
             keep Base.Hat_ShowerCap,
 
             Result:TransmogV2.Base_Hat_ShowerCap,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shower Cap
+        {
+            keep Base.Hat_ShowerCap,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -3972,6 +5664,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Iron Rodent Leather Jacket
+        {
+            keep Base.Jacket_LeatherIronRodent,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Rock
         {
             Type = Clothing,
@@ -3989,6 +5690,15 @@ module TransmogV2 {
             keep Base.Tshirt_Rock,
 
             Result:TransmogV2.Base_Tshirt_Rock,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Rock T-shirt
+        {
+            keep Base.Tshirt_Rock,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4014,6 +5724,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Priest Shirt
+        {
+            keep Base.Shirt_Priest,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_FrillyPink
         {
             Type = Clothing,
@@ -4031,6 +5750,15 @@ module TransmogV2 {
             keep Base.Bra_Straps_FrillyPink,
 
             Result:TransmogV2.Base_Bra_Straps_FrillyPink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Standard Bra - Pink Frills
+        {
+            keep Base.Bra_Straps_FrillyPink,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -4056,6 +5784,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Short Sleeve Shirt
+        {
+            keep Base.Shirt_FormalWhite_ShortSleeve,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Knees
         {
             Type = Clothing,
@@ -4073,6 +5810,15 @@ module TransmogV2 {
             keep Base.Skirt_Knees,
 
             Result:TransmogV2.Base_Skirt_Knees,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Knee-length Skirt
+        {
+            keep Base.Skirt_Knees,
+
+            Result:TransmogV2.Hide_Skirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4098,6 +5844,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo's Server Hat
+        {
+            keep Base.Hat_FastFood_Spiffo,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Fedora_Delmonte
         {
             Type = Clothing,
@@ -4115,6 +5870,15 @@ module TransmogV2 {
             keep Base.Hat_Fedora_Delmonte,
 
             Result:TransmogV2.Base_Hat_Fedora_Delmonte,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Black Band Fedora
+        {
+            keep Base.Hat_Fedora_Delmonte,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -4140,6 +5904,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo Suit Head
+        {
+            keep Base.Hat_Spiffo,
+
+            Result:TransmogV2.Hide_FullHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_LongDenim
         {
             Type = Clothing,
@@ -4157,6 +5930,15 @@ module TransmogV2 {
             keep Base.Shorts_LongDenim,
 
             Result:TransmogV2.Base_Shorts_LongDenim,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Denim Shorts
+        {
+            keep Base.Shorts_LongDenim,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -4182,6 +5964,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Hat Knife
+        {
+            keep Base.Hat_JokeKnife,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Full
         {
             Type = Clothing,
@@ -4199,6 +5990,15 @@ module TransmogV2 {
             keep Base.Tie_Full,
 
             Result:TransmogV2.Base_Tie_Full,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Tie
+        {
+            keep Base.Tie_Full,
+
+            Result:TransmogV2.Hide_Neck,
             Time:30.0,
             Category:Transmog,
         }
@@ -4224,6 +6024,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Tight Fit Apron
+        {
+            keep Base.Apron_WhiteTEXTURE,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Corset_Black
         {
             Type = Clothing,
@@ -4241,6 +6050,15 @@ module TransmogV2 {
             keep Base.Corset_Black,
 
             Result:TransmogV2.Base_Corset_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Black Corset
+        {
+            keep Base.Corset_Black,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -4266,6 +6084,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCap,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Hearts
         {
             Type = Clothing,
@@ -4283,6 +6110,15 @@ module TransmogV2 {
             keep Base.Boxers_Hearts,
 
             Result:TransmogV2.Base_Boxers_Hearts,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Boxers - Hearts
+        {
+            keep Base.Boxers_Hearts,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -4308,6 +6144,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Trooper Hat
+        {
+            keep Base.Hat_Police,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Gas2Go
         {
             Type = Clothing,
@@ -4325,6 +6170,15 @@ module TransmogV2 {
             keep Base.Tshirt_Gas2Go,
 
             Result:TransmogV2.Base_Tshirt_Gas2Go,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Gas 2 Go T-shirt
+        {
+            keep Base.Tshirt_Gas2Go,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4350,6 +6204,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Urban Camo Pants
+        {
+            keep Base.Trousers_CamoUrban,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_SwimTrunks_Yellow
         {
             Type = Clothing,
@@ -4367,6 +6230,15 @@ module TransmogV2 {
             keep Base.SwimTrunks_Yellow,
 
             Result:TransmogV2.Base_SwimTrunks_Yellow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Swim Trunks
+        {
+            keep Base.SwimTrunks_Yellow,
+
+            Result:TransmogV2.Hide_Underwear,
             Time:30.0,
             Category:Transmog,
         }
@@ -4392,6 +6264,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxers
+        {
+            keep Base.Boxers_White,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballHelmet_KY
         {
             Type = Clothing,
@@ -4409,6 +6290,15 @@ module TransmogV2 {
             keep Base.Hat_BaseballHelmet_KY,
 
             Result:TransmogV2.Base_Hat_BaseballHelmet_KY,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Kentucky Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_KY,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -4434,6 +6324,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Bulletproof Vest
+        {
+            keep Base.Vest_BulletArmy,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_CamoDesert
         {
             Type = Clothing,
@@ -4451,6 +6350,15 @@ module TransmogV2 {
             keep Base.Tshirt_CamoDesert,
 
             Result:TransmogV2.Base_Tshirt_CamoDesert,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military Desert Camo T-shirt
+        {
+            keep Base.Tshirt_CamoDesert,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4476,6 +6384,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Camo Shorts
+        {
+            keep Base.Shorts_CamoGreenLong,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsWhite
         {
             Type = Clothing,
@@ -4493,6 +6410,15 @@ module TransmogV2 {
             keep Base.StockingsWhite,
 
             Result:TransmogV2.Base_StockingsWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Stockings
+        {
+            keep Base.StockingsWhite,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
             Time:30.0,
             Category:Transmog,
         }
@@ -4518,6 +6444,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Blue Speedo
+        {
+            keep Base.Briefs_SmallTrunks_Blue,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_FiremanRed02
         {
             Type = Clothing,
@@ -4535,6 +6470,15 @@ module TransmogV2 {
             keep Base.Tshirt_Profession_FiremanRed02,
 
             Result:TransmogV2.Base_Tshirt_Profession_FiremanRed02,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Dark Red Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanRed02,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4560,6 +6504,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Pizza Whirled Server Apron
+        {
+            keep Base.Apron_PizzaWhirled,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bikini_TINT
         {
             Type = Clothing,
@@ -4577,6 +6530,15 @@ module TransmogV2 {
             keep Base.Bikini_TINT,
 
             Result:TransmogV2.Base_Bikini_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bikini
+        {
+            keep Base.Bikini_TINT,
+
+            Result:TransmogV2.Hide_Underwear,
             Time:30.0,
             Category:Transmog,
         }
@@ -4602,6 +6564,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Mini Skirt
+        {
+            keep Base.Skirt_Mini,
+
+            Result:TransmogV2.Hide_Skirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_CropTopNoArmTINT
         {
             Type = Clothing,
@@ -4619,6 +6590,15 @@ module TransmogV2 {
             keep Base.Shirt_CropTopNoArmTINT,
 
             Result:TransmogV2.Base_Shirt_CropTopNoArmTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Crop Top
+        {
+            keep Base.Shirt_CropTopNoArmTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4644,6 +6624,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Sport Shorts
+        {
+            keep Base.Shorts_ShortSport,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_Hunting_CamoGreen
         {
             Type = Clothing,
@@ -4661,6 +6650,15 @@ module TransmogV2 {
             keep Base.Vest_Hunting_CamoGreen,
 
             Result:TransmogV2.Base_Vest_Hunting_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Green Camo Hunting Vest
+        {
+            keep Base.Vest_Hunting_CamoGreen,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
             Time:30.0,
             Category:Transmog,
         }
@@ -4686,6 +6684,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_EyesShadowLightBlue
+        {
+            keep Base.MakeUp_EyesShadowLightBlue,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Workman
         {
             Type = Clothing,
@@ -4703,6 +6710,15 @@ module TransmogV2 {
             keep Base.Shirt_Workman,
 
             Result:TransmogV2.Base_Shirt_Workman,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Workman Shirt
+        {
+            keep Base.Shirt_Workman,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -4728,6 +6744,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bunny Ears
+        {
+            keep Base.Hat_BunnyEarsBlack,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_RedStripes
         {
             Type = Clothing,
@@ -4745,6 +6770,15 @@ module TransmogV2 {
             keep Base.Boxers_RedStripes,
 
             Result:TransmogV2.Base_Boxers_RedStripes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Boxers - Red Stripes
+        {
+            keep Base.Boxers_RedStripes,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -4770,6 +6804,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_LipsBlack
+        {
+            keep Base.MakeUp_LipsBlack,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Vest_BulletPolice
         {
             Type = Clothing,
@@ -4787,6 +6830,15 @@ module TransmogV2 {
             keep Base.Vest_BulletPolice,
 
             Result:TransmogV2.Base_Vest_BulletPolice,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Bulletproof Vest
+        {
+            keep Base.Vest_BulletPolice,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
             Time:30.0,
             Category:Transmog,
         }
@@ -4812,6 +6864,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Green Santa Suit Jacket
+        {
+            keep Base.JacketLong_SantaGreen,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_FrillyRed
         {
             Type = Clothing,
@@ -4829,6 +6890,15 @@ module TransmogV2 {
             keep Base.Bra_Straps_FrillyRed,
 
             Result:TransmogV2.Base_Bra_Straps_FrillyRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Standard Bra - Red Frills
+        {
+            keep Base.Bra_Straps_FrillyRed,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -4854,6 +6924,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bow Tie
+        {
+            keep Base.Tie_BowTieFull,
+
+            Result:TransmogV2.Hide_Neck,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_BoxingRed
         {
             Type = Clothing,
@@ -4871,6 +6950,15 @@ module TransmogV2 {
             keep Base.Gloves_BoxingRed,
 
             Result:TransmogV2.Base_Gloves_BoxingRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Boxing Gloves
+        {
+            keep Base.Gloves_BoxingRed,
+
+            Result:TransmogV2.Hide_Hands,
             Time:30.0,
             Category:Transmog,
         }
@@ -4896,6 +6984,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bandana (Face)
+        {
+            keep Base.Hat_BandanaMaskTINT,
+
+            Result:TransmogV2.Hide_Mask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Briefs_SmallTrunks_WhiteTINT
         {
             Type = Clothing,
@@ -4913,6 +7010,15 @@ module TransmogV2 {
             keep Base.Briefs_SmallTrunks_WhiteTINT,
 
             Result:TransmogV2.Base_Briefs_SmallTrunks_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Speedo
+        {
+            keep Base.Briefs_SmallTrunks_WhiteTINT,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -4938,6 +7044,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Foreman Vest
+        {
+            keep Base.Vest_Foreman,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit
         {
             Type = Clothing,
@@ -4955,6 +7070,15 @@ module TransmogV2 {
             keep Base.Boilersuit,
 
             Result:TransmogV2.Base_Boilersuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Coveralls
+        {
+            keep Base.Boilersuit,
+
+            Result:TransmogV2.Hide_Boilersuit,
             Time:30.0,
             Category:Transmog,
         }
@@ -4980,6 +7104,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Wedding Dress
+        {
+            keep Base.WeddingDress,
+
+            Result:TransmogV2.Hide_FullSuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_HospitalGown
         {
             Type = Clothing,
@@ -4997,6 +7130,15 @@ module TransmogV2 {
             keep Base.HospitalGown,
 
             Result:TransmogV2.Base_HospitalGown,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Hospital Gown
+        {
+            keep Base.HospitalGown,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -5022,6 +7164,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Prisoner Jumpsuit
+        {
+            keep Base.Boilersuit_Prisoner,
+
+            Result:TransmogV2.Hide_Boilersuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BandanaTiedTINT
         {
             Type = Clothing,
@@ -5039,6 +7190,15 @@ module TransmogV2 {
             keep Base.Hat_BandanaTiedTINT,
 
             Result:TransmogV2.Base_Hat_BandanaTiedTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bandana (Tied)
+        {
+            keep Base.Hat_BandanaTiedTINT,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5064,6 +7224,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Deputy Shirt
+        {
+            keep Base.Shirt_PoliceGrey,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_WhiteTINT
         {
             Type = Clothing,
@@ -5081,6 +7250,15 @@ module TransmogV2 {
             keep Base.Gloves_WhiteTINT,
 
             Result:TransmogV2.Base_Gloves_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Gloves
+        {
+            keep Base.Gloves_WhiteTINT,
+
+            Result:TransmogV2.Hide_Hands,
             Time:30.0,
             Category:Transmog,
         }
@@ -5106,6 +7284,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo T-shirt
+        {
+            keep Base.Tshirt_BusinessSpiffo,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_GoldStar
         {
             Type = Clothing,
@@ -5123,6 +7310,15 @@ module TransmogV2 {
             keep Base.Hat_GoldStar,
 
             Result:TransmogV2.Base_Hat_GoldStar,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide GoldStar Boppers
+        {
+            keep Base.Hat_GoldStar,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5148,6 +7344,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Prison Guard Shirt
+        {
+            keep Base.Shirt_PrisonGuard,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SantaHat
         {
             Type = Clothing,
@@ -5165,6 +7370,15 @@ module TransmogV2 {
             keep Base.Hat_SantaHat,
 
             Result:TransmogV2.Base_Hat_SantaHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Santa Hat
+        {
+            keep Base.Hat_SantaHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5190,6 +7404,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Civilian Bulletproof Vest
+        {
+            keep Base.Vest_BulletCivilian,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WoolyHat
         {
             Type = Clothing,
@@ -5207,6 +7430,15 @@ module TransmogV2 {
             keep Base.Hat_WoolyHat,
 
             Result:TransmogV2.Base_Hat_WoolyHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Woolly Hat
+        {
+            keep Base.Hat_WoolyHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5232,6 +7464,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jacket
+        {
+            keep Base.Jacket_NavyBlue,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boxers_Silk_Red
         {
             Type = Clothing,
@@ -5249,6 +7490,15 @@ module TransmogV2 {
             keep Base.Boxers_Silk_Red,
 
             Result:TransmogV2.Base_Boxers_Silk_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Boxers - Red Silk
+        {
+            keep Base.Boxers_Silk_Red,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -5274,6 +7524,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapBlue,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Underpants_White
         {
             Type = Clothing,
@@ -5291,6 +7550,15 @@ module TransmogV2 {
             keep Base.Underpants_White,
 
             Result:TransmogV2.Base_Underpants_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Underpants
+        {
+            keep Base.Underpants_White,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -5316,6 +7584,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Blue Police T-shirt
+        {
+            keep Base.Tshirt_Profession_PoliceBlue,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_FastFood
         {
             Type = Clothing,
@@ -5333,6 +7610,15 @@ module TransmogV2 {
             keep Base.Hat_FastFood,
 
             Result:TransmogV2.Base_Hat_FastFood,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Fast Food Server Hat
+        {
+            keep Base.Hat_FastFood,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5358,6 +7644,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Desert Boots
+        {
+            keep Base.Shoes_ArmyBootsDesert,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Padded
         {
             Type = Clothing,
@@ -5375,6 +7670,15 @@ module TransmogV2 {
             keep Base.Jacket_Padded,
 
             Result:TransmogV2.Base_Jacket_Padded,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Padded Jacket
+        {
+            keep Base.Jacket_Padded,
+
+            Result:TransmogV2.Hide_JacketHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5400,6 +7704,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ice Cream Server Apron
+        {
+            keep Base.Apron_IceCream,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Straps_Black
         {
             Type = Clothing,
@@ -5417,6 +7730,15 @@ module TransmogV2 {
             keep Base.Bra_Straps_Black,
 
             Result:TransmogV2.Base_Bra_Straps_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Standard Bra - Black
+        {
+            keep Base.Bra_Straps_Black,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -5442,6 +7764,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxing Shorts
+        {
+            keep Base.Shorts_BoxingRed,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Full_Spiffo
         {
             Type = Clothing,
@@ -5459,6 +7790,15 @@ module TransmogV2 {
             keep Base.Tie_Full_Spiffo,
 
             Result:TransmogV2.Base_Tie_Full_Spiffo,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Spiffo Tie
+        {
+            keep Base.Tie_Full_Spiffo,
+
+            Result:TransmogV2.Hide_Neck,
             Time:30.0,
             Category:Transmog,
         }
@@ -5484,6 +7824,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Visor
+        {
+            keep Base.Hat_VisorRed,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PartyHat_TINT
         {
             Type = Clothing,
@@ -5501,6 +7850,15 @@ module TransmogV2 {
             keep Base.Hat_PartyHat_TINT,
 
             Result:TransmogV2.Base_Hat_PartyHat_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Colored Party Hat
+        {
+            keep Base.Hat_PartyHat_TINT,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5526,6 +7884,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_LipsBlue
+        {
+            keep Base.MakeUp_LipsBlue,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_DiamondPatternTINT
         {
             Type = Clothing,
@@ -5543,6 +7910,15 @@ module TransmogV2 {
             keep Base.Jumper_DiamondPatternTINT,
 
             Result:TransmogV2.Base_Jumper_DiamondPatternTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Diamond-pattern Sweater
+        {
+            keep Base.Jumper_DiamondPatternTINT,
+
+            Result:TransmogV2.Hide_Sweater,
             Time:30.0,
             Category:Transmog,
         }
@@ -5568,6 +7944,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_EyesShadowRed
+        {
+            keep Base.MakeUp_EyesShadowRed,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_BlueTrainers
         {
             Type = Clothing,
@@ -5585,6 +7970,15 @@ module TransmogV2 {
             keep Base.Shoes_BlueTrainers,
 
             Result:TransmogV2.Base_Shoes_BlueTrainers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Sneakers
+        {
+            keep Base.Shoes_BlueTrainers,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -5610,6 +8004,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boxing Gloves
+        {
+            keep Base.Gloves_BoxingBlue,
+
+            Result:TransmogV2.Hide_Hands,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_DustMask
         {
             Type = Clothing,
@@ -5627,6 +8030,15 @@ module TransmogV2 {
             keep Base.Hat_DustMask,
 
             Result:TransmogV2.Base_Hat_DustMask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Dust Mask
+        {
+            keep Base.Hat_DustMask,
+
+            Result:TransmogV2.Hide_Mask,
             Time:30.0,
             Category:Transmog,
         }
@@ -5652,6 +8064,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Trooper T-shirt
+        {
+            keep Base.Tshirt_PoliceBlue,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_FootballHelmet
         {
             Type = Clothing,
@@ -5669,6 +8090,15 @@ module TransmogV2 {
             keep Base.Hat_FootballHelmet,
 
             Result:TransmogV2.Base_Hat_FootballHelmet,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Football Helmet
+        {
+            keep Base.Hat_FootballHelmet,
+
+            Result:TransmogV2.Hide_FullHat,
             Time:30.0,
             Category:Transmog,
         }
@@ -5694,6 +8124,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shoes
+        {
+            keep Base.Shoes_Random,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_PonchoGreenDOWN
         {
             Type = Clothing,
@@ -5711,6 +8150,15 @@ module TransmogV2 {
             keep Base.PonchoGreenDOWN,
 
             Result:TransmogV2.Base_PonchoGreenDOWN,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Poncho
+        {
+            keep Base.PonchoGreenDOWN,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -5736,6 +8184,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapRed_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_Teal
         {
             Type = Clothing,
@@ -5753,6 +8210,15 @@ module TransmogV2 {
             keep Base.Trousers_Shellsuit_Teal,
 
             Result:TransmogV2.Base_Trousers_Shellsuit_Teal,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Teal,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -5778,6 +8244,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Boots
+        {
+            keep Base.Shoes_BlackBoots,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_FrillyUnderpants_Pink
         {
             Type = Clothing,
@@ -5795,6 +8270,15 @@ module TransmogV2 {
             keep Base.FrillyUnderpants_Pink,
 
             Result:TransmogV2.Base_FrillyUnderpants_Pink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pink Frilly Underpants
+        {
+            keep Base.FrillyUnderpants_Pink,
+
+            Result:TransmogV2.Hide_UnderwearBottom,
             Time:30.0,
             Category:Transmog,
         }
@@ -5820,6 +8304,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ranger T-shirt
+        {
+            keep Base.Tshirt_Ranger,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_LipsLightBlue
         {
             Type = Clothing,
@@ -5837,6 +8330,15 @@ module TransmogV2 {
             keep Base.MakeUp_LipsLightBlue,
 
             Result:TransmogV2.Base_MakeUp_LipsLightBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_LipsLightBlue
+        {
+            keep Base.MakeUp_LipsLightBlue,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
             Time:30.0,
             Category:Transmog,
         }
@@ -5862,6 +8364,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Corset
+        {
+            keep Base.Corset,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_LeatherBarrelDogs
         {
             Type = Clothing,
@@ -5879,6 +8390,15 @@ module TransmogV2 {
             keep Base.Jacket_LeatherBarrelDogs,
 
             Result:TransmogV2.Base_Jacket_LeatherBarrelDogs,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Barrel Dogs Leather Jacket
+        {
+            keep Base.Jacket_LeatherBarrelDogs,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -5904,6 +8424,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical Mask Blue
+        {
+            keep Base.Hat_SurgicalMask_Blue,
+
+            Result:TransmogV2.Hide_Mask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Fossoil
         {
             Type = Clothing,
@@ -5921,6 +8450,15 @@ module TransmogV2 {
             keep Base.Tshirt_Fossoil,
 
             Result:TransmogV2.Base_Tshirt_Fossoil,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Fossoil T-shirt
+        {
+            keep Base.Tshirt_Fossoil,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -5946,6 +8484,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide White Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanWhite,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_WhiteTEXTURE
         {
             Type = Clothing,
@@ -5963,6 +8510,15 @@ module TransmogV2 {
             keep Base.Trousers_WhiteTEXTURE,
 
             Result:TransmogV2.Base_Trousers_WhiteTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pants
+        {
+            keep Base.Trousers_WhiteTEXTURE,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -5988,6 +8544,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY_Red,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_ClownFace2
         {
             Type = Clothing,
@@ -6005,6 +8570,15 @@ module TransmogV2 {
             keep Base.MakeUp_ClownFace2,
 
             Result:TransmogV2.Base_MakeUp_ClownFace2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_ClownFace2
+        {
+            keep Base.MakeUp_ClownFace2,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
             Time:30.0,
             Category:Transmog,
         }
@@ -6030,6 +8604,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_ClownFace1
+        {
+            keep Base.MakeUp_ClownFace1,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Skirt_Long
         {
             Type = Clothing,
@@ -6047,6 +8630,15 @@ module TransmogV2 {
             keep Base.Skirt_Long,
 
             Result:TransmogV2.Base_Skirt_Long,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Skirt
+        {
+            keep Base.Skirt_Long,
+
+            Result:TransmogV2.Hide_Skirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6072,6 +8664,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Polo Neck Sweater
+        {
+            keep Base.Jumper_PoloNeck,
+
+            Result:TransmogV2.Hide_Sweater,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Apron_White
         {
             Type = Clothing,
@@ -6089,6 +8690,15 @@ module TransmogV2 {
             keep Base.Apron_White,
 
             Result:TransmogV2.Base_Apron_White,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Apron
+        {
+            keep Base.Apron_White,
+
+            Result:TransmogV2.Hide_TorsoExtra,
             Time:30.0,
             Category:Transmog,
         }
@@ -6114,6 +8724,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Waistcoat
+        {
+            keep Base.Vest_WaistcoatTINT,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_VeterenGreen
         {
             Type = Clothing,
@@ -6131,6 +8750,15 @@ module TransmogV2 {
             keep Base.Tshirt_Profession_VeterenGreen,
 
             Result:TransmogV2.Base_Tshirt_Profession_VeterenGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Green Veteran T-shirt
+        {
+            keep Base.Tshirt_Profession_VeterenGreen,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6156,6 +8784,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Beanie Hat
+        {
+            keep Base.Hat_Beany,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SuitWhite
         {
             Type = Clothing,
@@ -6173,6 +8810,15 @@ module TransmogV2 {
             keep Base.Trousers_SuitWhite,
 
             Result:TransmogV2.Base_Trousers_SuitWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Suit Pants
+        {
+            keep Base.Trousers_SuitWhite,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -6198,6 +8844,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Pink,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Gloves_FingerlessGloves
         {
             Type = Clothing,
@@ -6215,6 +8870,15 @@ module TransmogV2 {
             keep Base.Gloves_FingerlessGloves,
 
             Result:TransmogV2.Base_Gloves_FingerlessGloves,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Fingerless Gloves
+        {
+            keep Base.Gloves_FingerlessGloves,
+
+            Result:TransmogV2.Hide_Hands,
             Time:30.0,
             Category:Transmog,
         }
@@ -6240,6 +8904,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Tights Semi Transparent
+        {
+            keep Base.TightsBlackSemiTrans,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Sandals
         {
             Type = Clothing,
@@ -6257,6 +8930,15 @@ module TransmogV2 {
             keep Base.Shoes_Sandals,
 
             Result:TransmogV2.Base_Shoes_Sandals,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Sandals
+        {
+            keep Base.Shoes_Sandals,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -6282,6 +8964,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Pants
+        {
+            keep Base.Trousers_DefaultTEXTURE,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_BunnySuitBlack
         {
             Type = Clothing,
@@ -6299,6 +8990,15 @@ module TransmogV2 {
             keep Base.BunnySuitBlack,
 
             Result:TransmogV2.Base_BunnySuitBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bunny Suit
+        {
+            keep Base.BunnySuitBlack,
+
+            Result:TransmogV2.Hide_Underwear,
             Time:30.0,
             Category:Transmog,
         }
@@ -6324,6 +9024,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Striped T-shirt
+        {
+            keep Base.Tshirt_PoloStripedTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultTEXTURE
         {
             Type = Clothing,
@@ -6341,6 +9050,15 @@ module TransmogV2 {
             keep Base.Tshirt_DefaultTEXTURE,
 
             Result:TransmogV2.Base_Tshirt_DefaultTEXTURE,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_DefaultTEXTURE,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6366,6 +9084,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Motorcycle Helmet
+        {
+            keep Base.Hat_CrashHelmet_Police,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_SkullFace2
         {
             Type = Clothing,
@@ -6383,6 +9110,15 @@ module TransmogV2 {
             keep Base.MakeUp_SkullFace2,
 
             Result:TransmogV2.Base_MakeUp_SkullFace2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_SkullFace2
+        {
+            keep Base.MakeUp_SkullFace2,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
             Time:30.0,
             Category:Transmog,
         }
@@ -6408,6 +9144,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_SkullFace1
+        {
+            keep Base.MakeUp_SkullFace1,
+
+            Result:TransmogV2.Hide_MakeUp_FullFace,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_EyesShadowGreen
         {
             Type = Clothing,
@@ -6425,6 +9170,15 @@ module TransmogV2 {
             keep Base.MakeUp_EyesShadowGreen,
 
             Result:TransmogV2.Base_MakeUp_EyesShadowGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_EyesShadowGreen
+        {
+            keep Base.MakeUp_EyesShadowGreen,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
             Time:30.0,
             Category:Transmog,
         }
@@ -6450,6 +9204,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Ranger Hat
+        {
+            keep Base.Hat_Ranger,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SurgicalMask_Green
         {
             Type = Clothing,
@@ -6467,6 +9230,15 @@ module TransmogV2 {
             keep Base.Hat_SurgicalMask_Green,
 
             Result:TransmogV2.Base_Hat_SurgicalMask_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Medical Mask Green
+        {
+            keep Base.Hat_SurgicalMask_Green,
+
+            Result:TransmogV2.Hide_Mask,
             Time:30.0,
             Category:Transmog,
         }
@@ -6492,6 +9264,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jay Chicken Hat
+        {
+            keep Base.Hat_Jay,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_SurgicalCap_Green
         {
             Type = Clothing,
@@ -6509,6 +9290,15 @@ module TransmogV2 {
             keep Base.Hat_SurgicalCap_Green,
 
             Result:TransmogV2.Base_Hat_SurgicalCap_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Medical Cap Green
+        {
+            keep Base.Hat_SurgicalCap_Green,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -6534,6 +9324,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapGreen,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_EarMuff_Protectors
         {
             Type = Clothing,
@@ -6551,6 +9350,15 @@ module TransmogV2 {
             keep Base.Hat_EarMuff_Protectors,
 
             Result:TransmogV2.Base_Hat_EarMuff_Protectors,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Ear Protectors
+        {
+            keep Base.Hat_EarMuff_Protectors,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -6576,6 +9384,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide USA Crash Helmet
+        {
+            keep Base.Hat_CrashHelmet_Stars,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Police
         {
             Type = Clothing,
@@ -6593,6 +9410,15 @@ module TransmogV2 {
             keep Base.Trousers_Police,
 
             Result:TransmogV2.Base_Trousers_Police,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Trooper Pants
+        {
+            keep Base.Trousers_Police,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -6618,6 +9444,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Army Coat
+        {
+            keep Base.Jacket_CoatArmy,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_TINT
         {
             Type = Clothing,
@@ -6635,6 +9470,15 @@ module TransmogV2 {
             keep Base.Jacket_Shellsuit_TINT,
 
             Result:TransmogV2.Base_Jacket_Shellsuit_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_TINT,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -6660,6 +9504,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Beret
+        {
+            keep Base.Hat_Beret,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_Brown
         {
             Type = Clothing,
@@ -6677,6 +9530,15 @@ module TransmogV2 {
             keep Base.Shirt_Bowling_Brown,
 
             Result:TransmogV2.Base_Shirt_Bowling_Brown,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bowling Shirt Brown
+        {
+            keep Base.Shirt_Bowling_Brown,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6702,6 +9564,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Sneakers
+        {
+            keep Base.Shoes_RedTrainers,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Shellsuit_Blue
         {
             Type = Clothing,
@@ -6719,6 +9590,15 @@ module TransmogV2 {
             keep Base.Trousers_Shellsuit_Blue,
 
             Result:TransmogV2.Base_Trousers_Shellsuit_Blue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Blue,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -6744,6 +9624,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bikini
+        {
+            keep Base.Bikini_Pattern01,
+
+            Result:TransmogV2.Hide_Underwear,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_CamoGreen
         {
             Type = Clothing,
@@ -6761,6 +9650,15 @@ module TransmogV2 {
             keep Base.Tshirt_CamoGreen,
 
             Result:TransmogV2.Base_Tshirt_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military Green Camo T-shirt
+        {
+            keep Base.Tshirt_CamoGreen,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6786,6 +9684,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bandeau
+        {
+            keep Base.BoobTube,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_LeatherBlack
         {
             Type = Clothing,
@@ -6803,6 +9710,15 @@ module TransmogV2 {
             keep Base.Trousers_LeatherBlack,
 
             Result:TransmogV2.Base_Trousers_LeatherBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Black Leather Trousers
+        {
+            keep Base.Trousers_LeatherBlack,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -6828,6 +9744,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Straps Knee-length Dress
+        {
+            keep Base.DressKnees_Straps,
+
+            Result:TransmogV2.Hide_Dress,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_ThunderGas
         {
             Type = Clothing,
@@ -6845,6 +9770,15 @@ module TransmogV2 {
             keep Base.Tshirt_ThunderGas,
 
             Result:TransmogV2.Base_Tshirt_ThunderGas,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Thunder Gas T-shirt
+        {
+            keep Base.Tshirt_ThunderGas,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -6870,6 +9804,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapped Shoes
+        {
+            keep Base.Shoes_Strapped,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_PoliceGrey
         {
             Type = Clothing,
@@ -6887,6 +9830,15 @@ module TransmogV2 {
             keep Base.Trousers_PoliceGrey,
 
             Result:TransmogV2.Base_Trousers_PoliceGrey,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Deputy Pants
+        {
+            keep Base.Trousers_PoliceGrey,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -6912,6 +9864,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Furry Ears
+        {
+            keep Base.Hat_FurryEars,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tie_Worn
         {
             Type = Clothing,
@@ -6929,6 +9890,15 @@ module TransmogV2 {
             keep Base.Tie_Worn,
 
             Result:TransmogV2.Base_Tie_Worn,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Clip-on Tie
+        {
+            keep Base.Tie_Worn,
+
+            Result:TransmogV2.Hide_Neck,
             Time:30.0,
             Category:Transmog,
         }
@@ -6954,6 +9924,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bandana (Tied)
+        {
+            keep Base.Hat_BandanaTied,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_LeatherWildRacoons
         {
             Type = Clothing,
@@ -6971,6 +9950,15 @@ module TransmogV2 {
             keep Base.Jacket_LeatherWildRacoons,
 
             Result:TransmogV2.Base_Jacket_LeatherWildRacoons,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Wild Racoons Leather Jacket
+        {
+            keep Base.Jacket_LeatherWildRacoons,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -6996,6 +9984,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Army Beret
+        {
+            keep Base.Hat_BeretArmy,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_CamoUrbanLong
         {
             Type = Clothing,
@@ -7013,6 +10010,15 @@ module TransmogV2 {
             keep Base.Shorts_CamoUrbanLong,
 
             Result:TransmogV2.Base_Shorts_CamoUrbanLong,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military Camo Shorts
+        {
+            keep Base.Shorts_CamoUrbanLong,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -7038,6 +10044,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapless Bra - Red Spots 
+        {
+            keep Base.Bra_Strapless_RedSpots,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_WinterHat
         {
             Type = Clothing,
@@ -7055,6 +10070,15 @@ module TransmogV2 {
             keep Base.Hat_WinterHat,
 
             Result:TransmogV2.Base_Hat_WinterHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Winter Hat
+        {
+            keep Base.Hat_WinterHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7080,6 +10104,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Padded Jacket
+        {
+            keep Base.Jacket_PaddedDOWN,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Scarf_StripeBlackWhite
         {
             Type = Clothing,
@@ -7097,6 +10130,15 @@ module TransmogV2 {
             keep Base.Scarf_StripeBlackWhite,
 
             Result:TransmogV2.Base_Scarf_StripeBlackWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Scarf
+        {
+            keep Base.Scarf_StripeBlackWhite,
+
+            Result:TransmogV2.Hide_Scarf,
             Time:30.0,
             Category:Transmog,
         }
@@ -7122,6 +10164,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Riverside Rangers Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_Rangers,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_WhiteTINT
         {
             Type = Clothing,
@@ -7139,6 +10190,15 @@ module TransmogV2 {
             keep Base.Trousers_WhiteTINT,
 
             Result:TransmogV2.Base_Trousers_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pants
+        {
+            keep Base.Trousers_WhiteTINT,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -7164,6 +10224,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Prison Guard Pants
+        {
+            keep Base.Trousers_PrisonGuard,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_ChefHat
         {
             Type = Clothing,
@@ -7181,6 +10250,15 @@ module TransmogV2 {
             keep Base.Hat_ChefHat,
 
             Result:TransmogV2.Base_Hat_ChefHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Chef Hat
+        {
+            keep Base.Hat_ChefHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7206,6 +10284,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Coveralls
+        {
+            keep Base.Boilersuit_Yellow,
+
+            Result:TransmogV2.Hide_Boilersuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Strapless_FrillyBlack
         {
             Type = Clothing,
@@ -7223,6 +10310,15 @@ module TransmogV2 {
             keep Base.Bra_Strapless_FrillyBlack,
 
             Result:TransmogV2.Base_Bra_Strapless_FrillyBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Strapless Bra - Black Frills
+        {
+            keep Base.Bra_Strapless_FrillyBlack,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -7248,6 +10344,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Green,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_EyesShadowBlue
         {
             Type = Clothing,
@@ -7265,6 +10370,15 @@ module TransmogV2 {
             keep Base.MakeUp_EyesShadowBlue,
 
             Result:TransmogV2.Base_MakeUp_EyesShadowBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_EyesShadowBlue
+        {
+            keep Base.MakeUp_EyesShadowBlue,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
             Time:30.0,
             Category:Transmog,
         }
@@ -7290,6 +10404,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Strapless Bra - Black 
+        {
+            keep Base.Bra_Strapless_Black,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_VisorBlack
         {
             Type = Clothing,
@@ -7307,6 +10430,15 @@ module TransmogV2 {
             keep Base.Hat_VisorBlack,
 
             Result:TransmogV2.Base_Hat_VisorBlack,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Visor
+        {
+            keep Base.Hat_VisorBlack,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7332,6 +10464,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Long Sleeve T-shirt
+        {
+            keep Base.Tshirt_WhiteLongSleeveTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Varsity
         {
             Type = Clothing,
@@ -7349,6 +10490,15 @@ module TransmogV2 {
             keep Base.Jacket_Varsity,
 
             Result:TransmogV2.Base_Jacket_Varsity,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Varsity Jacket
+        {
+            keep Base.Jacket_Varsity,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -7374,6 +10524,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Rain Boots
+        {
+            keep Base.Shoes_Wellies,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_TinFoilHat
         {
             Type = Clothing,
@@ -7391,6 +10550,15 @@ module TransmogV2 {
             keep Base.Hat_TinFoilHat,
 
             Result:TransmogV2.Base_Hat_TinFoilHat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Tin Foil Hat
+        {
+            keep Base.Hat_TinFoilHat,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7416,6 +10584,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Crop Top Arms
+        {
+            keep Base.Shirt_CropTopTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_PartyHat_Stars
         {
             Type = Clothing,
@@ -7433,6 +10610,15 @@ module TransmogV2 {
             keep Base.Hat_PartyHat_Stars,
 
             Result:TransmogV2.Base_Hat_PartyHat_Stars,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Party Hat with Stars
+        {
+            keep Base.Hat_PartyHat_Stars,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7458,6 +10644,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Apron
+        {
+            keep Base.Apron_Black,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_WhiteTINT
         {
             Type = Clothing,
@@ -7475,6 +10670,15 @@ module TransmogV2 {
             keep Base.Tshirt_WhiteTINT,
 
             Result:TransmogV2.Base_Tshirt_WhiteTINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_WhiteTINT,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -7500,6 +10704,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo Suit Tail
+        {
+            keep Base.SpiffoTail,
+
+            Result:TransmogV2.Hide_Tail,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_SpiffoDECAL
         {
             Type = Clothing,
@@ -7517,6 +10730,15 @@ module TransmogV2 {
             keep Base.Tshirt_SpiffoDECAL,
 
             Result:TransmogV2.Base_Tshirt_SpiffoDECAL,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Spiffo T-shirt
+        {
+            keep Base.Tshirt_SpiffoDECAL,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -7542,6 +10764,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bowling Shirt Pink
+        {
+            keep Base.Shirt_Bowling_Pink,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Short
         {
             Type = Clothing,
@@ -7559,6 +10790,15 @@ module TransmogV2 {
             keep Base.Dress_Short,
 
             Result:TransmogV2.Base_Dress_Short,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Short Dress
+        {
+            keep Base.Dress_Short,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -7584,6 +10824,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Camo Shirt
+        {
+            keep Base.Shirt_CamoGreen,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BalaclavaFace
         {
             Type = Clothing,
@@ -7601,6 +10850,15 @@ module TransmogV2 {
             keep Base.Hat_BalaclavaFace,
 
             Result:TransmogV2.Base_Hat_BalaclavaFace,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Open Balaclava
+        {
+            keep Base.Hat_BalaclavaFace,
+
+            Result:TransmogV2.Hide_Mask,
             Time:30.0,
             Category:Transmog,
         }
@@ -7626,6 +10884,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Firefighter Jacket
+        {
+            keep Base.Jacket_Fireman,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_FiremanBlue
         {
             Type = Clothing,
@@ -7643,6 +10910,15 @@ module TransmogV2 {
             keep Base.Tshirt_Profession_FiremanBlue,
 
             Result:TransmogV2.Base_Tshirt_Profession_FiremanBlue,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Blue Fireman T-shirt
+        {
+            keep Base.Tshirt_Profession_FiremanBlue,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -7668,6 +10944,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Leather Jacket
+        {
+            keep Base.JacketLong_Random,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Straps
         {
             Type = Clothing,
@@ -7685,6 +10970,15 @@ module TransmogV2 {
             keep Base.Dress_Straps,
 
             Result:TransmogV2.Base_Dress_Straps,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Straps Dress
+        {
+            keep Base.Dress_Straps,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -7710,6 +11004,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical T-shirt
+        {
+            keep Base.Tshirt_Scrubs,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_CamoDesert
         {
             Type = Clothing,
@@ -7727,6 +11030,15 @@ module TransmogV2 {
             keep Base.Trousers_CamoDesert,
 
             Result:TransmogV2.Base_Trousers_CamoDesert,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military Desert Camo Pants
+        {
+            keep Base.Trousers_CamoDesert,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -7752,6 +11064,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Shell Suit Trousers
+        {
+            keep Base.Trousers_Shellsuit_Black,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Long
         {
             Type = Clothing,
@@ -7769,6 +11090,15 @@ module TransmogV2 {
             keep Base.Dress_Long,
 
             Result:TransmogV2.Base_Dress_Long,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Dress
+        {
+            keep Base.Dress_Long,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }
@@ -7794,6 +11124,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Police Deputy Jacket
+        {
+            keep Base.Jacket_Police,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BaseballCapKY_Reverse
         {
             Type = Clothing,
@@ -7811,6 +11150,15 @@ module TransmogV2 {
             keep Base.Hat_BaseballCapKY_Reverse,
 
             Result:TransmogV2.Base_Hat_BaseballCapKY_Reverse,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Kentucky Baseball Cap
+        {
+            keep Base.Hat_BaseballCapKY_Reverse,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7836,6 +11184,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baggy Jeans
+        {
+            keep Base.Trousers_JeanBaggy,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_ArmyBoots
         {
             Type = Clothing,
@@ -7853,6 +11210,15 @@ module TransmogV2 {
             keep Base.Shoes_ArmyBoots,
 
             Result:TransmogV2.Base_Shoes_ArmyBoots,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Military Boots
+        {
+            keep Base.Shoes_ArmyBoots,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -7878,6 +11244,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide GigaMart Waistcoat
+        {
+            keep Base.Vest_Waistcoat_GigaMart,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shoes_Black
         {
             Type = Clothing,
@@ -7895,6 +11270,15 @@ module TransmogV2 {
             keep Base.Shoes_Black,
 
             Result:TransmogV2.Base_Shoes_Black,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shoes
+        {
+            keep Base.Shoes_Black,
+
+            Result:TransmogV2.Hide_Shoes,
             Time:30.0,
             Category:Transmog,
         }
@@ -7920,6 +11304,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Fancy Shoes
+        {
+            keep Base.Shoes_Fancy,
+
+            Result:TransmogV2.Hide_Shoes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_EarMuffs
         {
             Type = Clothing,
@@ -7937,6 +11330,15 @@ module TransmogV2 {
             keep Base.Hat_EarMuffs,
 
             Result:TransmogV2.Base_Hat_EarMuffs,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Ear Muffs
+        {
+            keep Base.Hat_EarMuffs,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -7962,6 +11364,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide McCoy's T-shirt
+        {
+            keep Base.Tshirt_McCoys,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_SantaGReen
         {
             Type = Clothing,
@@ -7979,6 +11390,15 @@ module TransmogV2 {
             keep Base.Trousers_SantaGReen,
 
             Result:TransmogV2.Base_Trousers_SantaGReen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Green Santa Suit Pants
+        {
+            keep Base.Trousers_SantaGReen,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -8004,6 +11424,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bowling Shirt Blue
+        {
+            keep Base.Shirt_Bowling_Blue,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_PileOCrepe
         {
             Type = Clothing,
@@ -8021,6 +11450,15 @@ module TransmogV2 {
             keep Base.Tshirt_PileOCrepe,
 
             Result:TransmogV2.Base_Tshirt_PileOCrepe,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pile o' Crepe T-shirt
+        {
+            keep Base.Tshirt_PileOCrepe,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8046,6 +11484,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Baseball Cap
+        {
+            keep Base.Hat_BaseballCapRed,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_AmmoStrap_Bullets
         {
             Type = Clothing,
@@ -8063,6 +11510,15 @@ module TransmogV2 {
             keep Base.AmmoStrap_Bullets,
 
             Result:TransmogV2.Base_AmmoStrap_Bullets,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bullets Ammo Strap
+        {
+            keep Base.AmmoStrap_Bullets,
+
+            Result:TransmogV2.Hide_AmmoStrap,
             Time:30.0,
             Category:Transmog,
         }
@@ -8088,6 +11544,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_LipsPink
+        {
+            keep Base.MakeUp_LipsPink,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers_Ranger
         {
             Type = Clothing,
@@ -8105,6 +11570,15 @@ module TransmogV2 {
             keep Base.Trousers_Ranger,
 
             Result:TransmogV2.Base_Trousers_Ranger,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Ranger Pants
+        {
+            keep Base.Trousers_Ranger,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -8130,6 +11604,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Straps Small Dress
+        {
+            keep Base.Dress_SmallStraps,
+
+            Result:TransmogV2.Hide_Dress,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_StockingsBlackTrans
         {
             Type = Clothing,
@@ -8147,6 +11630,15 @@ module TransmogV2 {
             keep Base.StockingsBlackTrans,
 
             Result:TransmogV2.Base_StockingsBlackTrans,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Stockings Transparent
+        {
+            keep Base.StockingsBlackTrans,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
             Time:30.0,
             Category:Transmog,
         }
@@ -8172,6 +11664,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Spiffo's Server Apron
+        {
+            keep Base.Apron_Spiffos,
+
+            Result:TransmogV2.Hide_TorsoExtra,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_ShortFormal
         {
             Type = Clothing,
@@ -8189,6 +11690,15 @@ module TransmogV2 {
             keep Base.Shorts_ShortFormal,
 
             Result:TransmogV2.Base_Shorts_ShortFormal,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shorts
+        {
+            keep Base.Shorts_ShortFormal,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -8214,6 +11724,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Leather Gloves
+        {
+            keep Base.Gloves_LeatherGloves,
+
+            Result:TransmogV2.Hide_Hands,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Jockey06
         {
             Type = Clothing,
@@ -8231,6 +11750,15 @@ module TransmogV2 {
             keep Base.Shirt_Jockey06,
 
             Result:TransmogV2.Base_Shirt_Jockey06,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jockey Silks - 6
+        {
+            keep Base.Shirt_Jockey06,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8256,6 +11784,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Urban Camo T-shirt
+        {
+            keep Base.Tshirt_CamoUrban,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jacket_Shellsuit_Green
         {
             Type = Clothing,
@@ -8273,6 +11810,15 @@ module TransmogV2 {
             keep Base.Jacket_Shellsuit_Green,
 
             Result:TransmogV2.Base_Jacket_Shellsuit_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shell Suit Jacket
+        {
+            keep Base.Jacket_Shellsuit_Green,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -8298,6 +11844,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Silks - 1
+        {
+            keep Base.Shirt_Jockey01,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Jockey03
         {
             Type = Clothing,
@@ -8315,6 +11870,15 @@ module TransmogV2 {
             keep Base.Shirt_Jockey03,
 
             Result:TransmogV2.Base_Shirt_Jockey03,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jockey Silks - 3
+        {
+            keep Base.Shirt_Jockey03,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8340,6 +11904,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Silks - 2
+        {
+            keep Base.Shirt_Jockey02,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Jumper_VNeck
         {
             Type = Clothing,
@@ -8357,6 +11930,15 @@ module TransmogV2 {
             keep Base.Jumper_VNeck,
 
             Result:TransmogV2.Base_Jumper_VNeck,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide V-neck Sweater
+        {
+            keep Base.Jumper_VNeck,
+
+            Result:TransmogV2.Hide_Sweater,
             Time:30.0,
             Category:Transmog,
         }
@@ -8382,6 +11964,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Silks - 5
+        {
+            keep Base.Shirt_Jockey05,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_AmmoStrap_Shells
         {
             Type = Clothing,
@@ -8399,6 +11990,15 @@ module TransmogV2 {
             keep Base.AmmoStrap_Shells,
 
             Result:TransmogV2.Base_AmmoStrap_Shells,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Shells Ammo Strap
+        {
+            keep Base.AmmoStrap_Shells,
+
+            Result:TransmogV2.Hide_AmmoStrap,
             Time:30.0,
             Category:Transmog,
         }
@@ -8424,6 +12024,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Silks - 4
+        {
+            keep Base.Shirt_Jockey04,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Bowling_Green
         {
             Type = Clothing,
@@ -8441,6 +12050,15 @@ module TransmogV2 {
             keep Base.Shirt_Bowling_Green,
 
             Result:TransmogV2.Base_Shirt_Bowling_Green,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bowling Shirt Green
+        {
+            keep Base.Shirt_Bowling_Green,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8466,6 +12084,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Helmet - 4
+        {
+            keep Base.Hat_JockeyHelmet04,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet05
         {
             Type = Clothing,
@@ -8483,6 +12110,15 @@ module TransmogV2 {
             keep Base.Hat_JockeyHelmet05,
 
             Result:TransmogV2.Base_Hat_JockeyHelmet05,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jockey Helmet - 5
+        {
+            keep Base.Hat_JockeyHelmet05,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -8508,6 +12144,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Helmet - 2
+        {
+            keep Base.Hat_JockeyHelmet02,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet03
         {
             Type = Clothing,
@@ -8525,6 +12170,15 @@ module TransmogV2 {
             keep Base.Hat_JockeyHelmet03,
 
             Result:TransmogV2.Base_Hat_JockeyHelmet03,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jockey Helmet - 3
+        {
+            keep Base.Hat_JockeyHelmet03,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -8550,6 +12204,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jockey Helmet - 1
+        {
+            keep Base.Hat_JockeyHelmet01,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_LipsRed
         {
             Type = Clothing,
@@ -8567,6 +12230,15 @@ module TransmogV2 {
             keep Base.MakeUp_LipsRed,
 
             Result:TransmogV2.Base_MakeUp_LipsRed,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_LipsRed
+        {
+            keep Base.MakeUp_LipsRed,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
             Time:30.0,
             Category:Transmog,
         }
@@ -8592,6 +12264,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Riverside Rangers Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_Rangers,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_JockeyHelmet06
         {
             Type = Clothing,
@@ -8609,6 +12290,15 @@ module TransmogV2 {
             keep Base.Hat_JockeyHelmet06,
 
             Result:TransmogV2.Base_Hat_JockeyHelmet06,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Jockey Helmet - 6
+        {
+            keep Base.Hat_JockeyHelmet06,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -8634,6 +12324,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Denim Shirt
+        {
+            keep Base.Shirt_Denim,
+
+            Result:TransmogV2.Hide_Shirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultDECAL
         {
             Type = Clothing,
@@ -8651,6 +12350,15 @@ module TransmogV2 {
             keep Base.Tshirt_DefaultDECAL,
 
             Result:TransmogV2.Base_Tshirt_DefaultDECAL,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_DefaultDECAL,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8676,6 +12384,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bandana (Head)
+        {
+            keep Base.Hat_BandanaTINT,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BonnieHat_CamoGreen
         {
             Type = Clothing,
@@ -8693,6 +12410,15 @@ module TransmogV2 {
             keep Base.Hat_BonnieHat_CamoGreen,
 
             Result:TransmogV2.Base_Hat_BonnieHat_CamoGreen,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Camo Boonie Hat
+        {
+            keep Base.Hat_BonnieHat_CamoGreen,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -8718,6 +12444,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Medical Pants
+        {
+            keep Base.Trousers_Scrubs,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_BandanaMask
         {
             Type = Clothing,
@@ -8735,6 +12470,15 @@ module TransmogV2 {
             keep Base.Hat_BandanaMask,
 
             Result:TransmogV2.Base_Hat_BandanaMask,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Bandana (Face)
+        {
+            keep Base.Hat_BandanaMask,
+
+            Result:TransmogV2.Hide_Mask,
             Time:30.0,
             Category:Transmog,
         }
@@ -8760,6 +12504,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_RedStripes2
+        {
+            keep Base.MakeUp_RedStripes2,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_RedStripes1
         {
             Type = Clothing,
@@ -8777,6 +12530,15 @@ module TransmogV2 {
             keep Base.MakeUp_RedStripes1,
 
             Result:TransmogV2.Base_MakeUp_RedStripes1,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_RedStripes1
+        {
+            keep Base.MakeUp_RedStripes1,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
             Time:30.0,
             Category:Transmog,
         }
@@ -8802,6 +12564,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Standard Bra - Black Frills
+        {
+            keep Base.Bra_Straps_FrillyBlack,
+
+            Result:TransmogV2.Hide_UnderwearTop,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Hat_Police_Grey
         {
             Type = Clothing,
@@ -8819,6 +12590,15 @@ module TransmogV2 {
             keep Base.Hat_Police_Grey,
 
             Result:TransmogV2.Base_Hat_Police_Grey,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Deputy Hat
+        {
+            keep Base.Hat_Police_Grey,
+
+            Result:TransmogV2.Hide_Hat,
             Time:30.0,
             Category:Transmog,
         }
@@ -8844,6 +12624,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Jacket
+        {
+            keep Base.Jacket_WhiteTINT,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_OfficerWhite
         {
             Type = Clothing,
@@ -8861,6 +12650,15 @@ module TransmogV2 {
             keep Base.Shirt_OfficerWhite,
 
             Result:TransmogV2.Base_Shirt_OfficerWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Police Shirt
+        {
+            keep Base.Shirt_OfficerWhite,
+
+            Result:TransmogV2.Hide_Shirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -8886,6 +12684,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Military Green Camo Jacket
+        {
+            keep Base.Jacket_ArmyCamoGreen,
+
+            Result:TransmogV2.Hide_Jacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_TightsBlackTrans
         {
             Type = Clothing,
@@ -8903,6 +12710,15 @@ module TransmogV2 {
             keep Base.TightsBlackTrans,
 
             Result:TransmogV2.Base_TightsBlackTrans,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Tights Transparent
+        {
+            keep Base.TightsBlackTrans,
+
+            Result:TransmogV2.Hide_UnderwearExtra1,
             Time:30.0,
             Category:Transmog,
         }
@@ -8928,6 +12744,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bunny Ears
+        {
+            keep Base.Hat_BunnyEarsWhite,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Bra_Strapless_FrillyPink
         {
             Type = Clothing,
@@ -8945,6 +12770,15 @@ module TransmogV2 {
             keep Base.Bra_Strapless_FrillyPink,
 
             Result:TransmogV2.Base_Bra_Strapless_FrillyPink,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Strapless Bra - Pink Frills
+        {
+            keep Base.Bra_Strapless_FrillyPink,
+
+            Result:TransmogV2.Hide_UnderwearTop,
             Time:30.0,
             Category:Transmog,
         }
@@ -8970,6 +12804,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_SportDECAL,
+
+            Result:TransmogV2.Hide_Tshirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Baseball_KY
         {
             Type = Clothing,
@@ -8987,6 +12830,15 @@ module TransmogV2 {
             keep Base.Shirt_Baseball_KY,
 
             Result:TransmogV2.Base_Shirt_Baseball_KY,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Kentucky Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_KY,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -9012,6 +12864,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Camo Hunting Vest
+        {
+            keep Base.Vest_Hunting_Camo,
+
+            Result:TransmogV2.Hide_TorsoExtraVest,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Trousers
         {
             Type = Clothing,
@@ -9029,6 +12890,15 @@ module TransmogV2 {
             keep Base.Trousers,
 
             Result:TransmogV2.Base_Trousers,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Pants
+        {
+            keep Base.Trousers,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -9054,6 +12924,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_LipsGreen
+        {
+            keep Base.MakeUp_LipsGreen,
+
+            Result:TransmogV2.Hide_MakeUp_Lips,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_MakeUp_Football
         {
             Type = Clothing,
@@ -9071,6 +12950,15 @@ module TransmogV2 {
             keep Base.MakeUp_Football,
 
             Result:TransmogV2.Base_MakeUp_Football,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Base.MakeUp_Football
+        {
+            keep Base.MakeUp_Football,
+
+            Result:TransmogV2.Hide_MakeUp_Eyes,
             Time:30.0,
             Category:Transmog,
         }
@@ -9096,6 +12984,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bowling Shirt White
+        {
+            keep Base.Shirt_Bowling_White,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shorts_LongSport_Red
         {
             Type = Clothing,
@@ -9113,6 +13010,15 @@ module TransmogV2 {
             keep Base.Shorts_LongSport_Red,
 
             Result:TransmogV2.Base_Shorts_LongSport_Red,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Long Sport Shorts
+        {
+            keep Base.Shorts_LongSport_Red,
+
+            Result:TransmogV2.Hide_Pants,
             Time:30.0,
             Category:Transmog,
         }
@@ -9138,6 +13044,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Z Hurricanes Baseball Helmet
+        {
+            keep Base.Hat_BaseballHelmet_Z,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Belt2
         {
             Type = Clothing,
@@ -9155,6 +13070,15 @@ module TransmogV2 {
             keep Base.Belt2,
 
             Result:TransmogV2.Base_Belt2,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Belt
+        {
+            keep Base.Belt2,
+
+            Result:TransmogV2.Hide_Belt,
             Time:30.0,
             Category:Transmog,
         }
@@ -9180,6 +13104,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Skinny Leather Trousers
+        {
+            keep Base.TrousersMesh_Leather,
+
+            Result:TransmogV2.Hide_Pants,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_WeddingJacket
         {
             Type = Clothing,
@@ -9197,6 +13130,15 @@ module TransmogV2 {
             keep Base.WeddingJacket,
 
             Result:TransmogV2.Base_WeddingJacket,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Wedding Jacket
+        {
+            keep Base.WeddingJacket,
+
+            Result:TransmogV2.Hide_Jacket,
             Time:30.0,
             Category:Transmog,
         }
@@ -9222,6 +13164,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Base.MakeUp_EyesShadowPink
+        {
+            keep Base.MakeUp_EyesShadowPink,
+
+            Result:TransmogV2.Hide_MakeUp_EyesShadow,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_Profession_PoliceWhite
         {
             Type = Clothing,
@@ -9239,6 +13190,15 @@ module TransmogV2 {
             keep Base.Tshirt_Profession_PoliceWhite,
 
             Result:TransmogV2.Base_Tshirt_Profession_PoliceWhite,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide White Police T-shirt
+        {
+            keep Base.Tshirt_Profession_PoliceWhite,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -9264,6 +13224,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Bunny Tail
+        {
+            keep Base.BunnyTail,
+
+            Result:TransmogV2.Hide_Tail,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Boilersuit_Flying
         {
             Type = Clothing,
@@ -9281,6 +13250,15 @@ module TransmogV2 {
             keep Base.Boilersuit_Flying,
 
             Result:TransmogV2.Base_Boilersuit_Flying,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Air Force Coveralls
+        {
+            keep Base.Boilersuit_Flying,
+
+            Result:TransmogV2.Hide_Boilersuit,
             Time:30.0,
             Category:Transmog,
         }
@@ -9306,6 +13284,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Prisoner Jumpsuit
+        {
+            keep Base.Boilersuit_PrisonerKhaki,
+
+            Result:TransmogV2.Hide_Boilersuit,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Tshirt_DefaultTEXTURE_TINT
         {
             Type = Clothing,
@@ -9323,6 +13310,15 @@ module TransmogV2 {
             keep Base.Tshirt_DefaultTEXTURE_TINT,
 
             Result:TransmogV2.Base_Tshirt_DefaultTEXTURE_TINT,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide T-shirt
+        {
+            keep Base.Tshirt_DefaultTEXTURE_TINT,
+
+            Result:TransmogV2.Hide_Tshirt,
             Time:30.0,
             Category:Transmog,
         }
@@ -9348,6 +13344,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Tartan Golf Cap
+        {
+            keep Base.Hat_GolfHat,
+
+            Result:TransmogV2.Hide_Hat,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Shirt_Baseball_Z
         {
             Type = Clothing,
@@ -9369,6 +13374,15 @@ module TransmogV2 {
             Category:Transmog,
         }
 
+        recipe Hide Z Hurricanes Baseball Shirt
+        {
+            keep Base.Shirt_Baseball_Z,
+
+            Result:TransmogV2.Hide_ShortSleeveShirt,
+            Time:30.0,
+            Category:Transmog,
+        }
+
         item Base_Dress_Normal
         {
             Type = Clothing,
@@ -9386,6 +13400,15 @@ module TransmogV2 {
             keep Base.Dress_Normal,
 
             Result:TransmogV2.Base_Dress_Normal,
+            Time:30.0,
+            Category:Transmog,
+        }
+
+        recipe Hide Dress
+        {
+            keep Base.Dress_Normal,
+
+            Result:TransmogV2.Hide_Dress,
             Time:30.0,
             Category:Transmog,
         }

@@ -53,6 +53,22 @@ local function generateTmogItemRecipe(displayName, fullName, newFullName)
     ) .. '\n\n';
 end
 
+local function generateTmogHideRecipe(displayName, fullName, bodyLocation)
+    return string.format([[
+        recipe Hide %s
+        {
+            keep %s,
+
+            Result:TransmogV2.Hide_%s,
+            Time:30.0,
+            Category:Transmog,
+        }]],
+        displayName,
+        fullName,
+        bodyLocation
+    ) .. '\n\n';
+end
+
 local function generateTransmog(sm)
     local fsWriter = getModFileWriter('TransmogV2', 'media/scripts/TransmogItems.txt', false, false)
     local function write(content)
@@ -79,6 +95,7 @@ local function generateTransmog(sm)
             -- I might not need a worldStaticItem
             write(generateTmogItem(itemName, displayName, item:getBodyLocation(), iconName))
             write(generateTmogItemRecipe(displayName, item:getFullName(), itemName))
+            write(generateTmogHideRecipe(displayName, item:getFullName(), item:getBodyLocation()))
         end
     end
 
