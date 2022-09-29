@@ -134,11 +134,12 @@ function ApplyItemsFix()
         local nameToFind = string.gsub(item:getName(), "_", ".", 1) .. ''
         local originalItem = sm:FindItem(nameToFind)
         if isTransmogged and originalItem then
-            print('nameToFind'..nameToFind)
+            -- print('nameToFind'..nameToFind)
             item:setClothingItemAsset(originalItem:getClothingItemAsset())
         end
     end
 
+    -- Good old trick to force the refresh
     local player = getPlayer();
     player:resetModelNextFrame();
 end
