@@ -49,6 +49,8 @@ local function generateTransmog(sm)
 
     write('}\n')
     fsWriter:close()
+
+    print('-------TransmogV2 Done--------')
 end
 
 generateTransmog(getScriptManager())
