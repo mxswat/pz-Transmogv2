@@ -1,4 +1,6 @@
 require "ISInventoryPaneContextMenu"
+require "Modals/MxColorPicker"
+require "Modals/MxTexturePicker"
 
 function ChangeItemColor(color, item)
 	item:getVisual():setTint(ImmutableColor.new(color));
