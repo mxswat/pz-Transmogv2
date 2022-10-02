@@ -1,30 +1,11 @@
-function GenerateHideBodyLocation(bodyLocation)
-    return string.format([[
-        item Hide_%s
-        {
-            Type = Clothing,
-            Cosmetic = TRUE,
-            DisplayName = Hide %s,
-            DisplayCategory = Clothing,
-            ClothingItem = Belt,
-            BodyLocation = Hide_%s,
-            Icon = NoseRing_Gold,
-            Weight = 0,
-        }]],
-        bodyLocation,
-        bodyLocation,
-        bodyLocation
-    ) .. '\n\n';
-end
-
 function GenerateTmogItem(name, displayname, bodylocation, iconName)
     return string.format([[
         item %s
         {
+            DisplayCategory = Transmog,
             Type = Clothing,
             Cosmetic = TRUE,
             DisplayName = Cosmetic %s,
-            DisplayCategory = Clothing,
             ClothingItem = Belt,
             BodyLocation = Transmog_%s,
             Icon = %s,
@@ -53,6 +34,25 @@ function GenerateTmogItemRecipe(displayName, fullName, newFullName)
     ) .. '\n\n';
 end
 
+function GenerateHideBodyLocation(bodyLocation)
+    return string.format([[
+        item Hide_%s
+        {
+            DisplayCategory = TransmogHide,
+            Type = Clothing,
+            Cosmetic = TRUE,
+            DisplayName = Hide %s,
+            ClothingItem = Belt,
+            BodyLocation = Hide_%s,
+            Icon = NoseRing_Gold,
+            Weight = 0,
+        }]],
+        bodyLocation,
+        bodyLocation,
+        bodyLocation
+    ) .. '\n\n';
+end
+
 function GenerateTmogHideRecipe(displayName, fullName, bodyLocation)
     return string.format([[
         recipe Hide %s
@@ -61,7 +61,7 @@ function GenerateTmogHideRecipe(displayName, fullName, bodyLocation)
 
             Result:TransmogV2.Hide_%s,
             Time:30.0,
-            Category:Transmog,
+            Category:Transmog - Hide,
         }]],
         displayName,
         fullName,
