@@ -47,6 +47,9 @@ local function generateTransmog(sm)
         write(GenerateHideBodyLocation(ID))
     end
 
+    group:getOrCreateLocation("TransmogBagOne")
+    group:getOrCreateLocation("TransmogBagTwo")
+
     write('}\n')
     fsWriter:close()
 

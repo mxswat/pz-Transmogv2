@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+    ContextMenu_TransmogBag_WearOne = "Slot One",
+    ContextMenu_TransmogBag_WearTwo = "Slot Two",
+}
