@@ -1,6 +1,7 @@
 require "Utils"
 
-local function generateTransmog(sm)
+local function generateTransmog()
+    local sm = getScriptManager()
     local fsWriter = getModFileWriter('TransmogV2', 'media/scripts/TransmogItems.txt', false, false)
     local function write(content)
         fsWriter:write(content)
@@ -21,7 +22,7 @@ local function generateTransmog(sm)
         local isCosmetic = item:isCosmetic()
         if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
             local itemName    = item:getModuleName() .. '_' .. item:getName()
-            local displayName = item:getDisplayName()
+            local displayName = 'Clothing' --item:getDisplayName()
             local iconName    = item:getIcon()
             -- I might not need a worldStaticItem
             write(GenerateTmogItem(itemName, displayName, item:getBodyLocation(), iconName))
@@ -56,4 +57,4 @@ local function generateTransmog(sm)
     print('-------TransmogV2 Done--------')
 end
 
-generateTransmog(getScriptManager())
+Events.OnGameBoot.Add(generateTransmog);

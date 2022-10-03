@@ -10,8 +10,11 @@ function ApplyItemsFix()
         local nameToFind = string.gsub(item:getName(), "_", ".", 1) .. ''
         local originalItem = sm:FindItem(nameToFind)
         if isTransmogged and originalItem then
-            -- print('nameToFind'..nameToFind)
+            -- Needed because I need to add a dummy clothing asset
+            -- Otherwise zombies will spawn with cosmetics, this is a PZ limitation of the loot tables
             item:setClothingItemAsset(originalItem:getClothingItemAsset())
+            -- Needd to avoid problems :-/ with different language from server to client :-/
+            item:setDisplayName('Cosmetic '.. originalItem:getDisplayName())
         end
     end
 
