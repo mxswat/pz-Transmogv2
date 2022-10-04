@@ -22,12 +22,11 @@ local function generateTransmog()
         local isCosmetic = item:isCosmetic()
         if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
             local itemName    = item:getModuleName() .. '_' .. item:getName()
-            local displayName = 'Clothing' --item:getDisplayName()
+            local displayName = item:getModuleName() .. '_' .. item:getName()
             local iconName    = item:getIcon()
-            -- I might not need a worldStaticItem
             write(GenerateTmogItem(itemName, displayName, item:getBodyLocation(), iconName))
-            write(GenerateTmogItemRecipe(displayName, item:getFullName(), itemName))
-            write(GenerateTmogHideRecipe(displayName, item:getFullName(), item:getBodyLocation()))
+            -- write(GenerateTmogItemRecipe(displayName, item:getFullName(), itemName))
+            -- write(GenerateTmogHideRecipe(displayName, item:getFullName(), item:getBodyLocation()))
         end
     end
 
@@ -39,10 +38,13 @@ local function generateTransmog()
 
     write('\n\t\t/* Hide BodyLocations */\n\n')
 
+    group:getOrCreateLocation("Hide_Everything")
+
     for i = 0, allLocSize do
         local ID = allLoc:get(i):getId()
         group:getOrCreateLocation("Hide_" .. ID)
         group:setHideModel("Hide_" .. ID, ID)
+        group:setHideModel("Hide_Everything", ID)
         group:getOrCreateLocation("Transmog_" .. ID);
 
         write(GenerateHideBodyLocation(ID))
@@ -51,6 +53,7 @@ local function generateTransmog()
     group:getOrCreateLocation("TransmogBagOne")
     group:getOrCreateLocation("TransmogBagTwo")
 
+    
     write('}\n')
     fsWriter:close()
 

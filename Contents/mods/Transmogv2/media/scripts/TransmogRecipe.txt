@@ -1,0 +1,43 @@
+module TransmogV2 {
+	imports { Base }
+
+    item TransmoggedItem
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Transmogged Clothing,
+		Icon	=	Nope,
+	}
+
+    item HideItem
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Hide Clothing,
+		Icon	=	HideClothing,
+	}
+
+    recipe Get Cosmetic Clothing
+  	{
+        keep [TransmogV2Recipe.GetTransmoggableClothing],
+
+        Result:TransmoggedItem,
+        OnCreate:TransmogV2Recipe.GetTransmogClothing,
+        RemoveResultItem:true,
+        Time:30.0,
+        AnimNode:Disassemble,	   	   
+        Category:Transmog,
+    }
+
+    recipe Get Hide Clothing
+  	{
+        keep [TransmogV2Recipe.GetTransmoggableClothing],
+
+        Result:HideItem,
+        OnCreate:TransmogV2Recipe.GetHideClothing,
+        RemoveResultItem:true,
+        Time:30.0,
+        AnimNode:Disassemble,	   	   
+        Category:Transmog,
+    }
+}

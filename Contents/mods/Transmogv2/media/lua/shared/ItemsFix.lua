@@ -14,7 +14,6 @@ function ApplyItemsFix()
             -- Otherwise zombies will spawn with cosmetics, this is a PZ limitation of the loot tables
             item:setClothingItemAsset(originalItem:getClothingItemAsset())
             -- Needd to avoid problems :-/ with different language from server to client :-/
-            item:setDisplayName('Cosmetic '.. originalItem:getDisplayName())
         end
     end
 
