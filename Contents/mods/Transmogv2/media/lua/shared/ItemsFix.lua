@@ -13,7 +13,6 @@ function ApplyItemsFix()
             -- Needed because I need to add a dummy clothing asset
             -- Otherwise zombies will spawn with cosmetics, this is a PZ limitation of the loot tables
             item:setClothingItemAsset(originalItem:getClothingItemAsset())
-            -- Needd to avoid problems :-/ with different language from server to client :-/
         end
     end
 
