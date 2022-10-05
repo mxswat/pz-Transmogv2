@@ -1,5 +1,5 @@
 require "GenerateTransmog"
 
 Events.OnGameBoot.Add(function ()
-    GenerateTransmog('TransmogV2Default')
+    GenerateTransmog('TransmogV2Simple')
 end);
