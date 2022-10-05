@@ -7,6 +7,10 @@ local function getItem(inputItems)
     end
 end
 
+local function printError(player, text)
+    HaloTextHelper.addText(player, text, HaloTextHelper.getColorWhite())
+end
+
 function TransmogV2Recipe.GetTransmoggableClothing(scriptItems)
     local allScriptItems = getScriptManager():getAllItems();
     for i = 1, allScriptItems:size() do
@@ -32,6 +36,7 @@ function TransmogV2Recipe.GetTransmogClothing(inputItems, resultItem, player)
     local TmogItemName = "TransmogV2." .. scriptItem:getModuleName() .. '_' .. scriptItem:getName()
     local newTmogItem = InventoryItemFactory.CreateItem(TmogItemName)
     if not newTmogItem then
+        printError(player, 'The "Cosmetic" item is missing, check if the TransmogItems.txt is generated')
         print('Error TransmogV2Recipe.GetTransmogClothing')
         return
     end
@@ -52,6 +57,7 @@ function TransmogV2Recipe.GetHideClothing(inputItems, resultItem, player)
     local TmogHideItemName = "TransmogV2.Hide_" .. bodyLocation
     local newTmogItem = InventoryItemFactory.CreateItem(TmogHideItemName)
     if not newTmogItem then
+        printError(player, 'The "Hide" items is missing, check if the TransmogItems.txt is generated')
         print('Error TransmogV2Recipe.GetHideClothing')
         return
     end
