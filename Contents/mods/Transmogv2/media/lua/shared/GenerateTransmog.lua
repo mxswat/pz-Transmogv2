@@ -1,8 +1,8 @@
 require "Utils"
 
-local function generateTransmog()
+function GenerateTransmog(modID)
     local sm = getScriptManager()
-    local fsWriter = getModFileWriter('TransmogV2', 'media/scripts/TransmogItems.txt', false, false)
+    local fsWriter = getModFileWriter(modID, 'media/scripts/TransmogItems.txt', false, false)
     local function write(content)
         fsWriter:write(content)
     end
@@ -12,7 +12,7 @@ local function generateTransmog()
     write('module TransmogV2 {\n\timports { Base }\n\n')
     local allItems = sm:getAllItems()
     local size = allItems:size() - 1;
-    print('-------START Generate TransmogV2--------')
+    print('-------START Generation of TransmogItems.txt for mod '..modID..'--------')
     for i = 0, size do
         local item = allItems:get(i);
         -- I need to use tostring, getType returns a Java Enum
@@ -22,11 +22,8 @@ local function generateTransmog()
         local isCosmetic = item:isCosmetic()
         if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
             local itemName    = item:getModuleName() .. '_' .. item:getName()
-            local displayName = item:getModuleName() .. '_' .. item:getName()
             local iconName    = item:getIcon()
-            write(GenerateTmogItem(itemName, displayName, item:getBodyLocation(), iconName))
-            -- write(GenerateTmogItemRecipe(displayName, item:getFullName(), itemName))
-            -- write(GenerateTmogHideRecipe(displayName, item:getFullName(), item:getBodyLocation()))
+            write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
         end
     end
 
@@ -59,20 +56,3 @@ local function generateTransmog()
 
     print('-------END TransmogV2 Done--------')
 end
-
-Events.OnGameBoot.Add(generateTransmog);
-
--- -- WIP 
--- --- https://steamcommunity.com/sharedfiles/filedetails/?id=2735092774
--- if not isServer() and getActivatedMods():contains("TransmogV2MP") then
---     -- Disable generation, and await for the items file
---     return
--- end
-
--- Events.OnLoginState.Add(function ()
---     print('Events.OnLoginState')
--- end);
-
--- Events.OnLoginStateSuccess.Add(function ()
---     print('Events.OnLoginStateSuccess')
--- end);

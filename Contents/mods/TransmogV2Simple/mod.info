@@ -1,0 +1,6 @@
+name=Transmog 2.0 Simple
+id=TransmogV2Simple
+description=This is the Simple module for Transmog, use this if you are planning to play single player or host a local server with your friends and you don't have many mods installed
+require=TransmogV2
+poster=poster.png
+icon=icon.png

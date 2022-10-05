@@ -1,0 +1,7 @@
+/* THIS FILE IS PROGRAMATICALLY GENERATED, MANUAL CHANGES WILL BE OVERWRITTEN */
+/* Thank you to OliPro for allowing me to base this code of his work */
+module TransmogV2 {
+	imports { Base }
+
+    /* If you can read this, then you did not generate the items */
+}
