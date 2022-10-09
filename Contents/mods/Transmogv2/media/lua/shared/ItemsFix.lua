@@ -22,11 +22,29 @@ function ApplyItemsFix()
 end
 
 function UpdateBodyLocations()
-    print('UpdateBodyLocations')
-    local group = BodyLocations.getGroup("Human")
+    print('-------START UpdateBodyLocations--------')
+    local group = BodyLocations.getGroup("Human")    
     group:getOrCreateLocation("Transmog_OutfitBagOne")
     group:getOrCreateLocation("Transmog_OutfitBagTwo")
+    
+    -- Sad copy paste from GenerateTransmog.lua
+    local allLoc = group:getAllLocations();
+    local allLocSize = allLoc:size() - 1
+    group:getOrCreateLocation("Hide_Everything")
+
+    for i = 0, allLocSize do
+        local ID = allLoc:get(i):getId()
+        if not string.find(ID, "Hide_") and not string.find(ID, "Transmog_") then
+            group:getOrCreateLocation("Hide_" .. ID)
+            group:setHideModel("Hide_" .. ID, ID)
+            group:setHideModel("Hide_Everything", ID)
+            group:getOrCreateLocation("Transmog_" .. ID);
+
+            -- write(GenerateHideBodyLocation(ID))
+        end
+    end
+    -- END Sad copy paste from GenerateTransmog.lua
 end
 
 Events.OnLoad.Add(ApplyItemsFix);
-Events.OnGameStart.Add(UpdateBodyLocations)
+Events.OnGameBoot.Add(UpdateBodyLocations)

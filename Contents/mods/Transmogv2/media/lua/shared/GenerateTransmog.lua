@@ -12,7 +12,7 @@ function GenerateTransmog(modID)
     write('module TransmogV2 {\n\timports { Base }\n\n')
     local allItems = sm:getAllItems()
     local size = allItems:size() - 1;
-    print('-------START Generation of TransmogItems.txt for mod '..modID..'--------')
+    print('-------START Generation of TransmogItems.txt for mod ' .. modID .. '--------')
     for i = 0, size do
         local item = allItems:get(i);
         -- I need to use tostring, getType returns a Java Enum
@@ -21,8 +21,8 @@ function GenerateTransmog(modID)
         local isWorldRender = item:isWorldRender()
         local isCosmetic = item:isCosmetic()
         if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
-            local itemName    = item:getModuleName() .. '_' .. item:getName()
-            local iconName    = item:getIcon()
+            local itemName = item:getModuleName() .. '_' .. item:getName()
+            local iconName = item:getIcon()
             write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
         end
     end
@@ -34,19 +34,20 @@ function GenerateTransmog(modID)
     local group = BodyLocations.getGroup("Human")
     local allLoc = group:getAllLocations();
     local allLocSize = allLoc:size() - 1
-
     group:getOrCreateLocation("Hide_Everything")
 
     for i = 0, allLocSize do
         local ID = allLoc:get(i):getId()
-        group:getOrCreateLocation("Hide_" .. ID)
-        group:setHideModel("Hide_" .. ID, ID)
-        group:setHideModel("Hide_Everything", ID)
-        group:getOrCreateLocation("Transmog_" .. ID);
+        if not string.find(ID, "Hide_") and not string.find(ID, "Transmog_") then
+            group:getOrCreateLocation("Hide_" .. ID)
+            group:setHideModel("Hide_" .. ID, ID)
+            group:setHideModel("Hide_Everything", ID)
+            group:getOrCreateLocation("Transmog_" .. ID);
 
-        write(GenerateHideBodyLocation(ID))
+            write(GenerateHideBodyLocation(ID))
+        end
     end
-    
+
     write('}\n')
     fsWriter:close()
 
