@@ -21,4 +21,12 @@ function ApplyItemsFix()
     player:resetModelNextFrame();
 end
 
+function UpdateBodyLocations()
+    print('UpdateBodyLocations')
+    local group = BodyLocations.getGroup("Human")
+    group:getOrCreateLocation("Transmog_OutfitBagOne")
+    group:getOrCreateLocation("Transmog_OutfitBagTwo")
+end
+
 Events.OnLoad.Add(ApplyItemsFix);
+Events.OnGameStart.Add(UpdateBodyLocations)

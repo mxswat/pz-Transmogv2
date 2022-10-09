@@ -27,13 +27,13 @@ function GenerateTransmog(modID)
         end
     end
 
-    local group = BodyLocations.getGroup("Human")
-    local allLoc = group:getAllLocations();
-    local allLocSize = allLoc:size() - 1
-
     print('-------START Generate BodyLocations--------')
 
     write('\n\t\t/* Hide BodyLocations */\n\n')
+
+    local group = BodyLocations.getGroup("Human")
+    local allLoc = group:getAllLocations();
+    local allLocSize = allLoc:size() - 1
 
     group:getOrCreateLocation("Hide_Everything")
 
@@ -46,10 +46,6 @@ function GenerateTransmog(modID)
 
         write(GenerateHideBodyLocation(ID))
     end
-
-    group:getOrCreateLocation("TransmogBagOne")
-    group:getOrCreateLocation("TransmogBagTwo")
-
     
     write('}\n')
     fsWriter:close()
