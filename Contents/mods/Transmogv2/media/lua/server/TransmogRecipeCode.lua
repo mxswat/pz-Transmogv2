@@ -8,7 +8,7 @@ local function getItem(inputItems)
 end
 
 local function printError(player, text)
-    HaloTextHelper.addText(player, text, HaloTextHelper.getColorWhite())
+    HaloTextHelper.addText(player, text, HaloTextHelper.getColorRed())
 end
 
 function TransmogV2Recipe.GetTransmoggableClothing(scriptItems)
@@ -63,4 +63,59 @@ function TransmogV2Recipe.GetHideClothing(inputItems, resultItem, player)
     end
 
     player:getInventory():AddItem(newTmogItem);
+end
+
+function TransmogV2Recipe.GetHideableBags(scriptItems)
+    local allScriptItems = getScriptManager():getAllItems();
+    for i = 1, allScriptItems:size() do
+        local item = allScriptItems:get(i - 1);
+
+        local isContainer = tostring(item:getType()) == "Container"
+        local isNotTransmogged = item:getModuleName() ~= "TransmogV2"
+
+        if isNotTransmogged and isContainer and item:InstanceItem(nil):canBeEquipped() == "Back" then
+            scriptItems:add(item);
+        end
+    end
+end
+
+function TransmogV2Recipe.GetInvisibleBag(inputItems, _, player)
+    local item = getItem(inputItems)
+    if not item then
+        return
+    end
+
+    if item:getInventory():getItems():size() > 0 then    
+        printError(player, "The Bag MUST be empty!")
+        return
+    end
+
+    
+    local resultItem = player:getInventory():AddItem("TransmogV2.Bag_InvisibleBag")
+    resultItem:setItemCapacity(item:getItemCapacity());
+    resultItem:setCapacity(item:getCapacity());
+    resultItem:setWeightReduction(item:getWeightReduction());
+    resultItem:setActualWeight(item:getWeight());
+    resultItem:setName("Hidden "..item:getName());
+    
+    local modData = resultItem:getModData()
+    modData["TmogOriginalName"] = item:getScriptItem():getFullName()
+
+    player:getInventory():Remove(item)
+end
+
+function TransmogV2Recipe.GetOriginalBagBack(inputItems, resultItem, player)
+    local item = getItem(inputItems)
+    if not item then
+        return
+    end
+
+    if item:getInventory():getItems():size() > 0 then    
+        printError(player, "The Bag MUST be empty!")
+        return
+    end
+
+    local originalName = item:getModData()["TmogOriginalName"]
+    player:getInventory():AddItem(originalName)
+    player:getInventory():Remove(item)
 end

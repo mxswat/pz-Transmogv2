@@ -59,7 +59,8 @@ end
 
 local function deleteTmogItems(player, context, items)
 	local testItem = getTestItem(items);
-	if not testItem then
+	if not testItem or instanceof(testItem, "InventoryContainer") then
+		-- ignore if it's a tmogged backpack
 		return
 	end
 	local scriptItem = testItem:getScriptItem()
