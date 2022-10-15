@@ -36,3 +36,7 @@ function GenerateHideBodyLocation(bodyLocation)
         bodyLocation
     ) .. '\n\n';
 end
+
+function CanThisBeTransmogged()
+    
+end

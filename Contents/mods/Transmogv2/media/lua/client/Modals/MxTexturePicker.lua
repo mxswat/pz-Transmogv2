@@ -26,7 +26,7 @@ end
 
 -- Direct Summon
 function OpenMxTexturePickerModal(item, textureChoices, onSelectionCallback)
-    local title = "Change Texture of " .. item:getScriptItem():getDisplayName()
+    local title = "Change Texture of " .. item:getName()
     local modal = MxTexturePickerModal:new(0, 0, 280, 180, title, '', nil, nil, nil, textureChoices);
     modal:initialise();
     modal:addToUIManager();

@@ -44,7 +44,7 @@ end
 
 function OpenMxColorPickerModal(item, onSelectionCallBack)
     local item = item
-	local modal = MxColorPickerModal:new(0, 0, 280, 180, "Change color of " .. item:getScriptItem():getDisplayName(), '');
+	local modal = MxColorPickerModal:new(0, 0, 280, 180, "Change color of " .. item:getName(), '');
 	modal:initialise();
 	modal:addToUIManager();
 	modal:setOnSelectionCallback(function(color)

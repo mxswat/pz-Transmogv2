@@ -6,7 +6,7 @@ module TransmogV2 {
 		Weight	=	0.01,
 		Type	=	Normal,
 		DisplayName	= Transmogged Clothing,
-		Icon	=	Nope,
+		Icon	=	TransmogBagOne,
 	}
 
     item HideItem
@@ -24,7 +24,7 @@ module TransmogV2 {
         Result:TransmoggedItem,
         OnCreate:TransmogV2Recipe.GetTransmogClothing,
         RemoveResultItem:true,
-        Time:30.0,
+        Time:15,
         AnimNode:Disassemble,	   	   
         Category:Transmog,
     }
@@ -36,7 +36,7 @@ module TransmogV2 {
         Result:HideItem,
         OnCreate:TransmogV2Recipe.GetHideClothing,
         RemoveResultItem:true,
-        Time:30.0,
+        Time:15,
         AnimNode:Disassemble,	   	   
         Category:Transmog,
     }
