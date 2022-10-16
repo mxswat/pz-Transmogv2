@@ -41,7 +41,7 @@ function CreateTransmogClothing(inputItems, resultItem, player)
     local TmogItemName = "TransmogV2." .. scriptItem:getModuleName() .. '_' .. scriptItem:getName()
     local newTmogItem = InventoryItemFactory.CreateItem(TmogItemName)
     if not newTmogItem then
-        printError(player, 'The "Cosmetic" item is missing, check if the TransmogItems.txt is generated')
+        printError(player, 'The "Cosmetic" item is missing, you did not setup the mod properly check the Read me on the mod page')
         print('Error CreateTransmogClothing')
         return
     end
@@ -62,7 +62,7 @@ function GetHideClothing(inputItems, resultItem, player)
     local TmogHideItemName = "TransmogV2.Hide_" .. bodyLocation
     local newTmogItem = InventoryItemFactory.CreateItem(TmogHideItemName)
     if not newTmogItem then
-        printError(player, 'The "Hide" items is missing, check if the TransmogItems.txt is generated')
+        printError(player, 'The "Hide" items is missing, you did not setup the mod properly check the Read me on the mod page')
         print('Error GetHideClothing')
         return
     end
