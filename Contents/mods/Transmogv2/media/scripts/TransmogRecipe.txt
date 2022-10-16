@@ -9,6 +9,14 @@ module TransmogV2 {
 		Icon	=	TransmogBagOne,
 	}
 
+    item TransmoggedBag
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Transmogged Clothing,
+		Icon	=	TransmogBagOne,
+	}
+
     item HideItem
 	{
 		Weight	=	0.01,
@@ -19,10 +27,10 @@ module TransmogV2 {
 
     recipe Get Cosmetic Clothing
   	{
-        keep [TransmogV2Recipe.GetTransmoggableClothing],
+        keep [GetTransmoggableClothing],
 
         Result:TransmoggedItem,
-        OnCreate:TransmogV2Recipe.GetTransmogClothing,
+        OnCreate:GetTransmogClothing,
         RemoveResultItem:true,
         Time:15,
         AnimNode:Disassemble,	   	   
@@ -31,10 +39,22 @@ module TransmogV2 {
 
     recipe Get Hide Clothing
   	{
-        keep [TransmogV2Recipe.GetTransmoggableClothing],
+        keep [GetTransmoggableClothing],
 
         Result:HideItem,
-        OnCreate:TransmogV2Recipe.GetHideClothing,
+        OnCreate:GetHideClothing,
+        RemoveResultItem:true,
+        Time:15,
+        AnimNode:Disassemble,	   	   
+        Category:Transmog,
+    }
+
+    recipe Get Cosmetic Bag
+  	{
+        keep [GetTransmoggableClothing],
+
+        Result:TransmoggedBag,
+        OnCreate:GetTransmogClothing,
         RemoveResultItem:true,
         Time:15,
         AnimNode:Disassemble,	   	   

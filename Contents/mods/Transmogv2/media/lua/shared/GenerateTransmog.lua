@@ -1,24 +1,16 @@
 require "Utils"
 
 local function iterateScriptItems(item, write)
-    local isClothing = tostring(item:getType()) == "Clothing" and not IsBannedBodyLocation(item:getBodyLocation())
-    local isContainer = tostring(item:getType()) == "Container"
-    if item:getModuleName() == "TransmogV2"
-        or not item:isWorldRender()
-        or not (isClothing or isContainer)
-    then
-        return
-    end
     local itemName = item:getModuleName() .. '_' .. item:getName()
-    local iconName = item:getIcon()
-    if isClothing then
-        return write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
+    local iconType = item:getIcon() ~= "None" and "Icon" or "IconsForTexture"
+    local iconName = item:getIcon() ~= "None" and item:getIcon() or tostring(item:getIconsForTexture())
+    if IsTransmoggableClothing(item) then
+        return write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconType, iconName))
     end
-    local canBeEquipped = item:InstanceItem(nil):canBeEquipped()
-    if canBeEquipped == nil or canBeEquipped == '' then
-        return
+    if IsTransmoggableBag(item) then
+        local canBeEquipped = item:InstanceItem(nil):canBeEquipped()
+        return write(GenerateTmogItem(itemName, itemName, canBeEquipped, iconType, iconName))
     end
-    return write(GenerateTmogItem(itemName, itemName, canBeEquipped, iconName))
 end
 
 function GenerateTransmog(modID)

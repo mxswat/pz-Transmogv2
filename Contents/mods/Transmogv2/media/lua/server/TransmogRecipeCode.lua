@@ -1,5 +1,3 @@
-TransmogV2Recipe = TransmogV2Recipe or {}
-
 local function getItem(inputItems)
     for i = 0, (inputItems:size() - 1) do
         local item = inputItems:get(i);
@@ -11,7 +9,7 @@ local function printError(player, text)
     HaloTextHelper.addText(player, text, HaloTextHelper.getColorRed())
 end
 
-function TransmogV2Recipe.GetTransmoggableClothing(scriptItems)
+function GetTransmoggableClothing(scriptItems)
     local allScriptItems = getScriptManager():getAllItems();
     for i = 1, allScriptItems:size() do
         local item = allScriptItems:get(i - 1);
@@ -26,7 +24,7 @@ function TransmogV2Recipe.GetTransmoggableClothing(scriptItems)
     end
 end
 
-function TransmogV2Recipe.GetTransmogClothing(inputItems, resultItem, player)
+function GetTransmogClothing(inputItems, resultItem, player)
     local item = getItem(inputItems)
     if not item then
         return
@@ -37,7 +35,7 @@ function TransmogV2Recipe.GetTransmogClothing(inputItems, resultItem, player)
     local newTmogItem = InventoryItemFactory.CreateItem(TmogItemName)
     if not newTmogItem then
         printError(player, 'The "Cosmetic" item is missing, check if the TransmogItems.txt is generated')
-        print('Error TransmogV2Recipe.GetTransmogClothing')
+        print('Error GetTransmogClothing')
         return
     end
     newTmogItem:setName("Cosmetic " .. tostring(item:getDisplayName()));
@@ -45,7 +43,7 @@ function TransmogV2Recipe.GetTransmogClothing(inputItems, resultItem, player)
     player:getInventory():AddItem(newTmogItem);
 end
 
-function TransmogV2Recipe.GetHideClothing(inputItems, resultItem, player)
+function GetHideClothing(inputItems, resultItem, player)
     local item = getItem(inputItems)
     if not item then
         return
@@ -58,14 +56,14 @@ function TransmogV2Recipe.GetHideClothing(inputItems, resultItem, player)
     local newTmogItem = InventoryItemFactory.CreateItem(TmogHideItemName)
     if not newTmogItem then
         printError(player, 'The "Hide" items is missing, check if the TransmogItems.txt is generated')
-        print('Error TransmogV2Recipe.GetHideClothing')
+        print('Error GetHideClothing')
         return
     end
 
     player:getInventory():AddItem(newTmogItem);
 end
 
-function TransmogV2Recipe.GetHideableBags(scriptItems)
+function GetHideableBags(scriptItems)
     local allScriptItems = getScriptManager():getAllItems();
     for i = 1, allScriptItems:size() do
         local item = allScriptItems:get(i - 1);
@@ -79,7 +77,7 @@ function TransmogV2Recipe.GetHideableBags(scriptItems)
     end
 end
 
-function TransmogV2Recipe.GetInvisibleBag(inputItems, _, player)
+function GetInvisibleBag(inputItems, _, player)
     local item = getItem(inputItems)
     if not item then
         return
@@ -104,7 +102,7 @@ function TransmogV2Recipe.GetInvisibleBag(inputItems, _, player)
     player:getInventory():Remove(item)
 end
 
-function TransmogV2Recipe.GetOriginalBagBack(inputItems, resultItem, player)
+function GetOriginalBagBack(inputItems, resultItem, player)
     local item = getItem(inputItems)
     if not item then
         return

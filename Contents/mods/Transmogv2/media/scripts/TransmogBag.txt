@@ -76,10 +76,10 @@ module TransmogV2 {
 
     recipe Make Bag Hidden
   	{
-        keep [TransmogV2Recipe.GetHideableBags],
+        keep [GetHideableBags],
 
         Result:Bag_InvisibleBag,
-        OnCreate:TransmogV2Recipe.GetInvisibleBag,
+        OnCreate:GetInvisibleBag,
         Time:15,
         RemoveResultItem:true,
         AnimNode:Disassemble,
@@ -91,7 +91,7 @@ module TransmogV2 {
         keep Bag_InvisibleBag,
 
         Result:Bag_InvisibleBag,
-        OnCreate:TransmogV2Recipe.GetOriginalBagBack,
+        OnCreate:GetOriginalBagBack,
         Time:15,
         RemoveResultItem:true,
         AnimNode:Disassemble,
