@@ -1,5 +1,26 @@
 require "Utils"
 
+local function iterateScriptItems(item, write)
+    local isClothing = tostring(item:getType()) == "Clothing" and not IsBannedBodyLocation(item:getBodyLocation())
+    local isContainer = tostring(item:getType()) == "Container"
+    if item:getModuleName() == "TransmogV2"
+        or not item:isWorldRender()
+        or not (isClothing or isContainer)
+    then
+        return
+    end
+    local itemName = item:getModuleName() .. '_' .. item:getName()
+    local iconName = item:getIcon()
+    if isClothing then
+        return write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
+    end
+    local canBeEquipped = item:InstanceItem(nil):canBeEquipped()
+    if canBeEquipped == nil or canBeEquipped == '' then
+        return
+    end
+    return write(GenerateTmogItem(itemName, itemName, canBeEquipped, iconName))
+end
+
 function GenerateTransmog(modID)
     local sm = getScriptManager()
     local fsWriter = getModFileWriter(modID, 'media/scripts/TransmogItems.txt', false, false)
@@ -15,15 +36,7 @@ function GenerateTransmog(modID)
     print('-------START Generation of TransmogItems.txt for mod ' .. modID .. '--------')
     for i = 0, size do
         local item = allItems:get(i);
-        -- I need to use tostring, getType returns a Java Enum
-        local isClothing = tostring(item:getType()) == "Clothing"
-        local isNotTransmogged = item:getModuleName() ~= "TransmogV2"
-        local isWorldRender = item:isWorldRender()
-        if isClothing and isNotTransmogged and isWorldRender and not IsBannedBodyLocation(item:getBodyLocation()) then
-            local itemName = item:getModuleName() .. '_' .. item:getName()
-            local iconName = item:getIcon()
-            write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
-        end
+        iterateScriptItems(item, write)
     end
 
     print('-------START Generate BodyLocations--------')

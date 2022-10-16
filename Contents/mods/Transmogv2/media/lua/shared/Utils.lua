@@ -39,7 +39,6 @@ end
 
 local locations = {
     ["ZedDmg"] = true
-    -- TODO: ADD MORE HERE
 }
 function IsBannedBodyLocation(bodylocation)
     return locations[bodylocation]
