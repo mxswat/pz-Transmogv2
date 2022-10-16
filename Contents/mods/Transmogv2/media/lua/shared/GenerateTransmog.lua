@@ -19,8 +19,7 @@ function GenerateTransmog(modID)
         local isClothing = tostring(item:getType()) == "Clothing"
         local isNotTransmogged = item:getModuleName() ~= "TransmogV2"
         local isWorldRender = item:isWorldRender()
-        local isCosmetic = item:isCosmetic()
-        if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
+        if isClothing and isNotTransmogged and isWorldRender and not IsBannedBodyLocation(item:getBodyLocation()) then
             local itemName = item:getModuleName() .. '_' .. item:getName()
             local iconName = item:getIcon()
             write(GenerateTmogItem(itemName, itemName, item:getBodyLocation(), iconName))
@@ -37,14 +36,14 @@ function GenerateTransmog(modID)
     group:getOrCreateLocation("Hide_Everything")
 
     for i = 0, allLocSize do
-        local ID = allLoc:get(i):getId()
-        if not string.find(ID, "Hide_") and not string.find(ID, "Transmog_") then
-            group:getOrCreateLocation("Hide_" .. ID)
-            group:setHideModel("Hide_" .. ID, ID)
-            group:setHideModel("Hide_Everything", ID)
-            group:getOrCreateLocation("Transmog_" .. ID);
+        local bodyLocID = allLoc:get(i):getId()
+        if not IsBannedBodyLocation(bodyLocID) then
+            group:getOrCreateLocation("Hide_" .. bodyLocID)
+            group:setHideModel("Hide_" .. bodyLocID, bodyLocID)
+            group:setHideModel("Hide_Everything", bodyLocID)
+            group:getOrCreateLocation("Transmog_" .. bodyLocID);
 
-            write(GenerateHideBodyLocation(ID))
+            write(GenerateHideBodyLocation(bodyLocID))
         end
     end
 

@@ -37,6 +37,13 @@ function GenerateHideBodyLocation(bodyLocation)
     ) .. '\n\n';
 end
 
-function CanThisBeTransmogged()
-    
+local locations = {
+    ["ZedDmg"] = true
+    -- TODO: ADD MORE HERE
+}
+function IsBannedBodyLocation(bodylocation)
+    return locations[bodylocation]
+        or string.find(bodylocation, "MakeUp_")
+        or string.find(bodylocation, "Transmog_")
+        or string.find(bodylocation, "Hide_")
 end
