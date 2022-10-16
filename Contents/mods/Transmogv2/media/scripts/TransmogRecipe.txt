@@ -30,7 +30,7 @@ module TransmogV2 {
         keep [GetTransmoggableClothing],
 
         Result:TransmoggedItem,
-        OnCreate:GetTransmogClothing,
+        OnCreate:CreateTransmogClothing,
         RemoveResultItem:true,
         Time:15,
         AnimNode:Disassemble,	   	   
@@ -49,12 +49,55 @@ module TransmogV2 {
         Category:Transmog,
     }
 
+    item Bag_InvisibleBag
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Invisible Backpack,
+        ClothingItem = InvisibleItem,
+        CanBeEquipped = Back,
+        WeightReduction	=	1,
+        Weight	=	1,
+        Capacity	=	1,
+        Icon	=	AliceBag_Camo,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 1,
+        CanHaveHoles = false,
+    }
+
+    recipe Get Hide Bag
+  	{
+        keep [GetHideableBags],
+
+        Result:Bag_InvisibleBag,
+        OnCreate:GetInvisibleBag,
+        Time:15,
+        RemoveResultItem:true,
+        AnimNode:Disassemble,
+        Category:Transmog,
+    }
+
+    recipe Make Bag Visible Again
+  	{
+        keep Bag_InvisibleBag,
+
+        Result:Bag_InvisibleBag,
+        OnCreate:GetOriginalBagBack,
+        Time:15,
+        RemoveResultItem:true,
+        AnimNode:Disassemble,
+        Category:Transmog,
+    }
+
     recipe Get Cosmetic Bag
   	{
-        keep [GetTransmoggableClothing],
+        keep [GetTransmoggableBag],
 
         Result:TransmoggedBag,
-        OnCreate:GetTransmogClothing,
+        OnCreate:CreateTransmogClothing,
         RemoveResultItem:true,
         Time:15,
         AnimNode:Disassemble,	   	   

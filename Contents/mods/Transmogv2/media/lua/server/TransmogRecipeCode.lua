@@ -14,17 +14,24 @@ function GetTransmoggableClothing(scriptItems)
     for i = 1, allScriptItems:size() do
         local item = allScriptItems:get(i - 1);
 
-        local isClothing = tostring(item:getType()) == "Clothing"
-        local isNotTransmogged = item:getModuleName() ~= "TransmogV2"
-        local isWorldRender = item:isWorldRender()
-        local isCosmetic = item:isCosmetic()
-        if isClothing and isNotTransmogged and isWorldRender and not isCosmetic then
+        if IsTransmoggableClothing(item) then
             scriptItems:add(item);
         end
     end
 end
 
-function GetTransmogClothing(inputItems, resultItem, player)
+function GetTransmoggableBag(scriptItems)
+    local allScriptItems = getScriptManager():getAllItems();
+    for i = 1, allScriptItems:size() do
+        local item = allScriptItems:get(i - 1);
+
+        if IsTransmoggableBag(item) then
+            scriptItems:add(item);
+        end
+    end
+end
+
+function CreateTransmogClothing(inputItems, resultItem, player)
     local item = getItem(inputItems)
     if not item then
         return
@@ -35,7 +42,7 @@ function GetTransmogClothing(inputItems, resultItem, player)
     local newTmogItem = InventoryItemFactory.CreateItem(TmogItemName)
     if not newTmogItem then
         printError(player, 'The "Cosmetic" item is missing, check if the TransmogItems.txt is generated')
-        print('Error GetTransmogClothing')
+        print('Error CreateTransmogClothing')
         return
     end
     newTmogItem:setName("Cosmetic " .. tostring(item:getDisplayName()));

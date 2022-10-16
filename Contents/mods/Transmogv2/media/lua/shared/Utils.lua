@@ -1,9 +1,9 @@
 function GenerateTmogItem(name, displayname, bodylocation, iconType, iconValue)
     -- Icon value if it's an array will be printed like this: "[ShirtScrubsBlue, ShirtScrubsGreen]"
     -- so I gsub it to remove the wrong parts
-    iconValue = string.gsub(iconValue, "%[", "")..''
-    iconValue = string.gsub(iconValue, ",", ";")..''
-    iconValue = string.gsub(iconValue, "%]", "")..''
+    iconValue = string.gsub(iconValue, "%[", "") .. ''
+    iconValue = string.gsub(iconValue, ",", ";") .. ''
+    iconValue = string.gsub(iconValue, "%]", "") .. ''
     return string.format([[
         item %s
         {
