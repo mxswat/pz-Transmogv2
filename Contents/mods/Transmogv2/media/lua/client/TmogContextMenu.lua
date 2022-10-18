@@ -11,12 +11,16 @@ function ChangeItemColor(color, item)
 
 	local player = getPlayer();
 	player:resetModelNextFrame();
+	sendVisual(player);
+	triggerEvent("OnClothingUpdated", player)
 end
 
 function ChangeItemTexture(item, textureIdx)
 	item:getVisual():setTextureChoice(textureIdx)
 	local player = getPlayer();
 	player:resetModelNextFrame();
+	sendVisual(player);
+	triggerEvent("OnClothingUpdated", player)
 end
 
 local function getTestItem(items)
