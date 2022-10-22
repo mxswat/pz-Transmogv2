@@ -11,16 +11,12 @@ function ChangeItemColor(color, item)
 
 	local player = getPlayer();
 	player:resetModelNextFrame();
-	sendVisual(player);
-	triggerEvent("OnClothingUpdated", player)
 end
 
 function ChangeItemTexture(item, textureIdx)
 	item:getVisual():setTextureChoice(textureIdx)
 	local player = getPlayer();
 	player:resetModelNextFrame();
-	sendVisual(player);
-	triggerEvent("OnClothingUpdated", player)
 end
 
 local function getTestItem(items)
@@ -62,17 +58,38 @@ local changeColorTexture = function(player, context, items)
 end
 
 local function deleteTmogItems(player, context, items)
-	local testItem = getTestItem(items);
-	if not testItem or instanceof(testItem, "InventoryContainer") then
-		-- ignore if it's a tmogged backpack
-		return
+	local resItems = {}
+
+	local function addToDeleteList(item)
+		local scriptItem = item:getScriptItem()
+		local moddata = item:getModData() and item:getModData() or {}
+		if scriptItem:getModuleName() == "TransmogV2" and not moddata["TmogOriginalName"] then
+			resItems[item] = true
+		end
 	end
-	local scriptItem = testItem:getScriptItem()
-	if scriptItem:getModuleName() ~= "TransmogV2" then
+
+	for _, v in ipairs(items) do
+		if not instanceof(v, "InventoryItem") then
+			-- Do notthing I guess`
+			for _, it in ipairs(v.items) do
+                addToDeleteList(it)
+            end
+		else
+			addToDeleteList(v)
+		end
+	end
+
+	local listItems = {}
+    for v, _ in pairs(resItems) do
+        table.insert(listItems, v)
+    end
+
+	if #listItems <= 0 then
 		return
 	end
 
-    local option = context:addOption("Delete Transmog", testItem, ISRemoveItemTool.removeItem, player)
+	local name = "Delete " .. tostring(#listItems) .. " Transmog"
+	local option = context:addOption(name, listItems, ISRemoveItemTool.removeItems, player)
 	option.iconTexture = tmogIcon
 end
 
